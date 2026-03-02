@@ -67,6 +67,7 @@
   <code><b>NETWORK:</b></code> &nbsp;
   <a href="YOUTUBE_LINKIN"><img src="https://img.shields.io/badge/_-YouTube-FF0000?style=flat&logo=youtube&logoColor=white" /></a>
   <a href="INSTAGRAM_LINKIN"><img src="https://img.shields.io/badge/_-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
+  <a href="LINKEDIN_LINKIN"><img src="https://img.shields.io/badge/_-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
 </td>
 </tr>
 </table>
