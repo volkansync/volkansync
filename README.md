@@ -26,13 +26,13 @@
 <td valign="top" width="50%" style="border: 1px solid #30363d; padding: 20px;">
 <h3 align="center" style="color: #00e5ff;">┌─ system_monitor ─────────┐</h3>
 <br/>
-<code>[C#      ]</code> <img src="https://progress-bar.dev/90/?scale=100&title=&width=200&color=239120&suffix=%" height="15" />
+<code>[C#      ]</code> <code>█████████░</code> 90%
 <br/>
-<code>[Python  ]</code> <img src="https://progress-bar.dev/85/?scale=100&title=&width=200&color=3776AB&suffix=%" height="15" />
+<code>[Python  ]</code> <code>████████½░</code> 85%
 <br/>
-<code>[CyberSec]</code> <img src="https://progress-bar.dev/70/?scale=100&title=&width=200&color=d80032&suffix=%" height="15" />
+<code>[CyberSec]</code> <code>███████░░░</code> 70%
 <br/>
-<code>[Arch    ]</code> <img src="https://progress-bar.dev/100/?scale=100&title=&width=200&color=1793D1&suffix=%" height="15" />
+<code>[Arch    ]</code> <code>██████████</code> 100%
 
 <br/><br/>
 
@@ -55,18 +55,18 @@
 <tr>
 <td align="center" style="padding: 15px;">
   <code><b>WORKSPACE 1:</b></code> &nbsp;
-  <img src="https://img.shields.io/badge/_-C%23-239120?style=flat&logo=c-sharp" />
-  <img src="https://img.shields.io/badge/_-Python-3776AB?style=flat&logo=python" />
-  <img src="https://img.shields.io/badge/_-NET_Core-512BD4?style=flat&logo=dotnet" />
+  <img src="https://img.shields.io/badge/_-C%23-239120?style=flat&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/_-Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/_-NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white" />
   &nbsp; <code><b>|</b></code> &nbsp;
   <code><b>WORKSPACE 2:</b></code> &nbsp;
-  <img src="https://img.shields.io/badge/_-Arch-1793D1?style=flat&logo=arch-linux" />
-  <img src="https://img.shields.io/badge/_-Hyprland-004B50?style=flat&logo=linux" />
-  <img src="https://img.shields.io/badge/_-Neovim-57A143?style=flat&logo=neovim" />
+  <img src="https://img.shields.io/badge/_-Arch-1793D1?style=flat&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/_-Hyprland-004B50?style=flat&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/_-Neovim-57A143?style=flat&logo=neovim&logoColor=white" />
   &nbsp; <code><b>|</b></code> &nbsp;
   <code><b>NETWORK:</b></code> &nbsp;
-  <a href="YOUTUBE_LINKIN"><img src="https://img.shields.io/badge/_-YouTube-FF0000?style=flat&logo=youtube" /></a>
-  <a href="INSTAGRAM_LINKIN"><img src="https://img.shields.io/badge/_-Instagram-E4405F?style=flat&logo=instagram" /></a>
+  <a href="YOUTUBE_LINKIN_BURAYA"><img src="https://img.shields.io/badge/_-YouTube-FF0000?style=flat&logo=youtube&logoColor=white" /></a>
+  <a href="INSTAGRAM_LINKIN_BURAYA"><img src="https://img.shields.io/badge/_-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
 </td>
 </tr>
 </table>
