@@ -66,7 +66,7 @@
   &nbsp; <code><b>|</b></code> &nbsp;
   <code><b>NETWORK:</b></code> &nbsp;
   <a href="YOUTUBE_LINKIN"><img src="https://img.shields.io/badge/_-YouTube-FF0000?style=flat&logo=youtube&logoColor=white" /></a>
-  <a href="INSTAGRAM_LINKIN"><img src="https://img.shields.io/badge/_-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://img.shields.io/badge/_-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
   <a href="LINKEDIN_LINKIN"><img src="https://img.shields.io/badge/_-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
 </td>
 </tr>
