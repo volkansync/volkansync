@@ -35,6 +35,14 @@
 
 > Power that needs an audience isn't power yet.
 
+<details>
+<summary><sub>why this page looks like this</sub></summary>
+<br/>
+
+Deleted every account that wasn't building toward something. This page updates when something real changes underneath it — a language learned, a system shipped — not on a posting schedule. If you're reading this far, you already know it's not for an audience.
+
+</details>
+
 </div>
 
 ---
@@ -90,6 +98,35 @@ STATUS   →  forging, not performing
 | `Python` | UAV & ML | ░░░░░░░░░░ 3% |
 | `C#` | coursework only | ░░░░░░░░░░ 2% |
 | `Next.js / TS` | client work, daily driver | ▓▓▓▓░░░░░░ 35% |
+
+</div>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+
+<div align="center">
+
+### `[ ROADMAP ]`
+
+```mermaid
+graph LR
+    F((foundation)):::core --> R[Rust]:::lang
+    F --> P[Python]:::lang
+    R --> O[offensive security]:::track
+    R --> E[embedded / systems]:::track
+    P --> M[UAV & ML]:::track
+    E -. "2027" .-> Comp[own compositor]:::future
+
+    W[Next.js / TS — already live, pays rent]:::side
+    G[C# — coursework only, not a real track]:::side
+
+    classDef core fill:#5B4E8C,stroke:#3E3860,color:#ffffff
+    classDef lang fill:#9FAEDC,stroke:#3E3860,color:#1a1a2e
+    classDef track fill:#C7B8E0,stroke:#3E3860,color:#1a1a2e
+    classDef future fill:#FBF7F4,stroke:#9FAEDC,color:#3E3860,stroke-dasharray: 5 5
+    classDef side fill:#FBF7F4,stroke:#C7B8E0,color:#3E3860,stroke-dasharray: 3 3
+```
+
+<sub>not a skill list — this is the actual branch plan, updated as it changes</sub>
 
 </div>
 
