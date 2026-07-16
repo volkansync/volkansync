@@ -92,12 +92,37 @@ STATUS   →  forging, not performing
 **forge — what's being built**
 <img src="https://skillicons.dev/icons?i=rust,python,cs,linux&theme=light&perline=6" />
 
-| track | domain | state |
-|---|---|---|
-| `Rust` | offensive security / embedded | ░░░░░░░░░░ 0% |
-| `Python` | UAV & ML | ░░░░░░░░░░ 3% |
-| `C#` | coursework only | ░░░░░░░░░░ 2% |
-| `Next.js / TS` | client work, daily driver | ▓▓▓▓░░░░░░ 35% |
+<details>
+<summary><code>Rust</code> — 0% — offensive security / embedded</summary>
+<br/>
+
+Not started yet. First move is a shared foundation project (the same small tool, written in both Rust and Python) to get the syntax and ownership model down before branching into `pnet`-based tooling and `no_std` embedded basics.
+
+</details>
+
+<details>
+<summary><code>Python</code> — 3% — UAV & ML</summary>
+<br/>
+
+`numpy`/`pandas` basics are down. Next: ArduPilot SITL + `pymavlink` telemetry, then OpenCV for the first real UAV+CV milestone.
+
+</details>
+
+<details>
+<summary><code>C#</code> — 2% — coursework only</summary>
+<br/>
+
+Passing the class, nothing more. No Windows, no Unity, no interest beyond the grade — not folded into the real language/domain matrix on purpose.
+
+</details>
+
+<details>
+<summary><code>Next.js / TS</code> — 35% — client work, daily driver</summary>
+<br/>
+
+Already earning. This is what funds everything else on this page.
+
+</details>
 
 </div>
 
@@ -127,6 +152,39 @@ graph LR
 ```
 
 <sub>not a skill list — this is the actual branch plan, updated as it changes</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+
+<div align="center">
+
+### `[ LONG ARC ]`
+
+```mermaid
+timeline
+    title the longer game
+    2026 : shared Rust/Python foundation : Blender + scroll animations for client sites : web studio scaling
+    2027 : Rust branches — offsec / embedded : Python branches — UAV & ML : own compositor (Smithay)
+    2028+ : local-agent product line, gated on Blender + compositor actually proving out
+```
+
+</div>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+
+<div align="center">
+
+### `[ DECISION LOG ]`
+
+| date | decision |
+|---|---|
+| 2026-07-16 | Compositor: Wayfire over Hyprland — plugin architecture over polish/popularity |
+| 2026-07-16 | Shell: Quickshell over Astal — QML's animation ceiling over easier onboarding |
+| 2026-07-16 | Own compositor (Smithay/Rust) queued for 2027 — a capstone, not a starting point |
+| 2026-07-16 | C# scoped to "pass the class" — deliberately not folded into the real track matrix |
+
+<sub>not a highlight reel — the calls that were actually made, kept even when they're boring</sub>
 
 </div>
 
