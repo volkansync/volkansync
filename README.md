@@ -2,21 +2,21 @@
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=800&color=5B4E8C&center=true&vCenter=true&width=650&lines=No+noise.+No+spectators.;Just+the+work%2C+repeated.;Self-made.+Not+self-styled.;One+strike.+No+wasted+motion.;Building+in+silence." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=800&color=3D2E66&center=true&vCenter=true&width=650&lines=No+noise.+No+spectators.;Just+the+work%2C+repeated.;Self-made.+Not+self-styled.;One+strike.+No+wasted+motion.;Building+in+silence." alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/volkansync">
-  <img src="https://komarev.com/ghpvc/?username=volkansync&style=for-the-badge&color=C7B8E0&labelColor=F4F1F8&label=VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=volkansync&style=for-the-badge&color=9B7BC9&labelColor=E4D9F0&label=VIEWS" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a">
-  <img src="https://img.shields.io/badge/LinkedIn-C7B8E0?style=for-the-badge&logo=linkedin&logoColor=3E3860" />
+  <img src="https://img.shields.io/badge/LinkedIn-9B7BC9?style=for-the-badge&logo=linkedin&logoColor=2E2350" />
 </a>
 &nbsp;
 <a href="https://www.youtube.com/@volkansync">
-  <img src="https://img.shields.io/badge/YouTube-9FAEDC?style=for-the-badge&logo=youtube&logoColor=3E3860" />
+  <img src="https://img.shields.io/badge/YouTube-6B5FA8?style=for-the-badge&logo=youtube&logoColor=2E2350" />
 </a>
 
 <br/><br/>
@@ -100,16 +100,16 @@ STATUS   →  forging, not performing
 ### `[ METRICS ]`
 
 <a href="https://github.com/volkansync">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=F4F1F8&border_color=C7B8E0&title_color=5B4E8C&icon_color=5B4E8C&text_color=3E3860&hide_border=false&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=E4D9F0&border_color=9B7BC9&title_color=3D2E66&icon_color=3D2E66&text_color=2E2350&hide_border=false&count_private=true&include_all_commits=true" />
 </a>
 <a href="https://github.com/volkansync">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=compact&bg_color=F4F1F8&border_color=9FAEDC&title_color=5B4E8C&text_color=3E3860&hide_border=false" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=compact&bg_color=E4D9F0&border_color=6B5FA8&title_color=3D2E66&text_color=2E2350&hide_border=false" />
 </a>
 
 <br/><br/>
 
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=volkansync&background=F4F1F8&border=C7B8E0&ring=C7B8E0&fire=5B4E8C&currStreakLabel=5B4E8C&sideLabels=3E3860&currStreakNum=3E3860&sideNums=3E3860&dates=8a8a8a" />
+  <img src="https://streak-stats.demolab.com?user=volkansync&background=E4D9F0&border=9B7BC9&ring=9B7BC9&fire=3D2E66&currStreakLabel=3D2E66&sideLabels=2E2350&currStreakNum=2E2350&sideNums=2E2350&dates=8a8a8a" />
 </a>
 
 </div>
@@ -132,7 +132,7 @@ STATUS   →  forging, not performing
 
 <div align="center">
 <a href="https://github.com/volkansync">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=F4F1F8&color=5B4E8C&line=C7B8E0&point=3E3860&area=true&area_color=C7B8E0&hide_border=false&border_color=C7B8E0&title_color=5B4E8C" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=E4D9F0&color=3D2E66&line=9B7BC9&point=2E2350&area=true&area_color=9B7BC9&hide_border=false&border_color=9B7BC9&title_color=3D2E66" width="100%" />
 </a>
 </div>
 
@@ -147,6 +147,6 @@ volkan@taraxacum:~$ ./forge.sh --witnesses none --stop never
 →  running in silence...
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:F4F1F8,50:C7B8E0,100:9FAEDC&height=110&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:E4D9F0,50:9B7BC9,100:6B5FA8&height=110&section=footer&animation=twinkling" width="100%"/>
 
 </div>
