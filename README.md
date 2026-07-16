@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:c81e3a,100:0d1117&height=130&section=header&text=volkansync&fontSize=44&fontColor=ffffff&fontAlignY=65&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,50:6e1423,100:0d1117&height=130&section=header&text=volkansync&fontSize=44&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=800&color=C81E3A&center=true&vCenter=true&width=650&lines=No+noise.+No+spectators.;Just+the+work%2C+repeated.;Self-made.+Not+self-styled.;One+strike.+No+wasted+motion.;Building+in+silence." alt="Typing SVG" />
@@ -147,6 +147,6 @@ volkan@taraxacum:~$ ./forge.sh --witnesses none --stop never
 →  running in silence...
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:6e1423,100:0d1117&height=110&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,50:6e1423,100:0d1117&height=110&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
