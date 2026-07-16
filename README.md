@@ -159,22 +159,6 @@ graph LR
 
 <div align="center">
 
-### `[ LONG ARC ]`
-
-```mermaid
-timeline
-    title the longer game
-    2026 : shared Rust/Python foundation : Blender + scroll animations for client sites : web studio scaling
-    2027 : Rust branches — offsec / embedded : Python branches — UAV & ML : own compositor (Smithay)
-    2028+ : local-agent product line, gated on Blender + compositor actually proving out
-```
-
-</div>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
-
-<div align="center">
-
 ### `[ DECISION LOG ]`
 
 | date | decision |
