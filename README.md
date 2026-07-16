@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e1423,100:0d1117&height=120&section=header&text=volkansync&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:c81e3a,100:0d1117&height=130&section=header&text=volkansync&fontSize=44&fontColor=ffffff&fontAlignY=65&animation=twinkling" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=8B1E3F&center=true&vCenter=true&width=650&lines=No+noise.+No+spectators.;Just+the+work%2C+repeated.;Self-made.+Not+self-styled.;Building+in+silence." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=800&color=C81E3A&center=true&vCenter=true&width=650&lines=No+noise.+No+spectators.;Just+the+work%2C+repeated.;Self-made.+Not+self-styled.;One+strike.+No+wasted+motion.;Building+in+silence." alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -15,14 +15,14 @@
   <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8B1E3F" />
 </a>
 &nbsp;
-<a href="https://youtube.com/@REPLACE_ME">
+<a href="https://www.youtube.com/@volkansync">
   <img src="https://img.shields.io/badge/YouTube-0d1117?style=for-the-badge&logo=youtube&logoColor=8B1E3F" />
 </a>
 
 <br/><br/>
 </div>
 
----
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -72,7 +72,7 @@ STATUS   →  forging, not performing
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -147,6 +147,6 @@ volkan@taraxacum:~$ ./forge.sh --witnesses none --stop never
 →  running in silence...
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e1423,100:0d1117&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:6e1423,100:0d1117&height=110&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
