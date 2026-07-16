@@ -1,50 +1,46 @@
 <svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#04050a"/>
-      <stop offset="55%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#3a0f1a"/>
+      <stop offset="0%" stop-color="#AFD8EA"/>
+      <stop offset="55%" stop-color="#E9D6E3"/>
+      <stop offset="100%" stop-color="#FBE7ED"/>
     </linearGradient>
-    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffe9c7" stop-opacity="0.9"/>
-      <stop offset="40%" stop-color="#ffb454" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#ffb454" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="moonCore" cx="45%" cy="45%" r="60%">
-      <stop offset="0%" stop-color="#fff6e5"/>
-      <stop offset="100%" stop-color="#ffd9a0"/>
-    </radialGradient>
-    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#3a0f1a" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#150609" stop-opacity="0.9"/>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBE7ED" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#CDE0C0" stop-opacity="0.9"/>
     </linearGradient>
     <filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6"/>
     </filter>
     <filter id="blurWide" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="18"/>
+      <feGaussianBlur stdDeviation="16"/>
     </filter>
   </defs>
 
   <rect width="1200" height="380" fill="url(#sky)"/>
 
-  <circle cx="930" cy="120" r="140" fill="url(#moonGlow)" filter="url(#blurWide)"/>
-  <circle cx="930" cy="120" r="58" fill="url(#moonCore)"/>
-  <circle cx="915" cy="105" r="55" fill="#0d1117" opacity="0.08"/>
-
-  <g opacity="0.35" filter="url(#blurSoft)">
-    <ellipse cx="850" cy="140" rx="220" ry="18" fill="#0d1117"/>
-    <ellipse cx="1000" cy="95" rx="160" ry="12" fill="#0d1117"/>
+  <!-- soft clouds -->
+  <g fill="#ffffff" opacity="0.55" filter="url(#blurSoft)">
+    <ellipse cx="180" cy="80" rx="120" ry="22"/>
+    <ellipse cx="280" cy="60" rx="90" ry="16"/>
+    <ellipse cx="1020" cy="70" rx="140" ry="20"/>
+    <ellipse cx="930" cy="50" rx="80" ry="14"/>
   </g>
 
-  <!-- distant tree line -->
-  <g fill="#020204" opacity="0.8">
-    <path d="M0,300 L60,270 L120,300 L170,265 L230,300 L300,275 L360,300 L1200,300 L1200,380 L0,380 Z"/>
+  <!-- distant mountain -->
+  <g opacity="0.55" filter="url(#blurSoft)">
+    <path d="M 760,260 L 900,90 L 1040,260 Z" fill="#9FB4CC"/>
+    <path d="M 870,150 L 900,90 L 930,150 C 912,140 888,140 870,150 Z" fill="#FBF7F4"/>
   </g>
 
-  <!-- lone figure, coat caught in motion -->
+  <!-- tree line -->
+  <g fill="#DDEBD3" opacity="0.75">
+    <path d="M0,300 L60,278 L120,300 L170,270 L230,300 L300,280 L360,300 L1200,300 L1200,380 L0,380 Z"/>
+  </g>
+
+  <!-- lone figure -->
   <g transform="translate(430,150)">
-    <circle cx="0" cy="0" r="16" fill="#010102"/>
+    <circle cx="0" cy="0" r="16" fill="#4A3B4D"/>
     <path d="M -30,10
              C -34,40 -50,70 -46,120
              C -70,160 -80,210 -60,230
@@ -57,42 +53,48 @@
              C 82,205 68,165 46,125
              C 52,72 40,38 28,12
              C 12,-2 -14,-2 -30,10 Z"
-          fill="#010102"/>
+          fill="#4A3B4D"/>
     <!-- katana -->
-    <path d="M 40,60 L 150,220" stroke="#010102" stroke-width="6" stroke-linecap="round"/>
-    <path d="M 34,52 L 48,68" stroke="#010102" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 40,60 L 150,220" stroke="#4A3B4D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 34,52 L 48,68" stroke="#4A3B4D" stroke-width="10" stroke-linecap="round"/>
   </g>
 
-  <rect x="0" y="270" width="1200" height="110" fill="url(#mist)"/>
+  <rect x="0" y="270" width="1200" height="110" fill="url(#ground)"/>
 
-  <!-- embers, drifting and fading on loop -->
-  <g fill="#ff7a3d">
-    <circle cx="470" cy="260" r="3">
-      <animate attributeName="cy" values="260;60;260" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.9;0" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="510" cy="280" r="2.4">
-      <animate attributeName="cy" values="280;90;280" dur="7s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.8;0" dur="7s" begin="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="410" cy="250" r="2.8">
-      <animate attributeName="cy" values="250;40;250" dur="11s" begin="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0" dur="11s" begin="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="560" cy="300" r="2">
-      <animate attributeName="cy" values="300;110;300" dur="8s" begin="0.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="8s" begin="0.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="380" cy="290" r="2.2">
-      <animate attributeName="cy" values="290;100;290" dur="10s" begin="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.75;0" dur="10s" begin="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="600" cy="240" r="2.6">
-      <animate attributeName="cy" values="240;30;240" dur="12s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.8;0" dur="12s" begin="2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- falling sakura petals -->
+  <g>
+    <ellipse cx="470" cy="30" rx="6" ry="4" fill="#F4B8CE">
+      <animate attributeName="cy" values="30;340" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="470;520;460;500" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="560" cy="10" rx="5" ry="3.4" fill="#E8A0C0">
+      <animate attributeName="cy" values="10;330" dur="8.5s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="560;520;590;540" dur="8.5s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" dur="8.5s" begin="1.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="380" cy="50" rx="5.5" ry="3.6" fill="#F4B8CE">
+      <animate attributeName="cy" values="50;350" dur="12s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="380;340;410;370" dur="12s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="12s" begin="2.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="640" cy="20" rx="4.5" ry="3" fill="#E8A0C0">
+      <animate attributeName="cy" values="20;320" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="640;600;660;620" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.75;0.75;0" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="330" cy="15" rx="5" ry="3.4" fill="#F4B8CE">
+      <animate attributeName="cy" values="15;325" dur="11s" begin="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="330;370;310;350" dur="11s" begin="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="11s" begin="3.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="700" cy="40" rx="6" ry="4" fill="#E8A0C0">
+      <animate attributeName="cy" values="40;345" dur="10.5s" begin="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="700;660;720;680" dur="10.5s" begin="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" dur="10.5s" begin="1.8s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
   <!-- signature -->
-  <text x="1160" y="355" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="18" fill="#c9a08a" opacity="0.55">volkansync</text>
+  <text x="1160" y="355" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="18" fill="#B4577A" opacity="0.6">volkansync</text>
 </svg>
