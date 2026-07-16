@@ -73,6 +73,7 @@ STATUS   →  forging, not performing
 | 03 | `web_studio.agency` | 🟡 live, scaling |
 | 04 | `quickshell_ritual` | 🟡 building |
 | 05 | `own_compositor` | ⚪ queued — 2027 |
+| 06 | [`learning_log`](https://github.com/volkansync/learning-log) | 🟢 running |
 
 </td>
 </tr>
