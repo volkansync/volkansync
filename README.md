@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=800&color=B4577A&center=true&vCenter=true&width=650&lines=No+noise.+No+spectators.;Just+the+work%2C+repeated.;Self-made.+Not+self-styled.;One+strike.+No+wasted+motion.;Building+in+silence." alt="Typing SVG" />
