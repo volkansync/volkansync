@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif?v=2" width="520"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif?v=3" width="100%"/>
 
 <h1>volkansync</h1>
 
