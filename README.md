@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif" width="520"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif?v=2" width="520"/>
 
 <h1>volkansync</h1>
 
@@ -28,7 +28,7 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 I fix systems by finding out why they broke, not by reinstalling them.
 
@@ -39,9 +39,9 @@ mechanism, a test that could have proved me wrong, and what the numbers actually
 
 Sometimes the numbers said I was wrong. Those are in here too — they're the useful part.
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg?v=2" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
@@ -83,7 +83,7 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
@@ -124,7 +124,7 @@ errors**. Only then could "no failures" be told apart from "not used."
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
@@ -175,7 +175,7 @@ near-term proof — and none of them are finished yet.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
@@ -194,7 +194,7 @@ near-term proof — and none of them are finished yet.
 | `2026-07` | Wayfire over Hyprland · Quickshell over Astal | Plugin architecture over polish; animation ceiling over easy onboarding |
 | `2026-07` | C# scoped to coursework only | Deliberately outside the real track — passing is the entire goal |
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
@@ -222,7 +222,7 @@ near-term proof — and none of them are finished yet.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
