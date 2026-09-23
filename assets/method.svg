@@ -1,0 +1,91 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The method: symptom, eliminate, hypothesis, falsifiable test, evidence, fix — with a loop back when the instrument lies">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1628"/>
+      <stop offset="100%" stop-color="#060A16"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#2C4570" stop-opacity="0.25"/>
+      <stop offset="12%" stop-color="#2C4570" stop-opacity="1"/>
+      <stop offset="88%" stop-color="#2C4570" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2C4570" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#E6CC55" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#E6CC55" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#E6CC55"/>
+    </marker>
+    <marker id="tipDim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#C4A93F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="320" rx="10" fill="url(#panel)"/>
+  <circle cx="1040" cy="60" r="150" fill="url(#moon)"/>
+
+  <text x="36" y="42" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="13" letter-spacing="4" fill="#E6CC55" font-weight="700">THE METHOD</text>
+  <text x="36" y="64" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="12" fill="#8795AB">every note in this profile follows it</text>
+
+  <line x1="40" y1="140" x2="1160" y2="140" stroke="url(#rail)" stroke-width="1.5"/>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" text-anchor="middle">
+    <!-- 01 -->
+    <circle cx="100" cy="140" r="7" fill="#0E1628" stroke="#E6CC55" stroke-width="2"/>
+    <text x="100" y="118" font-size="10" fill="#C4A93F" letter-spacing="2">01</text>
+    <text x="100" y="170" font-size="13" fill="#EDE8DA" font-weight="700">SYMPTOM</text>
+    <text x="100" y="188" font-size="10.5" fill="#8795AB">what can be observed</text>
+
+    <!-- 02 -->
+    <circle cx="300" cy="140" r="7" fill="#0E1628" stroke="#E6CC55" stroke-width="2"/>
+    <text x="300" y="118" font-size="10" fill="#C4A93F" letter-spacing="2">02</text>
+    <text x="300" y="170" font-size="13" fill="#EDE8DA" font-weight="700">ELIMINATE</text>
+    <text x="300" y="188" font-size="10.5" fill="#8795AB">what it is not</text>
+
+    <!-- 03 -->
+    <circle cx="500" cy="140" r="7" fill="#0E1628" stroke="#E6CC55" stroke-width="2"/>
+    <text x="500" y="118" font-size="10" fill="#C4A93F" letter-spacing="2">03</text>
+    <text x="500" y="170" font-size="13" fill="#EDE8DA" font-weight="700">MECHANISM</text>
+    <text x="500" y="188" font-size="10.5" fill="#8795AB">not a guess — a cause</text>
+
+    <!-- 04 -->
+    <circle cx="700" cy="140" r="9" fill="#E6CC55"/>
+    <text x="700" y="118" font-size="10" fill="#E6CC55" letter-spacing="2">04</text>
+    <text x="700" y="170" font-size="13" fill="#E6CC55" font-weight="700">FALSIFIABLE TEST</text>
+    <text x="700" y="188" font-size="10.5" fill="#8795AB">could prove me wrong</text>
+
+    <!-- 05 -->
+    <circle cx="900" cy="140" r="7" fill="#0E1628" stroke="#E6CC55" stroke-width="2"/>
+    <text x="900" y="118" font-size="10" fill="#C4A93F" letter-spacing="2">05</text>
+    <text x="900" y="170" font-size="13" fill="#EDE8DA" font-weight="700">EVIDENCE</text>
+    <text x="900" y="188" font-size="10.5" fill="#8795AB">numbers, not impressions</text>
+
+    <!-- 06 -->
+    <circle cx="1090" cy="140" r="7" fill="#0E1628" stroke="#E6CC55" stroke-width="2"/>
+    <text x="1090" y="118" font-size="10" fill="#C4A93F" letter-spacing="2">06</text>
+    <text x="1090" y="170" font-size="13" fill="#EDE8DA" font-weight="700">FIX</text>
+    <text x="1090" y="188" font-size="10.5" fill="#8795AB">with its cost named</text>
+  </g>
+
+  <g stroke="#E6CC55" stroke-width="1.6" marker-end="url(#tip)" opacity="0.85">
+    <line x1="113" y1="140" x2="281" y2="140"/>
+    <line x1="313" y1="140" x2="481" y2="140"/>
+    <line x1="513" y1="140" x2="679" y2="140"/>
+    <line x1="713" y1="140" x2="881" y2="140"/>
+    <line x1="913" y1="140" x2="1071" y2="140"/>
+  </g>
+
+  <!-- the loop that matters: the evidence indicts the instrument, not the hypothesis -->
+  <path d="M900 210 C 900 262, 700 262, 700 214"
+        fill="none" stroke="#C4A93F" stroke-width="1.6"
+        stroke-dasharray="5 4" marker-end="url(#tipDim)" opacity="0.95"/>
+  <text x="800" y="288" text-anchor="middle"
+        font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="11.5" fill="#C4A93F">when the instrument lies, rebuild the instrument</text>
+
+  <text x="36" y="288" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="11" fill="#5C6B85">// the loop is not failure. it is the work.</text>
+</svg>
