@@ -1,0 +1,230 @@
+<svg width="1200" height="1300" viewBox="0 0 1200 1300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — systems and infrastructure. Method, casefiles, instruments and training.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#0F1829"/>
+    <stop offset="45%"  stop-color="#0A1120"/>
+    <stop offset="100%" stop-color="#060A16"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#15203800"/><stop offset="0%" stop-color="#141F36"/>
+    <stop offset="100%" stop-color="#0D1526"/>
+  </linearGradient>
+  <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#E6CC55" stop-opacity="0.16"/>
+    <stop offset="55%"  stop-color="#E6CC55" stop-opacity="0.05"/>
+    <stop offset="100%" stop-color="#E6CC55" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="moon2" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#2C4570" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#2C4570" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#1C2B4A" stop-opacity="0"/>
+    <stop offset="8%"   stop-color="#1C2B4A" stop-opacity="1"/>
+    <stop offset="92%"  stop-color="#1C2B4A" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#1C2B4A" stop-opacity="0"/>
+  </linearGradient>
+  <marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,1 L9,5 L0,9 z" fill="#E6CC55"/>
+  </marker>
+  <marker id="tipD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,1 L9,5 L0,9 z" fill="#C4A93F"/>
+  </marker>
+</defs>
+
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .sec  { font-size: 12px;   letter-spacing: 4.5px; fill: #E6CC55; font-weight: 700; }
+  .secs { font-size: 11px;   fill: #6F7E97; }
+  .nm   { font-size: 40px;   fill: #EDE8DA; font-weight: 700; letter-spacing: -0.5px; }
+  .role { font-size: 12.5px; letter-spacing: 2.8px; fill: #E6CC55; }
+  .lead { font-size: 15px;   fill: #C6CFDD; }
+  .st   { font-size: 10.5px; letter-spacing: 1.6px; fill: #6F7E97; }
+  .no   { font-size: 10.5px; letter-spacing: 2.5px; fill: #E6CC55; font-weight: 700; }
+  .noq  { font-size: 10.5px; letter-spacing: 2.5px; fill: #7C8BA3; font-weight: 700; }
+  .sym  { font-size: 15px;   fill: #EDE8DA; font-weight: 700; }
+  .sub  { font-size: 10.5px; fill: #6F7E97; }
+  .xx   { font-size: 11.5px; fill: #5A687F; }
+  .cz   { font-size: 12.5px; fill: #E6CC55; font-weight: 700; }
+  .ev   { font-size: 16px;   fill: #EDE8DA; font-weight: 700; }
+  .evs  { font-size: 10px;   fill: #6F7E97; }
+  .stp  { font-size: 12px;   fill: #EDE8DA; font-weight: 700; }
+  .stpg { font-size: 12px;   fill: #E6CC55; font-weight: 700; }
+  .stps { font-size: 10px;   fill: #6F7E97; }
+  .stn  { font-size: 9.5px;  letter-spacing: 2px; fill: #C4A93F; }
+  .tool { font-size: 13px;   fill: #E6CC55; font-weight: 700; }
+  .tolt { font-size: 11px;   fill: #8B98AD; font-style: italic; }
+  .told { font-size: 11.5px; fill: #A9B4C6; }
+  .pill { font-size: 11.5px; font-weight: 700; }
+  .foot { font-size: 11px;   fill: #4F5D75; }
+</style>
+
+<rect width="1200" height="1300" rx="12" fill="url(#bg)"/>
+<circle cx="1010" cy="10" r="300" fill="url(#moon)"/>
+<circle cx="120" cy="1230" r="340" fill="url(#moon2)"/>
+
+<!-- ═══ IDENTITY ═══ -->
+<text class="nm"   x="48" y="92">volkansync</text>
+<text class="role" x="48" y="120">SYSTEMS · INFRASTRUCTURE · SECURITY AUTOMATION</text>
+<text class="lead" x="48" y="158">I fix systems by finding out why they broke.</text>
+<text class="sub"  x="48" y="182" font-size="12.5">No degree, no early start, no one to ask — just a machine that kept failing,</text>
+<text class="sub"  x="48" y="201" font-size="12.5">and a refusal to accept <tspan font-style="italic" fill="#8B98AD">“it works now”</tspan> as an explanation.</text>
+
+<text class="st" x="1152" y="92"  text-anchor="end">ESKİŞEHİR · TÜRKİYE</text>
+<text class="st" x="1152" y="112" text-anchor="end">ARCH · WAYLAND · ZSH</text>
+<text class="st" x="1152" y="132" text-anchor="end">DE → B1 · IN PROGRESS</text>
+
+<line x1="48" y1="238" x2="1152" y2="238" stroke="url(#hair)" stroke-width="1"/>
+
+<!-- ═══ METHOD ═══ -->
+<text class="sec"  x="48" y="278">THE METHOD</text>
+<text class="secs" x="48" y="298">every case below follows it — and the loop is the part that matters</text>
+
+<line x1="72" y1="362" x2="1128" y2="362" stroke="#1C2B4A" stroke-width="1.2"/>
+
+<g text-anchor="middle">
+  <circle cx="100"  cy="362" r="6.5" fill="#0D1526" stroke="#E6CC55" stroke-width="2"/>
+  <text class="stn" x="100" y="343">01</text>
+  <text class="stp" x="100" y="388">SYMPTOM</text>
+  <text class="stps" x="100" y="404">what can be observed</text>
+
+  <circle cx="300"  cy="362" r="6.5" fill="#0D1526" stroke="#E6CC55" stroke-width="2"/>
+  <text class="stn" x="300" y="343">02</text>
+  <text class="stp" x="300" y="388">ELIMINATE</text>
+  <text class="stps" x="300" y="404">what it is not</text>
+
+  <circle cx="500"  cy="362" r="6.5" fill="#0D1526" stroke="#E6CC55" stroke-width="2"/>
+  <text class="stn" x="500" y="343">03</text>
+  <text class="stp" x="500" y="388">MECHANISM</text>
+  <text class="stps" x="500" y="404">not a guess — a cause</text>
+
+  <circle cx="700"  cy="362" r="8.5" fill="#E6CC55"/>
+  <text class="stn" x="700" y="343" fill="#E6CC55">04</text>
+  <text class="stpg" x="700" y="388">FALSIFIABLE TEST</text>
+  <text class="stps" x="700" y="404">could prove me wrong</text>
+
+  <circle cx="900"  cy="362" r="6.5" fill="#0D1526" stroke="#E6CC55" stroke-width="2"/>
+  <text class="stn" x="900" y="343">05</text>
+  <text class="stp" x="900" y="388">EVIDENCE</text>
+  <text class="stps" x="900" y="404">numbers, not impressions</text>
+
+  <circle cx="1090" cy="362" r="6.5" fill="#0D1526" stroke="#E6CC55" stroke-width="2"/>
+  <text class="stn" x="1090" y="343">06</text>
+  <text class="stp" x="1090" y="388">FIX</text>
+  <text class="stps" x="1090" y="404">with its cost named</text>
+</g>
+
+<g stroke="#E6CC55" stroke-width="1.5" marker-end="url(#tip)" opacity="0.8">
+  <line x1="112" y1="362" x2="282" y2="362"/>
+  <line x1="312" y1="362" x2="482" y2="362"/>
+  <line x1="512" y1="362" x2="680" y2="362"/>
+  <line x1="712" y1="362" x2="882" y2="362"/>
+  <line x1="912" y1="362" x2="1072" y2="362"/>
+</g>
+
+<path d="M900 424 C 900 470, 700 470, 700 428" fill="none" stroke="#C4A93F"
+      stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#tipD)" opacity="0.95"/>
+<text class="secs" x="800" y="492" text-anchor="middle" fill="#C4A93F">when the instrument lies, rebuild the instrument</text>
+
+<line x1="48" y1="534" x2="1152" y2="534" stroke="url(#hair)" stroke-width="1"/>
+
+<!-- ═══ CASEFILES ═══ -->
+<text class="sec"  x="48" y="574">CASEFILES</text>
+<text class="secs" x="48" y="594">symptom · what it wasn't · what it actually was</text>
+<text class="secs" x="1152" y="574" text-anchor="end">04 closed · 01 written up</text>
+
+<g transform="translate(48,614)">
+  <rect width="536" height="182" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+  <rect width="3.5" height="182" rx="2" fill="#E6CC55"/>
+  <text class="no"  x="20" y="27">CASE 001</text>
+  <text class="sym" x="20" y="52">Bluetooth audio dropping out</text>
+  <text class="sub" x="20" y="70">one channel first, alternating — on two different headsets</text>
+  <line x1="20" y1="84" x2="516" y2="84" stroke="#1C2B4A"/>
+  <text class="xx"  x="20"  y="105">✕  faulty headphones</text>
+  <text class="xx"  x="196" y="105">✕  wrong codec</text>
+  <text class="xx"  x="342" y="105">✕  “just use 5 GHz”</text>
+  <text class="cz"  x="20" y="131">→  2.4 GHz band contention</text>
+  <text class="sub" x="20" y="148">power saving amplifies it · the BT link must be renegotiated</text>
+  <text class="ev"  x="20"  y="172">152.5 → 18.3</text>
+  <text class="evs" x="146" y="172">failures/day, same network · 10 days at zero</text>
+</g>
+
+<g transform="translate(616,614)">
+  <rect width="536" height="182" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+  <rect width="3.5" height="182" rx="2" fill="#2C4570"/>
+  <text class="noq" x="20" y="27">CASE 002</text>
+  <text class="sym" x="20" y="52">TLS certificate errors</text>
+  <text class="sub" x="20" y="70">one service only · certificate chain intact</text>
+  <line x1="20" y1="84" x2="516" y2="84" stroke="#1C2B4A"/>
+  <text class="xx"  x="20"  y="105">✕  system clock</text>
+  <text class="xx"  x="196" y="105">✕  CA bundle</text>
+  <text class="xx"  x="342" y="105">✕  the certificate</text>
+  <text class="cz"  x="20" y="131">→  ISP-level DNS blocking</text>
+  <text class="sub" x="20" y="148">the resolution path, never the crypto</text>
+  <text class="evs" x="20" y="172">fixed per-connection, not system-wide</text>
+</g>
+
+<g transform="translate(48,816)">
+  <rect width="536" height="160" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+  <rect width="3.5" height="160" rx="2" fill="#2C4570"/>
+  <text class="noq" x="20" y="27">CASE 003</text>
+  <text class="sym" x="20" y="52">Anti-cheat error 60099</text>
+  <text class="sub" x="20" y="70">on an otherwise healthy install</text>
+  <line x1="20" y1="84" x2="516" y2="84" stroke="#1C2B4A"/>
+  <text class="xx"  x="20"  y="105">✕  reinstall the game</text>
+  <text class="xx"  x="230" y="105">✕  reset the prefix</text>
+  <text class="cz"  x="20" y="131">→  tr_TR locale + a missing font</text>
+  <text class="sub" x="20" y="148">documented so it survives the next prefix reset</text>
+</g>
+
+<g transform="translate(616,816)">
+  <rect width="536" height="160" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+  <rect width="3.5" height="160" rx="2" fill="#2C4570"/>
+  <text class="noq" x="20" y="27">CASE 004</text>
+  <text class="sym" x="20" y="52">Desktop shell dying</text>
+  <text class="sub" x="20" y="70">after every system upgrade, reliably</text>
+  <line x1="20" y1="84" x2="516" y2="84" stroke="#1C2B4A"/>
+  <text class="xx"  x="20" y="105">✕  reinstall the package — monthly, forever</text>
+  <text class="cz"  x="20" y="131">→  Qt ABI break</text>
+  <text class="sub" x="20" y="148">found the recurring trigger, not the monthly symptom</text>
+</g>
+
+<text class="foot" x="600" y="1002" text-anchor="middle">the middle line is the point — most of the work is ruling things out</text>
+
+<line x1="48" y1="1032" x2="1152" y2="1032" stroke="url(#hair)" stroke-width="1"/>
+
+<!-- ═══ INSTRUMENTS ═══ -->
+<text class="sec"  x="48" y="1072">INSTRUMENTS</text>
+<text class="secs" x="48" y="1092">the fault is rarely the hard part — building a measurement that doesn't lie is</text>
+
+<text class="tool" x="48"  y="1128">bt-dropout-test.sh</text>
+<text class="told" x="340" y="1128">2×2 harness · pins the band, toggles power saving, samples xruns and signal per arm · restores on Ctrl+C</text>
+
+<text class="tool" x="48"  y="1158">analiz.py</text>
+<text class="tolt" x="152" y="1158">kept because it was wrong</text>
+<text class="told" x="340" y="1158">a denominator driven by the same failures as the numerator — it hid the effect it measured</text>
+
+<text class="tool" x="48"  y="1188">analiz3.py</text>
+<text class="tolt" x="160" y="1188">the one that held</text>
+<text class="told" x="340" y="1188">usage detected independently of errors — only then is “zero failures” not “not used”</text>
+
+<line x1="48" y1="1218" x2="1152" y2="1218" stroke="url(#hair)" stroke-width="1"/>
+
+<!-- ═══ IN TRAINING ═══ -->
+<text class="sec"  x="48" y="1258">IN TRAINING</text>
+<text class="secs" x="196" y="1258">carried until earned — “queued” means queued, not modest</text>
+
+<g>
+  <rect x="670" y="1242" width="132" height="24" rx="12" fill="#E6CC55"/>
+  <text class="pill" x="736" y="1258" text-anchor="middle" fill="#0A1120">German → B1</text>
+
+  <rect x="812" y="1242" width="118" height="24" rx="12" fill="none" stroke="#2C4570"/>
+  <text class="pill" x="871" y="1258" text-anchor="middle" fill="#7C8BA3">RHCSA / LFCS</text>
+
+  <rect x="940" y="1242" width="70" height="24" rx="12" fill="none" stroke="#2C4570"/>
+  <text class="pill" x="975" y="1258" text-anchor="middle" fill="#7C8BA3">CCNA</text>
+
+  <rect x="1020" y="1242" width="132" height="24" rx="12" fill="none" stroke="#2C4570"/>
+  <text class="pill" x="1086" y="1258" text-anchor="middle" fill="#7C8BA3">AZ-104 / AWS</text>
+</g>
+</svg>
