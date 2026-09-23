@@ -1,0 +1,110 @@
+<svg width="1200" height="470" viewBox="0 0 1200 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four case files: Bluetooth dropouts, TLS errors, anti-cheat 60099, desktop shell crashes — each with the misdirections that were ruled out and the actual cause">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1628"/><stop offset="100%" stop-color="#060A16"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141F36"/><stop offset="100%" stop-color="#0D1526"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E6CC55" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#E6CC55" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .m  { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .no { font-size: 10.5px; letter-spacing: 2.5px; fill: #E6CC55; font-weight: 700; }
+    .sym{ font-size: 15px; fill: #EDE8DA; font-weight: 700; }
+    .sub{ font-size: 10.5px; fill: #6F7E97; }
+    .x  { font-size: 11.5px; fill: #5E6B82; }
+    .cz { font-size: 12.5px; fill: #E6CC55; font-weight: 700; }
+    .ev { font-size: 15px; fill: #EDE8DA; font-weight: 700; }
+    .evs{ font-size: 10px; fill: #6F7E97; }
+  </style>
+
+  <rect width="1200" height="470" rx="10" fill="url(#bg)"/>
+  <circle cx="1080" cy="40" r="170" fill="url(#glow)"/>
+
+  <text class="m no" x="34" y="40" font-size="13" letter-spacing="4">CASEFILES</text>
+  <text class="m sub" x="34" y="60">symptom · what it wasn't · what it actually was</text>
+  <text class="m sub" x="1166" y="40" text-anchor="end">04 closed · 01 written up</text>
+
+  <!-- ── CASE 001 ───────────────────────────────────────── -->
+  <g transform="translate(34,84)">
+    <rect width="562" height="178" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+    <rect width="3.5" height="178" rx="2" fill="#E6CC55"/>
+    <text class="m no" x="20" y="26">CASE 001</text>
+    <text class="m sym" x="20" y="50">Bluetooth audio dropping out</text>
+    <text class="m sub" x="20" y="68">one channel first, alternating — on two different headsets</text>
+
+    <line x1="20" y1="82" x2="542" y2="82" stroke="#1C2B4A"/>
+
+    <text class="m x" x="20" y="102">✕  faulty headphones</text>
+    <text class="m x" x="205" y="102">✕  wrong codec</text>
+    <text class="m x" x="360" y="102">✕  "just use 5 GHz"</text>
+
+    <text class="m cz" x="20" y="128">→  2.4 GHz band contention</text>
+    <text class="m sub" x="20" y="145">power saving amplifies it · the BT link must be renegotiated</text>
+
+    <text class="m ev" x="20" y="168">152.5 → 18.3</text>
+    <text class="m evs" x="142" y="168">failures/day, same network · 10 days at zero</text>
+  </g>
+
+  <!-- ── CASE 002 ───────────────────────────────────────── -->
+  <g transform="translate(604,84)">
+    <rect width="562" height="178" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+    <rect width="3.5" height="178" rx="2" fill="#2C4570"/>
+    <text class="m no" x="20" y="26" fill="#8795AB">CASE 002</text>
+    <text class="m sym" x="20" y="50">TLS certificate errors</text>
+    <text class="m sub" x="20" y="68">one service only · certificate chain intact</text>
+
+    <line x1="20" y1="82" x2="542" y2="82" stroke="#1C2B4A"/>
+
+    <text class="m x" x="20" y="102">✕  system clock</text>
+    <text class="m x" x="205" y="102">✕  CA bundle</text>
+    <text class="m x" x="360" y="102">✕  the certificate itself</text>
+
+    <text class="m cz" x="20" y="128">→  ISP-level DNS blocking</text>
+    <text class="m sub" x="20" y="145">the resolution path, never the crypto</text>
+
+    <text class="m evs" x="20" y="168">fixed per-connection, not system-wide</text>
+  </g>
+
+  <!-- ── CASE 003 ───────────────────────────────────────── -->
+  <g transform="translate(34,278)">
+    <rect width="562" height="158" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+    <rect width="3.5" height="158" rx="2" fill="#2C4570"/>
+    <text class="m no" x="20" y="26" fill="#8795AB">CASE 003</text>
+    <text class="m sym" x="20" y="50">Anti-cheat error 60099</text>
+    <text class="m sub" x="20" y="68">on an otherwise healthy install</text>
+
+    <line x1="20" y1="82" x2="542" y2="82" stroke="#1C2B4A"/>
+
+    <text class="m x" x="20" y="102">✕  reinstall the game</text>
+    <text class="m x" x="230" y="102">✕  reset the prefix</text>
+
+    <text class="m cz" x="20" y="128">→  tr_TR locale + a missing font</text>
+    <text class="m sub" x="20" y="145">documented so it survives the next prefix reset</text>
+  </g>
+
+  <!-- ── CASE 004 ───────────────────────────────────────── -->
+  <g transform="translate(604,278)">
+    <rect width="562" height="158" rx="7" fill="url(#card)" stroke="#1C2B4A"/>
+    <rect width="3.5" height="158" rx="2" fill="#2C4570"/>
+    <text class="m no" x="20" y="26" fill="#8795AB">CASE 004</text>
+    <text class="m sym" x="20" y="50">Desktop shell dying</text>
+    <text class="m sub" x="20" y="68">after every system upgrade, reliably</text>
+
+    <line x1="20" y1="82" x2="542" y2="82" stroke="#1C2B4A"/>
+
+    <text class="m x" x="20" y="102">✕  reinstall the package — monthly, forever</text>
+
+    <text class="m cz" x="20" y="128">→  Qt ABI break</text>
+    <text class="m sub" x="20" y="145">found the recurring trigger, not the monthly symptom</text>
+  </g>
+
+  <text class="m" x="600" y="458" text-anchor="middle" font-size="11" fill="#5C6B85">
+    the middle column is the point — most of the work is ruling things out
+  </text>
+</svg>

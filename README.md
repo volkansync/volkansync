@@ -15,73 +15,31 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a">
-  <img src="https://img.shields.io/badge/LinkedIn-1C2B4A?style=flat-square&logo=linkedin&logoColor=E6CC55" />
-</a>
-<a href="https://github.com/volkansync/field-notes">
-  <img src="https://img.shields.io/badge/casefiles-1C2B4A?style=flat-square&logo=github&logoColor=E6CC55" />
-</a>
-<a href="https://www.youtube.com/@volkansync">
-  <img src="https://img.shields.io/badge/YouTube-1C2B4A?style=flat-square&logo=youtube&logoColor=E6CC55" />
-</a>
+<a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a"><img src="https://img.shields.io/badge/LinkedIn-1C2B4A?style=flat-square&logo=linkedin&logoColor=E6CC55" /></a>
+<a href="https://github.com/volkansync/field-notes"><img src="https://img.shields.io/badge/casefiles-1C2B4A?style=flat-square&logo=github&logoColor=E6CC55" /></a>
+<a href="https://www.youtube.com/@volkansync"><img src="https://img.shields.io/badge/YouTube-1C2B4A?style=flat-square&logo=youtube&logoColor=E6CC55" /></a>
 <img src="https://komarev.com/ghpvc/?username=volkansync&style=flat-square&color=1C2B4A&labelColor=0E1628&label=observed" />
 
+<br/><br/>
+
+### I fix systems by finding out why they broke.
+
+<samp>No degree, no early start, no one to ask — just a machine that kept failing<br/>
+and a refusal to accept <i>"it works now"</i> as an explanation.</samp>
+
+<br/>
+
 </div>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
-
-I fix systems by finding out why they broke, not by reinstalling them.
-
-No computer science degree, no early start, no one to ask — what I had was a machine
-that kept failing and the refusal to accept *"it works now"* as an explanation. So the
-work below is mostly investigation: a symptom, the explanations it **wasn't**, a
-mechanism, a test that could have proved me wrong, and what the numbers actually said.
-
-Sometimes the numbers said I was wrong. Those are in here too — they're the useful part.
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg?v=2" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
+<br/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/casefiles.svg?v=1" width="100%"/>
 
 <div align="center">
-
-## `[ CASEFILES ]`
-
-<sub>real failures on real machines — <a href="https://github.com/volkansync/field-notes">full writeups</a></sub>
-
+<sub>full writeups, with the data and the measurement code → <a href="https://github.com/volkansync/field-notes"><b>field-notes</b></a></sub>
 </div>
-
-<table>
-<tr>
-<td width="30%" valign="top"><b>SYMPTOM</b></td>
-<td width="33%" valign="top"><b>THE MISDIRECTION</b></td>
-<td width="37%" valign="top"><b>WHAT IT ACTUALLY WAS</b></td>
-</tr>
-
-<tr>
-<td valign="top"><b>Bluetooth audio dropping out</b><br/><sub>one channel first, alternating, then both — on two different headsets</sub></td>
-<td valign="top">"Your headphones are faulty." "Change the codec." "Just move to 5&nbsp;GHz."<br/><sub>all three tested, all three wrong</sub></td>
-<td valign="top"><b>2.4&nbsp;GHz band contention</b>, amplified by Wi-Fi power saving.<br/><br/><code>152.5 → 18.3 failures/day</code> on the same network · <b>10 days at zero</b><br/><sub>and a second step no guide mentions: the Bluetooth link has to be renegotiated, or the fix appears not to work</sub></td>
-</tr>
-
-<tr>
-<td valign="top"><b>TLS certificate errors</b><br/><sub>on one specific service, certificate chain intact</sub></td>
-<td valign="top">"Your clock is wrong." "Reinstall the CA bundle."</td>
-<td valign="top"><b>ISP-level DNS blocking.</b> The certificate was never involved — the resolution path was. Fixed per-connection, not system-wide.</td>
-</tr>
-
-<tr>
-<td valign="top"><b>Anti-cheat error 60099</b><br/><sub>on an otherwise healthy install</sub></td>
-<td valign="top">"Reinstall the game." "Reset the prefix."<br/><sub>works once, breaks again</sub></td>
-<td valign="top"><b><code>tr_TR</code> locale + a missing Windows font.</b> An opaque vendor error code traced to a locale dependency — documented so it survives the next prefix reset.</td>
-</tr>
-
-<tr>
-<td valign="top"><b>Desktop shell dying</b><br/><sub>after every system upgrade, reliably</sub></td>
-<td valign="top">"Reinstall the package."<br/><sub>monthly, forever</sub></td>
-<td valign="top"><b>Qt ABI break.</b> The shell was compiled against the previous <code>qt6-base</code>. Found the recurring trigger instead of re-fixing the symptom each month.</td>
-</tr>
-</table>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
@@ -89,122 +47,78 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 
 ## `[ INSTRUMENTS ]`
 
-<sub>the hard part is rarely the fault — it's building a measurement that doesn't lie</sub>
+<samp>the fault is rarely the hard part — building a measurement that doesn't lie is</samp>
 
-</div>
+<br/>
 
 <table>
 <tr>
-<td width="34%" valign="top">
-
-**`bt-dropout-test.sh`**
-
-A 2×2 harness. Pins the Wi-Fi band by BSSID, toggles power saving, samples PipeWire
-xruns and signal strength per arm, and restores every setting on exit — including on
-`Ctrl+C`, so a half-finished run can't leave the network pinned.
-
-</td>
-<td width="33%" valign="top">
-
-**`analiz.py`** — *kept because it was wrong*
-
-Normalised failures per "Bluetooth-active hour." The denominator was driven by the
-same failures as the numerator, so it hid the very effect it was measuring. Left in
-the repo on purpose.
-
-</td>
-<td width="33%" valign="top">
-
-**`analiz3.py`** — *the one that held*
-
-Per-day, per-network, with usage detected from events that fire **independently of
-errors**. Only then could "no failures" be told apart from "not used."
-
-</td>
+<td align="center"><code><b>bt-dropout-test.sh</b></code></td>
+<td>2×2 harness · pins the Wi-Fi band, toggles power saving, samples xruns and signal per arm · restores everything on <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td align="center"><code><b>analiz.py</b></code><br/><sub><i>kept because it was wrong</i></sub></td>
+<td>normalised by "Bluetooth-active hours" — a denominator driven by the same failures as the numerator, so it hid the effect it was measuring</td>
+</tr>
+<tr>
+<td align="center"><code><b>analiz3.py</b></code><br/><sub><i>the one that held</i></sub></td>
+<td>per-day, per-network, usage detected from events that fire <b>independently of errors</b> — only then could "zero failures" be told from "not used"</td>
 </tr>
 </table>
 
+</div>
+
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
-
-## `[ THE FIELD ]`
 
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,nginx,postgres,git,python,rust&theme=dark&perline=8" />
 
-</div>
+<br/>
 
-<table>
-<tr><td width="33%" valign="top">
+<samp>Arch on Wayland, daily. Comfortable in the parts that break —<br/>
+<code>systemd</code>, NetworkManager, the audio and display stacks, ABI breakage after upgrades.<br/>
+Reverse proxies, TLS, DNS paths, containerised services with their own databases.</samp>
 
-**Linux & systems**
+<br/><br/>
 
-Arch on Wayland, daily driver. At home in the parts that break: `systemd` units,
-NetworkManager, the audio and display stacks, ABI breakage after upgrades.
+**`[ IN TRAINING ]`** &nbsp;·&nbsp; <sub>carried until earned — <code>queued</code> means queued, not modest</sub>
 
-</td><td width="33%" valign="top">
+<br/>
 
-**Networks & services**
+<img src="https://img.shields.io/badge/German%20→%20B1-in%20progress-E6CC55?style=flat-square&labelColor=1C2B4A" />
+<img src="https://img.shields.io/badge/RHCSA%20/%20LFCS-queued-5E6B82?style=flat-square&labelColor=0E1628" />
+<img src="https://img.shields.io/badge/CCNA-queued-5E6B82?style=flat-square&labelColor=0E1628" />
+<img src="https://img.shields.io/badge/AZ--104%20/%20AWS%20SAA-queued-5E6B82?style=flat-square&labelColor=0E1628" />
 
-Reverse proxies, TLS, DNS resolution paths, containerised services each with their
-own database, deployment via Coolify. Wrote a threaded TCP port scanner in Rust to
-learn the layer from packets rather than from a diagram.
+<br/><br/>
 
-</td><td width="33%" valign="top">
-
-**Direction**
-
-Cloud administration and security automation. The certifications below are the
-near-term proof — and none of them are finished yet.
-
-</td></tr>
-</table>
-
-<div align="center">
-
-### `[ IN TRAINING ]`
-
-<sub>carried until earned — <code>queued</code> means queued, not modest</sub>
-
-| | |
-|---|---|
-| **German → B1** | in progress · daily, no exceptions |
-| **RHCSA** / **LFCS** | queued — first up |
-| **CCNA** | queued |
-| **AZ-104** / **AWS SAA** | queued |
-
-</div>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
-
-<div align="center">
-
-## `[ CASE LOG ]`
-
-<sub>decisions that were expensive to make, kept even when they read badly later</sub>
-
-</div>
+<details>
+<summary><b><code>[ CASE LOG ]</code></b> &nbsp;<sub>decisions that were expensive, kept even when they read badly later</sub></summary>
+<br/>
 
 | | decision | why |
 |---|---|---|
 | `2026-09` | Closed the web agency; everything moved to one product | No revenue, and the fixed costs compounded monthly |
-| `2026-09` | Nothing new starts until the current product ships | A scan across 18 categories found a maintained free competitor in **every one** — shallow tools don't differentiate |
+| `2026-09` | Nothing new starts until the current product ships | A scan across 18 categories found a maintained free competitor in **every one** |
 | `2026-09` | Deterministic logic is the default; AI is an optional layer | When the API credit runs out, the product still has to work |
-| `2026-09` | One repo, one deployment, one database per product | A failure in one must not be able to take down another |
+| `2026-09` | One repo, one deployment, one database per product | A failure in one must not take down another |
 | `2026-07` | Wayfire over Hyprland · Quickshell over Astal | Plugin architecture over polish; animation ceiling over easy onboarding |
 | `2026-07` | C# scoped to coursework only | Deliberately outside the real track — passing is the entire goal |
+
+</details>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
-## `[ SIGNAL ]`
-
 <a href="https://github.com/volkansync">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&icon_color=E6CC55&text_color=EDE8DA&hide_border=false&count_private=true&include_all_commits=true" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&icon_color=E6CC55&text_color=EDE8DA&hide_border=false&count_private=true&include_all_commits=true" />
 </a>
 <a href="https://github.com/volkansync">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=compact&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&text_color=EDE8DA&hide_border=false" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=compact&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&text_color=EDE8DA&hide_border=false" />
 </a>
 
 <br/><br/>
@@ -213,26 +127,18 @@ near-term proof — and none of them are finished yet.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=0E1628&color=EDE8DA&line=E6CC55&point=EDE8DA&area=true&area_color=1C2B4A&hide_border=false&border_color=1C2B4A&title_color=E6CC55" width="98%" />
 </a>
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="" src="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake.svg" />
-</picture>
-
 </div>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
 <div align="center">
 
-```
-"When you have eliminated the impossible, whatever remains,
- however improbable, must be the truth."
+<samp><b>"When you have eliminated the impossible, whatever remains,<br/>
+however improbable, must be the truth."</b><br/><br/>
+<sub>— and then you measure it.</sub></samp>
 
-                                    — and then you measure it.
-```
+<br/><br/>
 
-<sub>this page changes when something underneath it does — not on a schedule</sub>
+<sub>this page changes when something underneath it does · not on a schedule</sub>
 
 </div>
