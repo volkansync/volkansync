@@ -130,32 +130,37 @@ errors**. Only then could "no failures" be told apart from "not used."
 
 ## `[ THE FIELD ]`
 
-<img src="https://skillicons.dev/icons?i=linux,bash,docker,nginx,postgres,git,python,rust&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=8" />
 
 </div>
 
 <table>
 <tr><td width="33%" valign="top">
 
-**Linux & systems**
+**Where I work now**
 
 Arch on Wayland, daily driver. At home in the parts that break: `systemd` units,
 NetworkManager, the audio and display stacks, ABI breakage after upgrades.
+Reverse proxies, TLS, DNS resolution paths, containerised services with their own
+databases.
 
 </td><td width="33%" valign="top">
 
-**Networks & services**
+**What it's turning into**
 
-Reverse proxies, TLS, DNS resolution paths, containerised services each with their
-own database, deployment via Coolify. Wrote a threaded TCP port scanner in Rust to
-learn the layer from packets rather than from a diagram.
+Security. Wrote a threaded TCP port scanner in Rust to learn the layer from packets
+rather than from a diagram — the same instinct as the casefiles above: find out what
+is actually happening, not what is supposed to.
 
 </td><td width="33%" valign="top">
 
-**Direction**
+**Where it's going**
 
-Cloud administration and security automation. The certifications below are the
-near-term proof — and none of them are finished yet.
+**AI security.** Everyone is shipping agents; very few people can break them. Prompt
+injection, tool-call abuse, retrieval poisoning, model leakage.
+
+<sub>Stated as a direction, not a claim — the evidence isn't here yet. When it is, it
+will be in `field-notes` like everything else.</sub>
 
 </td></tr>
 </table>
@@ -169,9 +174,10 @@ near-term proof — and none of them are finished yet.
 | | |
 |---|---|
 | **German → B1** | in progress · daily, no exceptions |
-| **RHCSA** / **LFCS** | queued — first up |
-| **CCNA** | queued |
-| **AZ-104** / **AWS SAA** | queued |
+| **Python, properly** | in progress · now the primary language |
+| **ML fundamentals** | in progress · embeddings, retrieval, evaluation — enough to break it, then enough to build it |
+| **RHCSA** / **LFCS** | queued — first certification up |
+| Rust | secondary · systems and tooling, not the main track |
 
 </div>
 
@@ -187,6 +193,9 @@ near-term proof — and none of them are finished yet.
 
 | | decision | why |
 |---|---|---|
+| `2026-09` | **Main track moved to AI security.** Cloud demoted from the goal to the substrate | The interesting gap is between security and ML, and it rewards demonstrated work over credentials |
+| `2026-09` | **Python over Rust as the primary language** | ML lives in Python. Rust stays for systems and tooling — they are different tracks, not competitors |
+| `2026-09` | Automated video pipeline paused after the TTS stage | Local Turkish TTS could not hold the `ı`/`i` distinction or carry tone. Shipping it would have meant shipping something I could hear was bad |
 | `2026-09` | Closed the web agency; everything moved to one product | No revenue, and the fixed costs compounded monthly |
 | `2026-09` | Nothing new starts until the current product ships | A scan across 18 categories found a maintained free competitor in **every one** — shallow tools don't differentiate |
 | `2026-09` | Deterministic logic is the default; AI is an optional layer | When the API credit runs out, the product still has to work |
