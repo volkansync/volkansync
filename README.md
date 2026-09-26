@@ -41,8 +41,6 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg?v=2" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
-
 <div align="center">
 
 ## `[ CASEFILES ]`
@@ -73,18 +71,11 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 
 </div>
 
-<table>
-<tr>
-<td width="34%" valign="top">
-
 **`bt-dropout-test.sh`**
 
 A 2×2 harness. Pins the Wi-Fi band by BSSID, toggles power saving, samples PipeWire
 xruns and signal strength per arm, and restores every setting on exit — including on
 `Ctrl+C`, so a half-finished run can't leave the network pinned.
-
-</td>
-<td width="33%" valign="top">
 
 **`analiz.py`** — *kept because it was wrong*
 
@@ -92,17 +83,10 @@ Normalised failures per "Bluetooth-active hour." The denominator was driven by t
 same failures as the numerator, so it hid the very effect it was measuring. Left in
 the repo on purpose.
 
-</td>
-<td width="33%" valign="top">
-
 **`analiz3.py`** — *the one that held*
 
 Per-day, per-network, with usage detected from events that fire **independently of
 errors**. Only then could "no failures" be told apart from "not used."
-
-</td>
-</tr>
-</table>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
 
@@ -114,36 +98,25 @@ errors**. Only then could "no failures" be told apart from "not used."
 
 </div>
 
-<table>
-<tr><td width="33%" valign="top">
-
-**Where I work now**
+**`▸ where I work now`**
 
 Arch on Wayland, daily driver. At home in the parts that break: `systemd` units,
-NetworkManager, the audio and display stacks, ABI breakage after upgrades.
-Reverse proxies, TLS, DNS resolution paths, containerised services with their own
-databases.
+NetworkManager, the audio and display stacks, ABI breakage after upgrades. Reverse
+proxies, TLS, DNS resolution paths, containerised services with their own databases.
 
-</td><td width="33%" valign="top">
-
-**What it's turning into**
+**`▸ what it's turning into`**
 
 Security. Wrote a threaded TCP port scanner in Rust to learn the layer from packets
 rather than from a diagram — the same instinct as the casefiles above: find out what
 is actually happening, not what is supposed to.
 
-</td><td width="33%" valign="top">
+**`▸ where it's going — AI security`**
 
-**Where it's going**
-
-**AI security.** Everyone is shipping agents; very few people can break them. Prompt
-injection, tool-call abuse, retrieval poisoning, model leakage.
+Everyone is shipping agents; very few people can break them. Prompt injection,
+tool-call abuse, retrieval poisoning, model leakage.
 
 <sub>Stated as a direction, not a claim — the evidence isn't here yet. When it is, it
 will be in `field-notes` like everything else.</sub>
-
-</td></tr>
-</table>
 
 <div align="center">
 
