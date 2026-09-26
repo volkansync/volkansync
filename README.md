@@ -4,8 +4,8 @@
 
 <h1>volkansync</h1>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=E6CC55&center=true&vCenter=true&width=680&lines=You+see%2C+but+you+do+not+observe.;Eliminate+the+impossible.+Measure+what+remains.;No+talent.+Preparation%2C+and+the+right+instrument.;Linux+%E2%86%92+networks+%E2%86%92+cloud+%E2%86%92+security." alt="" />
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=E6CC55&center=true&vCenter=true&width=680&lines=You+see%2C+but+you+do+not+observe.;Eliminate+the+impossible.+Measure+what+remains.;No+talent.+Preparation%2C+and+the+right+instrument.;Linux+%E2%86%92+networks+%E2%86%92+security+%E2%86%92+AI+security." alt="" />
 </a>
 
 <br/>
