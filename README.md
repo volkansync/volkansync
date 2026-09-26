@@ -63,12 +63,6 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 <td valign="top">"Your headphones are faulty." "Change the codec." "Just move to 5&nbsp;GHz."<br/><sub>all three tested, all three wrong</sub></td>
 <td valign="top"><b>2.4&nbsp;GHz band contention</b>, amplified by Wi-Fi power saving.<br/><br/><code>152.5 → 18.3 failures/day</code> on the same network · <b>10 days at zero</b><br/><sub>and a second step no guide mentions: the Bluetooth link has to be renegotiated, or the fix appears not to work</sub></td>
 </tr>
-
-<tr>
-<td valign="top"><b>Desktop shell dying</b><br/><sub>after every system upgrade, reliably</sub></td>
-<td valign="top">"Reinstall the package."<br/><sub>monthly, forever</sub></td>
-<td valign="top"><b>Qt ABI break.</b> The shell was compiled against the previous <code>qt6-base</code>. Found the recurring trigger instead of re-fixing the symptom each month.</td>
-</tr>
 </table>
 
 <div align="center">
