@@ -65,31 +65,17 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 </tr>
 
 <tr>
-<td valign="top"><b>TLS certificate errors</b><br/><sub>on one specific service, certificate chain intact</sub></td>
-<td valign="top">"Your clock is wrong." "Reinstall the CA bundle."</td>
-<td valign="top"><b>ISP-level DNS blocking.</b> The certificate was never involved — the resolution path was. Fixed per-connection, not system-wide.</td>
-</tr>
-
-<tr>
-<td valign="top"><b>Anti-cheat error 60099</b><br/><sub>on an otherwise healthy install</sub></td>
-<td valign="top">"Reinstall the game." "Reset the prefix."<br/><sub>works once, breaks again</sub></td>
-<td valign="top"><b><code>tr_TR</code> locale + a missing Windows font.</b> An opaque vendor error code traced to a locale dependency — documented so it survives the next prefix reset.</td>
-</tr>
-
-<tr>
 <td valign="top"><b>Desktop shell dying</b><br/><sub>after every system upgrade, reliably</sub></td>
 <td valign="top">"Reinstall the package."<br/><sub>monthly, forever</sub></td>
 <td valign="top"><b>Qt ABI break.</b> The shell was compiled against the previous <code>qt6-base</code>. Found the recurring trigger instead of re-fixing the symptom each month.</td>
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
-
 <div align="center">
 
-## `[ INSTRUMENTS ]`
+### `[ INSTRUMENTS ]`
 
-<sub>the hard part is rarely the fault — it's building a measurement that doesn't lie</sub>
+<sub>the tools behind the casefiles — the hard part is rarely the fault, it's building a measurement that doesn't lie</sub>
 
 </div>
 
@@ -217,12 +203,6 @@ will be in `field-notes` like everything else.</sub>
 </a>
 
 <br/><br/>
-
-<a href="https://github.com/volkansync">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=0E1628&color=EDE8DA&line=E6CC55&point=EDE8DA&area=true&area_color=1C2B4A&hide_border=false&border_color=1C2B4A&title_color=E6CC55" width="98%" />
-</a>
-
-<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg" />
