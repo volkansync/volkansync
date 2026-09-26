@@ -150,9 +150,6 @@ will be in `field-notes` like everything else.</sub>
 | `2026-09` | **Python over Rust as the primary language** | ML lives in Python. Rust stays for systems and tooling — they are different tracks, not competitors |
 | `2026-09` | Automated video pipeline paused after the TTS stage | Local Turkish TTS could not hold the `ı`/`i` distinction or carry tone. Shipping it would have meant shipping something I could hear was bad |
 | `2026-09` | Closed the web agency; everything moved to one product | No revenue, and the fixed costs compounded monthly |
-| `2026-09` | Nothing new starts until the current product ships | A scan across 18 categories found a maintained free competitor in **every one** — shallow tools don't differentiate |
-| `2026-09` | Deterministic logic is the default; AI is an optional layer | When the API credit runs out, the product still has to work |
-| `2026-09` | One repo, one deployment, one database per product | A failure in one must not be able to take down another |
 | `2026-07` | Wayfire over Hyprland · Quickshell over Astal | Plugin architecture over polish; animation ceiling over easy onboarding |
 | `2026-07` | C# scoped to coursework only | Deliberately outside the real track — passing is the entire goal |
 
