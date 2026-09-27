@@ -1,0 +1,48 @@
+<svg width="460" height="232" viewBox="0 0 460 232" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — systems, security, and what breaks in between. Eskişehir, TR.">
+  <defs>
+    <style>
+      :root{
+        --panel1:#152340; --panel2:#101B32; --edge:#2C3E63;
+        --title:#E6CC55; --sub:#94A3BE; --ink:#ECE6D8; --star:#FFF3CE; --glow:#E6CC55; --pill:#1B2A49;
+      }
+      @media (prefers-color-scheme: light){
+        :root{
+          --panel1:#FAF4E4; --panel2:#F2E9D2; --edge:#E0D2AC;
+          --title:#8A6A16; --sub:#7A6E52; --ink:#3A3016; --star:#B98E25; --glow:#C79A2E; --pill:#F0E6CD;
+        }
+      }
+      #p1{stop-color:var(--panel1)} #p2{stop-color:var(--panel2)}
+      #hA{stop-color:var(--glow)} #hB{stop-color:var(--glow)}
+      .panel{stroke:var(--edge)} .title{fill:var(--title)} .sub{fill:var(--sub)}
+      .ink{fill:var(--ink)} .star{fill:var(--star)} .orbit{stroke:var(--edge);fill:none}
+      .glow{fill:var(--glow)} .pillbg{fill:var(--pill);stroke:var(--edge)}
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop id="p1" offset="0%"/><stop id="p2" offset="100%"/></linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop id="hA" offset="0%" stop-opacity="0.85"/><stop id="hB" offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect x="1.5" y="1.5" width="457" height="229" rx="26" fill="url(#panel)" class="panel" stroke-width="1.4"/>
+
+  <!-- mini constellation, top-right -->
+  <g opacity="0.85" transform="translate(322,30)">
+    <path d="M 6 40 L 40 12 L 74 34 L 104 8" class="orbit" stroke-width="1" opacity="0.6"/>
+    <path d="M 40 12 L 52 58 L 104 8" class="orbit" stroke-width="1" opacity="0.5"/>
+    <circle cx="6"   cy="40" r="2.4" class="star"/>
+    <circle cx="40"  cy="12" r="3.2" class="glow" filter="url(#soft)"/><circle cx="40" cy="12" r="2.4" class="star"/>
+    <circle cx="74"  cy="34" r="2.2" class="star"/>
+    <circle cx="104" cy="8"  r="2.6" class="star"/>
+    <circle cx="52"  cy="58" r="2"   class="star"/>
+  </g>
+
+  <text x="34" y="70" font-size="30" font-weight="700" class="title" letter-spacing="1">volkansync</text>
+  <text x="34" y="100" font-size="12.5" class="ink">Volkan Çevik · Eskişehir, TR</text>
+
+  <line x1="34" y1="120" x2="426" y2="120" class="orbit" stroke-width="1" opacity="0.5"/>
+
+  <text x="34" y="150" font-size="12.5" class="sub">systems that break, and why —</text>
+  <text x="34" y="170" font-size="12.5" class="sub">networks, the stack, the edges;</text>
+  <text x="34" y="190" font-size="13" class="ink" font-weight="700">now aimed at security &amp; AI safety.</text>
+
+  <text x="34" y="214" font-size="10.5" class="sub" opacity="0.9">no degree · no early start · a machine that kept failing</text>
+</svg>
