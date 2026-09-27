@@ -1,9 +1,9 @@
-<svg width="1000" height="60" viewBox="0 0 1000 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Window: the field — where the work happens, and where it&#39;s pointed">
+<svg width="1000" height="74" viewBox="0 0 1000 74" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Window: the field — where the work happens, and where it&#39;s pointed">
 <defs><style>
-      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
-      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--onprim2:#D8BFC8;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--onprim2:#DCC6CE;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
       .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
-      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)} .onprim2{fill:var(--onprim2)}
       .ink{fill:var(--ink)} .sub{fill:var(--sub)}
       .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
       .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
@@ -11,10 +11,10 @@
       .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
       text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
     </style></defs>
-<rect x="0" y="2" width="1000" height="56" rx="22" class="surf"/>
-  <rect x="26" y="25" width="26" height="10" rx="5" class="teal"/>
-  <circle cx="66" cy="30" r="5" class="prim"/>
-  <circle cx="82" cy="30" r="5" class="surf3"/>
-  <text x="106" y="36" font-size="16" font-weight="800" class="ink">the field</text>
-  <text x="970" y="35" font-size="11" class="sub" text-anchor="end">where the work happens, and where it&#39;s pointed</text>
+<rect x="0" y="2" width="1000" height="70" rx="26" class="surf"/>
+  <rect x="30" y="31" width="32" height="12" rx="6" class="teal"/>
+  <circle cx="80" cy="37" r="6" class="prim"/>
+  <circle cx="100" cy="37" r="6" class="surf3"/>
+  <text x="128" y="45" font-size="23" font-weight="800" class="ink">the field</text>
+  <text x="966" y="43" font-size="16" class="sub" text-anchor="end">where the work happens, and where it&#39;s pointed</text>
 </svg>

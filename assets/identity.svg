@@ -1,9 +1,9 @@
-<svg width="444" height="292" viewBox="0 0 444 292" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — Volkan Çevik, Eskişehir TR. Systems that break and why; now aimed at security and AI safety. No degree, no early start, a machine that kept failing.">
+<svg width="222" height="196" viewBox="0 0 222 196" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — Volkan Çevik, Eskişehir TR. Systems that break and why; now aimed at security and AI safety. No degree, no early start, a machine that kept failing.">
 <defs><style>
-      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
-      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--onprim2:#D8BFC8;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--onprim2:#DCC6CE;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
       .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
-      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)} .onprim2{fill:var(--onprim2)}
       .ink{fill:var(--ink)} .sub{fill:var(--sub)}
       .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
       .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
@@ -11,18 +11,18 @@
       .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
       text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
     </style></defs>
-<rect x="0" y="0" width="444" height="292" rx="30" class="surf"/>
-  <g fill="none" stroke="var(--line)" stroke-width="3" stroke-linecap="round"><path d="M448 34 Q400 40 372 68"/><path d="M404 44 Q394 58 396 74" stroke-width="2.2"/></g>
-  <path transform="translate(382,62) rotate(-40) scale(1.2)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
-  <path transform="translate(398,78) rotate(70) scale(0.95)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
-  <path transform="translate(368,44) rotate(160) scale(0.8)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
-  <text x="34" y="66" font-size="30" font-weight="800" class="ink">volkansync</text>
-  <path transform="translate(214,56) scale(0.8)" class="rose" d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7 Z"/>
-  <text x="34" y="92" font-size="12.5" class="sub">Volkan Çevik · Eskişehir, TR</text>
-  <line x1="34" y1="116" x2="410" y2="116" stroke="var(--line)" stroke-width="1.4"/>
-  <text x="34" y="148" font-size="12.5" class="sub">systems that break, and why —</text>
-  <text x="34" y="168" font-size="12.5" class="sub">networks, the stack, the edges;</text>
-  <text x="34" y="190" font-size="13.5" font-weight="700" class="ink">now aimed at security &amp; AI safety.</text>
-  <rect x="34" y="216" width="376" height="42" rx="21" class="surf2"/>
-  <text x="222.0" y="242" font-size="11" class="sub" text-anchor="middle">no degree · no early start · a machine that kept failing</text>
+<rect x="0" y="0" width="222" height="196" rx="20" class="surf"/>
+  <g fill="none" stroke="var(--line)" stroke-width="2.4" stroke-linecap="round"><path d="M224 20 Q196 24 180 40"/><path d="M199 26 Q193 34 194 43" stroke-width="1.8"/></g>
+  <path transform="translate(186,37) rotate(-40) scale(0.95)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <path transform="translate(196,46) rotate(70) scale(0.75)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <text x="18" y="42" font-size="21" font-weight="800" class="ink">volkansync</text>
+  <path transform="translate(146,36) scale(0.62)" class="rose" d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7 Z"/>
+  <text x="18" y="60" font-size="10.5" class="sub">Volkan Çevik · Eskişehir, TR</text>
+  <line x1="18" y1="76" x2="204" y2="76" stroke="var(--line)" stroke-width="1.2"/>
+  <text x="18" y="97" font-size="10.5" class="sub">systems that break, and why —</text>
+  <text x="18" y="112" font-size="10.5" class="sub">networks, the stack, the edges;</text>
+  <text x="18" y="129" font-size="11" font-weight="700" class="ink">now aimed at security &amp; AI safety.</text>
+  <rect x="14" y="146" width="194" height="36" rx="18" class="surf2"/>
+  <text x="111.0" y="161" font-size="9" class="sub" text-anchor="middle">no degree · no early start</text>
+  <text x="111.0" y="174" font-size="9" class="sub" text-anchor="middle">a machine that kept failing</text>
 </svg>

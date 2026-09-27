@@ -1,9 +1,9 @@
-<svg width="444" height="208" viewBox="0 0 444 208" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quick tiles: networks; AI security (active); arch linux daily driver; measurement — numbers, not impressions.">
+<svg width="222" height="208" viewBox="0 0 222 208" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quick tiles: networks; AI security (active); arch linux daily driver; measurement — numbers, not impressions.">
 <defs><style>
-      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
-      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--onprim2:#D8BFC8;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--onprim2:#DCC6CE;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
       .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
-      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)} .onprim2{fill:var(--onprim2)}
       .ink{fill:var(--ink)} .sub{fill:var(--sub)}
       .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
       .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
@@ -11,8 +11,20 @@
       .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
       text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
     </style></defs>
-<rect x="0" y="0" width="214" height="96" rx="28" class="surf2"/><g transform="translate(20,20) scale(1.15)"><path d="M3 8.4c4-3.6 10-3.6 14 0" class="st" stroke="var(--tealink)" stroke-width="2"/><path d="M5.6 11.4c2.6-2.3 6.2-2.3 8.8 0" class="st" stroke="var(--tealink)" stroke-width="2"/><circle cx="10" cy="14.8" r="1.6" fill="var(--tealink)"/></g><text x="58" y="40" font-size="13.5" font-weight="700" class="ink">networks</text><text x="58" y="58" font-size="10" class="sub">the stack, the edges</text>
-  <rect x="230" y="0" width="214" height="96" rx="28" class="prim"/><g transform="translate(250,20) scale(1.15)"><path d="M10 2.2 16.5 4.8 V9.6 C16.5 14.2 13.6 16.6 10 18 C6.4 16.6 3.5 14.2 3.5 9.6 V4.8 Z" class="st" stroke="var(--onprim)" stroke-width="2"/><path d="M7.2 9.8l2 2 3.6-3.8" class="st" stroke="var(--onprim)" stroke-width="1.8"/></g><text x="288" y="40" font-size="13.5" font-weight="700" class="onprim">AI security</text><text x="288" y="58" font-size="10" class="onprim" opacity="0.75">current heading</text>
-  <rect x="0" y="112" width="214" height="96" rx="28" class="surf2"/><g transform="translate(20,132) scale(1.15)"><rect x="2" y="3.5" width="16" height="13" rx="3.5" class="st" stroke="var(--tealink)" stroke-width="2"/><path d="M6 8l3 2.5L6 13" class="st" stroke="var(--tealink)" stroke-width="2"/><line x1="11" y1="13" x2="14" y2="13" class="st" stroke="var(--tealink)" stroke-width="2"/></g><text x="58" y="152" font-size="13.5" font-weight="700" class="ink">arch linux</text><text x="58" y="170" font-size="10" class="sub">daily driver, wayland</text>
-  <rect x="230" y="112" width="214" height="96" rx="28" class="surf2"/><g transform="translate(250,132) scale(1.15)"><path d="M2 11h2.6l2-5.4 3 9 2.2-7 1.6 3.4H18" class="st" stroke="var(--tealink)" stroke-width="2"/></g><text x="288" y="152" font-size="13.5" font-weight="700" class="ink">measurement</text><text x="288" y="170" font-size="10" class="sub">numbers, not impressions</text>
+<rect x="0" y="0" width="222" height="46" rx="17" class="surf2"/>
+  <g transform="translate(14,13) scale(1.0)"><path d="M3 8.4c4-3.6 10-3.6 14 0" class="st" stroke="var(--tealink)" stroke-width="2"/><path d="M5.6 11.4c2.6-2.3 6.2-2.3 8.8 0" class="st" stroke="var(--tealink)" stroke-width="2"/><circle cx="10" cy="14.8" r="1.6" fill="var(--tealink)"/></g>
+  <text x="46" y="20" font-size="11.5" font-weight="700" class="ink">networks</text>
+  <text x="46" y="34" font-size="9.5" class="sub">the stack, the edges</text>
+  <rect x="0" y="54" width="222" height="46" rx="17" class="prim"/>
+  <g transform="translate(14,67) scale(1.0)"><path d="M10 2.2 16.5 4.8 V9.6 C16.5 14.2 13.6 16.6 10 18 C6.4 16.6 3.5 14.2 3.5 9.6 V4.8 Z" class="st" stroke="var(--onprim)" stroke-width="2"/><path d="M7.2 9.8l2 2 3.6-3.8" class="st" stroke="var(--onprim)" stroke-width="1.8"/></g>
+  <text x="46" y="74" font-size="11.5" font-weight="700" class="onprim">AI security</text>
+  <text x="46" y="88" font-size="9.5" class="onprim2">current heading</text>
+  <rect x="0" y="108" width="222" height="46" rx="17" class="surf2"/>
+  <g transform="translate(14,121) scale(1.0)"><rect x="2" y="3.5" width="16" height="13" rx="3.5" class="st" stroke="var(--tealink)" stroke-width="2"/><path d="M6 8l3 2.5L6 13" class="st" stroke="var(--tealink)" stroke-width="2"/><line x1="11" y1="13" x2="14" y2="13" class="st" stroke="var(--tealink)" stroke-width="2"/></g>
+  <text x="46" y="128" font-size="11.5" font-weight="700" class="ink">arch linux</text>
+  <text x="46" y="142" font-size="9.5" class="sub">daily driver, wayland</text>
+  <rect x="0" y="162" width="222" height="46" rx="17" class="surf2"/>
+  <g transform="translate(14,175) scale(1.0)"><path d="M2 11h2.6l2-5.4 3 9 2.2-7 1.6 3.4H18" class="st" stroke="var(--tealink)" stroke-width="2"/></g>
+  <text x="46" y="182" font-size="11.5" font-weight="700" class="ink">measurement</text>
+  <text x="46" y="196" font-size="9.5" class="sub">numbers, not impressions</text>
 </svg>
