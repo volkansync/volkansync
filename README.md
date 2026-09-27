@@ -39,7 +39,7 @@ mechanism, a test that could have proved me wrong, and what the numbers actually
 
 Sometimes the numbers said I was wrong. Those are in here too — they're the useful part.
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg?v=2" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg?v=3" width="100%"/>
 
 <div align="center">
 
@@ -160,15 +160,21 @@ will be in `field-notes` like everything else.</sub>
 ## `[ SIGNAL ]`
 
 <a href="https://github.com/volkansync">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&icon_color=E6CC55&text_color=EDE8DA&hide_border=false&count_private=true&include_all_commits=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&icon_color=E6CC55&text_color=EDE8DA&hide_border=false&count_private=true&include_all_commits=true" />
+    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=FBF7EC&border_color=D9CFA8&title_color=A9801A&icon_color=A9801A&text_color=1C2B4A&hide_border=false&count_private=true&include_all_commits=true" />
+  </picture>
 </a>
 <a href="https://github.com/volkansync">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=donut&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&text_color=EDE8DA&hide_border=false" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=donut&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&text_color=EDE8DA&hide_border=false" />
+    <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=donut&bg_color=FBF7EC&border_color=D9CFA8&title_color=A9801A&text_color=1C2B4A&hide_border=false" />
+  </picture>
 </a>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-navy-gold.svg" width="100%" alt="3D contribution skyline" />
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-navy-gold.svg?v=2" width="100%" alt="3D contribution skyline" />
 
 <br/>
 
