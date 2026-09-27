@@ -29,8 +29,8 @@ jobs:
           
           # Çıktı dosyaları (Hem açık hem koyu tema için)
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#6B585C&color_dots=#EADAD6,#E2C4D2,#D8A5BE,#CB82A7,#A34677
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#E5A3C0&color_dots=#322A2F,#4A3542,#6E4258,#A8577E,#E5A3C0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
