@@ -22,7 +22,7 @@ provenance.
 
 <table>
 <tr>
-<td width="26" valign="top">
+<td width="54" valign="top">
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar-top.svg?v=1" width="26" alt=""/>
 
