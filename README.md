@@ -24,7 +24,14 @@ provenance.
 <tr>
 <td width="26" valign="top">
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=4" width="26" alt=""/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar-top.svg?v=1" width="26" alt=""/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=1"/>
+  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=light&perline=1" width="26" alt="dock: linux, bash, python, docker, nginx, postgres, git, rust"/>
+</picture>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar-tail.svg?v=1" width="26" alt=""/>
 
 </td>
 <td valign="top">
@@ -89,15 +96,6 @@ people can break them. Prompt injection, tool-call abuse, retrieval poisoning,
 model leakage. <sub>Stated as a direction, not a claim — the evidence isn't
 here yet. When it is, it will be in <code>field-notes</code> like everything
 else.</sub>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=8"/>
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=light&perline=8" alt="linux, bash, python, docker, nginx, postgres, git, rust"/>
-</picture>
-
-</div>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-signal.svg?v=2" width="100%" alt="signal"/>
 

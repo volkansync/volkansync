@@ -1,0 +1,60 @@
+<svg width="52" height="3700" viewBox="0 0 52 3700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Status rail, lower segment: fading dot trail, full battery, power.">
+<defs><style>
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--onprim2:#D8BFC8;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--onprim2:#DCC6CE;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)} .onprim2{fill:var(--onprim2)}
+      .ink{fill:var(--ink)} .sub{fill:var(--sub)}
+      .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
+      .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
+      .coral{fill:var(--coral)} .coralink{fill:var(--coralink)}
+      .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style></defs>
+<rect x="3" y="3" width="46" height="3694" rx="23" class="surf"/>
+  <circle cx="26" cy="90" r="2.6" class="sub" opacity="0.55"/>
+  <circle cx="26" cy="178" r="2.6" class="sub" opacity="0.54"/>
+  <circle cx="26" cy="242" r="2.6" class="sub" opacity="0.53"/>
+  <circle cx="26" cy="338" r="2.6" class="sub" opacity="0.52"/>
+  <circle cx="26" cy="410" r="2.6" class="sub" opacity="0.51"/>
+  <circle cx="26" cy="520" r="2.6" class="sub" opacity="0.50"/>
+  <circle cx="26" cy="600" r="2.6" class="sub" opacity="0.49"/>
+  <circle cx="26" cy="688" r="2.6" class="sub" opacity="0.48"/>
+  <circle cx="26" cy="752" r="2.6" class="sub" opacity="0.47"/>
+  <circle cx="26" cy="848" r="2.6" class="sub" opacity="0.46"/>
+  <circle cx="26" cy="920" r="2.6" class="sub" opacity="0.46"/>
+  <circle cx="26" cy="1030" r="2.6" class="sub" opacity="0.45"/>
+  <circle cx="26" cy="1110" r="2.6" class="sub" opacity="0.44"/>
+  <circle cx="26" cy="1198" r="2.6" class="sub" opacity="0.43"/>
+  <circle cx="26" cy="1262" r="2.6" class="sub" opacity="0.42"/>
+  <circle cx="26" cy="1358" r="2.6" class="sub" opacity="0.41"/>
+  <circle cx="26" cy="1430" r="2.6" class="sub" opacity="0.40"/>
+  <circle cx="26" cy="1540" r="2.6" class="sub" opacity="0.39"/>
+  <circle cx="26" cy="1620" r="2.6" class="sub" opacity="0.38"/>
+  <circle cx="26" cy="1708" r="2.6" class="sub" opacity="0.37"/>
+  <circle cx="26" cy="1772" r="2.6" class="sub" opacity="0.36"/>
+  <circle cx="26" cy="1868" r="2.6" class="sub" opacity="0.35"/>
+  <circle cx="26" cy="1940" r="2.6" class="sub" opacity="0.34"/>
+  <circle cx="26" cy="2050" r="2.6" class="sub" opacity="0.33"/>
+  <circle cx="26" cy="2130" r="2.6" class="sub" opacity="0.32"/>
+  <circle cx="26" cy="2218" r="2.6" class="sub" opacity="0.31"/>
+  <circle cx="26" cy="2282" r="2.6" class="sub" opacity="0.30"/>
+  <circle cx="26" cy="2378" r="2.6" class="sub" opacity="0.29"/>
+  <circle cx="26" cy="2450" r="2.6" class="sub" opacity="0.29"/>
+  <circle cx="26" cy="2560" r="2.6" class="sub" opacity="0.28"/>
+  <circle cx="26" cy="2640" r="2.6" class="sub" opacity="0.27"/>
+  <circle cx="26" cy="2728" r="2.6" class="sub" opacity="0.26"/>
+  <circle cx="26" cy="2792" r="2.6" class="sub" opacity="0.25"/>
+  <circle cx="26" cy="2888" r="2.6" class="sub" opacity="0.24"/>
+  <circle cx="26" cy="2960" r="2.6" class="sub" opacity="0.23"/>
+  <circle cx="26" cy="3070" r="2.6" class="sub" opacity="0.22"/>
+  <circle cx="26" cy="3150" r="2.6" class="sub" opacity="0.21"/>
+  <path transform="translate(26,1000) scale(0.7)" class="rose" opacity="0.5" d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7 Z"/>
+  <path transform="translate(26,2200) scale(0.55)" class="rose" opacity="0.35" d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7 Z"/>
+  <path transform="translate(26,2900) scale(0.5)" class="rose" opacity="0.25" d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7 Z"/>
+  <rect x="17" y="3380" width="18" height="34" rx="9" class="rose"/>
+  <rect x="22" y="3374" width="8" height="5" rx="2.5" class="surf3"/>
+  <g transform="translate(15,3458) scale(1.1)"><path d="M6.2 5.4a6.3 6.3 0 1 0 7.6 0" class="st" stroke="var(--sub)" stroke-width="2"/><line x1="10" y1="2.6" x2="10" y2="8.6" class="st" stroke="var(--sub)" stroke-width="2"/></g>
+  <circle cx="26" cy="3554" r="2.4" class="sub" opacity="0.3"/>
+  <circle cx="26" cy="3604" r="2" class="sub" opacity="0.18"/>
+</svg>
