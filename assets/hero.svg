@@ -1,0 +1,65 @@
+<svg width="1000" height="250" viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — systems that break, and why. A pastel Fuji-and-sakura wallpaper with drifting petals and rotating one-line quotes.">
+<defs><style>
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;--sky1:#232031;--sky2:#3A2F3F;--cloud:#4A3C50;--fuji:#6E4E5C;--fujid:#5A3F4C;--snow:#CDBAC6;--sea1:#2F5C63;--sea2:#254A50;--branch:#503436;--pet:#B4718F;--moss1:#44543C;--moss2:#37452F;--hink:#ECDFE2;--hsub:#C9B4BB;--disc:#E9DFD3}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;--sky1:#BFE1EF;--sky2:#EBD9E7;--cloud:#F7E9F0;--fuji:#D98F9C;--fujid:#C57783;--snow:#FBF5F3;--sea1:#7FD0D2;--sea2:#5FB9BE;--branch:#8A5350;--pet:#EFA6C4;--moss1:#9DBA77;--moss2:#7FA25E;--hink:#453A3E;--hsub:#5E4C51;--disc:#F9EFDC}}
+      .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .ink{fill:var(--ink)} .sub{fill:var(--sub)}
+      .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
+      .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
+      .coral{fill:var(--coral)} .coralink{fill:var(--coralink)}
+      .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style></defs>
+
+  <clipPath id="wall"><rect width="1000" height="250" rx="28"/></clipPath>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" style="stop-color:var(--sky1)"/><stop offset="100%" style="stop-color:var(--sky2)"/>
+  </linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" style="stop-color:var(--sea1)"/><stop offset="100%" style="stop-color:var(--sea2)"/>
+  </linearGradient>
+  <g clip-path="url(#wall)">
+    <rect width="1000" height="250" fill="url(#sky)"/>
+    <circle cx="704" cy="66" r="30" fill="var(--disc)" opacity="0.9"/>
+    <g fill="var(--cloud)">
+      <ellipse cx="640" cy="94" rx="66" ry="13"/><ellipse cx="700" cy="82" rx="46" ry="11"/>
+      <ellipse cx="836" cy="60" rx="54" ry="11"/><ellipse cx="884" cy="72" rx="38" ry="9"/>
+    </g>
+    <path d="M580 190 L724 74 Q736 64 748 74 L892 190 Z" fill="var(--fuji)"/>
+    <path d="M736 190 L748 74 Q736 64 724 74 L700 122 Q736 148 736 190 Z" fill="var(--fujid)" opacity="0.55"/>
+    <path d="M700 94 L724 74 Q736 64 748 74 L772 94 Q760 106 748 98 Q736 110 724 98 Q712 108 700 94 Z" fill="var(--snow)"/>
+    <rect x="0" y="176" width="1000" height="74" fill="url(#sea)"/>
+    <g stroke="var(--snow)" stroke-width="1.6" opacity="0.35" stroke-linecap="round">
+      <line x1="560" y1="196" x2="660" y2="196"/><line x1="700" y1="210" x2="820" y2="210"/>
+      <line x1="380" y1="220" x2="470" y2="220"/><line x1="120" y1="206" x2="200" y2="206"/>
+    </g>
+    <path d="M-10 250 Q120 196 300 236 Q220 250 200 250 Z M-10 250 L-10 224 Q80 210 190 240 Q60 252 -10 250 Z" fill="var(--moss1)"/>
+    <path d="M-10 250 L-10 236 Q90 224 210 248 L120 250 Z" fill="var(--moss2)"/>
+    <path d="M980 250 Q930 210 1010 190 L1010 250 Z" fill="var(--moss1)"/>
+    <!-- sakura branch, top-left over the title -->
+    <g fill="none" stroke="var(--branch)" stroke-width="5" stroke-linecap="round">
+      <path d="M-8 22 Q120 8 218 44"/><path d="M120 16 Q160 -2 208 2" stroke-width="3.6"/>
+      <path d="M190 40 Q232 44 258 70" stroke-width="3.2"/>
+    </g>
+    <g class="pet" fill="var(--pet)">
+      <path transform="translate(96,24) rotate(-30) scale(1.5)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><path transform="translate(150,18) rotate(15) scale(1.9)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><path transform="translate(206,8) rotate(60) scale(1.5)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+      <path transform="translate(226,48) rotate(110) scale(1.8)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><path transform="translate(258,74) rotate(150) scale(1.4)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><path transform="translate(174,40) rotate(200) scale(1.2)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+    </g>
+    <g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-23 45;-46 90" keyTimes="0;0.55;1" dur="9.0s" begin="-0.0s" repeatCount="indefinite"/><path transform="translate(180,20) rotate(0) scale(0.85)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="9.0s" begin="-0.0s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-31 58;-62 116" keyTimes="0;0.55;1" dur="11.5s" begin="-1.7s" repeatCount="indefinite"/><path transform="translate(307,57) rotate(40) scale(1.1)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="11.5s" begin="-1.7s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-39 71;-78 142" keyTimes="0;0.55;1" dur="14.0s" begin="-3.4s" repeatCount="indefinite"/><path transform="translate(434,94) rotate(80) scale(1.35)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="14.0s" begin="-3.4s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-23 84;-46 168" keyTimes="0;0.55;1" dur="16.5s" begin="-5.1s" repeatCount="indefinite"/><path transform="translate(495,41) rotate(120) scale(0.85)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="16.5s" begin="-5.1s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-31 45;-62 90" keyTimes="0;0.55;1" dur="9.0s" begin="-6.8s" repeatCount="indefinite"/><path transform="translate(622,78) rotate(160) scale(1.1)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="9.0s" begin="-6.8s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-39 58;-78 116" keyTimes="0;0.55;1" dur="11.5s" begin="-8.5s" repeatCount="indefinite"/><path transform="translate(749,25) rotate(200) scale(1.35)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="11.5s" begin="-8.5s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-23 71;-46 142" keyTimes="0;0.55;1" dur="14.0s" begin="-10.2s" repeatCount="indefinite"/><path transform="translate(810,62) rotate(240) scale(0.85)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="14.0s" begin="-10.2s" repeatCount="indefinite"/></g><g fill="var(--pet)" opacity="0.85"><animateTransform attributeName="transform" type="translate" values="0 0;-31 84;-62 168" keyTimes="0;0.55;1" dur="16.5s" begin="-11.9s" repeatCount="indefinite"/><path transform="translate(937,99) rotate(280) scale(1.1)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.75;1" dur="16.5s" begin="-11.9s" repeatCount="indefinite"/></g>
+    <!-- identity -->
+    <text x="50" y="112" font-size="42" font-weight="800" letter-spacing="0.5" fill="var(--hink)">volkansync</text>
+    <text x="52" y="134" font-size="13" fill="var(--hsub)">systems that break, and why — now aimed at security &amp; AI safety</text>
+    <text x="52" y="158" font-size="15" class="hsub" opacity="0">You see, but you do not observe.<animate attributeName="opacity" dur="20s" begin="0s" repeatCount="indefinite" keyTimes="0;0.000;0.030;0.220;0.250;1" values="0;0;1;1;0;0"/></text><text x="52" y="158" font-size="15" class="hsub" opacity="0">Eliminate the impossible. Measure what remains.<animate attributeName="opacity" dur="20s" begin="0s" repeatCount="indefinite" keyTimes="0;0.250;0.280;0.470;0.500;1" values="0;0;1;1;0;0"/></text><text x="52" y="158" font-size="15" class="hsub" opacity="0">No talent. Preparation, and the right instrument.<animate attributeName="opacity" dur="20s" begin="0s" repeatCount="indefinite" keyTimes="0;0.500;0.530;0.720;0.750;1" values="0;0;1;1;0;0"/></text><text x="52" y="158" font-size="15" class="hsub" opacity="0">Linux → networks → security → AI security.<animate attributeName="opacity" dur="20s" begin="0s" repeatCount="indefinite" keyTimes="0;0.750;0.780;0.970;1.000;1" values="0;0;1;1;0;0"/></text>
+    <!-- location blob, bottom-right of scene -->
+    <g>
+      <rect x="806" y="132" width="168" height="70" rx="35" fill="var(--cloud)" opacity="0.92"/>
+      <g fill="none" stroke="var(--branch)" stroke-width="2.4" stroke-linecap="round">
+        <path d="M826 178 Q838 158 858 152"/><path d="M840 166 Q848 160 856 160" stroke-width="1.8"/>
+      </g>
+      <g fill="var(--pet)"><path transform="translate(858,154) rotate(-20) scale(0.9)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/><path transform="translate(848,166) rotate(90) scale(0.7)" class="pet" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/></g>
+      <text x="874" y="164" font-size="13.5" font-weight="700" fill="var(--hink)">Eskişehir, TR</text>
+      <text x="874" y="181" font-size="10" fill="var(--hsub)">GMT+3 · arch linux</text>
+    </g>
+  </g>
+</svg>

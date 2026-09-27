@@ -1,48 +1,28 @@
-<svg width="460" height="232" viewBox="0 0 460 232" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — systems, security, and what breaks in between. Eskişehir, TR.">
-  <defs>
-    <style>
-      :root{
-        --panel1:#152340; --panel2:#101B32; --edge:#2C3E63;
-        --title:#E6CC55; --sub:#94A3BE; --ink:#ECE6D8; --star:#FFF3CE; --glow:#E6CC55; --pill:#1B2A49;
-      }
-      @media (prefers-color-scheme: light){
-        :root{
-          --panel1:#FAF4E4; --panel2:#F2E9D2; --edge:#E0D2AC;
-          --title:#8A6A16; --sub:#7A6E52; --ink:#3A3016; --star:#B98E25; --glow:#C79A2E; --pill:#F0E6CD;
-        }
-      }
-      #p1{stop-color:var(--panel1)} #p2{stop-color:var(--panel2)}
-      #hA{stop-color:var(--glow)} #hB{stop-color:var(--glow)}
-      .panel{stroke:var(--edge)} .title{fill:var(--title)} .sub{fill:var(--sub)}
-      .ink{fill:var(--ink)} .star{fill:var(--star)} .orbit{stroke:var(--edge);fill:none}
-      .glow{fill:var(--glow)} .pillbg{fill:var(--pill);stroke:var(--edge)}
-      text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
-    </style>
-    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop id="p1" offset="0%"/><stop id="p2" offset="100%"/></linearGradient>
-    <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop id="hA" offset="0%" stop-opacity="0.85"/><stop id="hB" offset="100%" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/></filter>
-  </defs>
-  <rect x="1.5" y="1.5" width="457" height="229" rx="26" fill="url(#panel)" class="panel" stroke-width="1.4"/>
-
-  <!-- mini constellation, top-right -->
-  <g opacity="0.85" transform="translate(322,30)">
-    <path d="M 6 40 L 40 12 L 74 34 L 104 8" class="orbit" stroke-width="1" opacity="0.6"/>
-    <path d="M 40 12 L 52 58 L 104 8" class="orbit" stroke-width="1" opacity="0.5"/>
-    <circle cx="6"   cy="40" r="2.4" class="star"/>
-    <circle cx="40"  cy="12" r="3.2" class="glow" filter="url(#soft)"/><circle cx="40" cy="12" r="2.4" class="star"/>
-    <circle cx="74"  cy="34" r="2.2" class="star"/>
-    <circle cx="104" cy="8"  r="2.6" class="star"/>
-    <circle cx="52"  cy="58" r="2"   class="star"/>
-  </g>
-
-  <text x="34" y="70" font-size="30" font-weight="700" class="title" letter-spacing="1">volkansync</text>
-  <text x="34" y="100" font-size="12.5" class="ink">Volkan Çevik · Eskişehir, TR</text>
-
-  <line x1="34" y1="120" x2="426" y2="120" class="orbit" stroke-width="1" opacity="0.5"/>
-
-  <text x="34" y="150" font-size="12.5" class="sub">systems that break, and why —</text>
-  <text x="34" y="170" font-size="12.5" class="sub">networks, the stack, the edges;</text>
-  <text x="34" y="190" font-size="13" class="ink" font-weight="700">now aimed at security &amp; AI safety.</text>
-
-  <text x="34" y="214" font-size="10.5" class="sub" opacity="0.9">no degree · no early start · a machine that kept failing</text>
+<svg width="444" height="292" viewBox="0 0 444 292" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="volkansync — Volkan Çevik, Eskişehir TR. Systems that break and why; now aimed at security and AI safety. No degree, no early start, a machine that kept failing.">
+<defs><style>
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .ink{fill:var(--ink)} .sub{fill:var(--sub)}
+      .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
+      .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
+      .coral{fill:var(--coral)} .coralink{fill:var(--coralink)}
+      .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style></defs>
+<rect x="0" y="0" width="444" height="292" rx="30" class="surf"/>
+  <g fill="none" stroke="var(--line)" stroke-width="3" stroke-linecap="round"><path d="M448 34 Q400 40 372 68"/><path d="M404 44 Q394 58 396 74" stroke-width="2.2"/></g>
+  <path transform="translate(382,62) rotate(-40) scale(1.2)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <path transform="translate(398,78) rotate(70) scale(0.95)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <path transform="translate(368,44) rotate(160) scale(0.8)" class="rose" opacity="1" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <text x="34" y="66" font-size="30" font-weight="800" class="ink">volkansync</text>
+  <path transform="translate(214,56) scale(0.8)" class="rose" d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7 Z"/>
+  <text x="34" y="92" font-size="12.5" class="sub">Volkan Çevik · Eskişehir, TR</text>
+  <line x1="34" y1="116" x2="410" y2="116" stroke="var(--line)" stroke-width="1.4"/>
+  <text x="34" y="148" font-size="12.5" class="sub">systems that break, and why —</text>
+  <text x="34" y="168" font-size="12.5" class="sub">networks, the stack, the edges;</text>
+  <text x="34" y="190" font-size="13.5" font-weight="700" class="ink">now aimed at security &amp; AI safety.</text>
+  <rect x="34" y="216" width="376" height="42" rx="21" class="surf2"/>
+  <text x="222.0" y="242" font-size="11" class="sub" text-anchor="middle">no degree · no early start · a machine that kept failing</text>
 </svg>

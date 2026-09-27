@@ -2,17 +2,17 @@
   <defs>
     <style>
       :root{
-        --bg1:#0B1D35; --bg2:#050C1A; --glass:#12294A;
-        --fiber:#2E547E; --dend:#3E6E9E; --soma:#8FD0FF; --somaCore:#EAF6FF; --halo:#4C9BE0;
-        --spark:#EAF6FF; --sparkGlow:#7CC4FF; --ink:#DCE8F2; --title:#8FD0FF; --sub:#7F95AC; --rule:#26466E;
-        --fire:#FF5A3C; --fireGlow:#FF7A4A;
+        --bg1:#332A2F; --bg2:#221C20; --glass:#453740;
+        --fiber:#5C4A52; --dend:#70595F; --soma:#E5A3C0; --somaCore:#F8ECF1; --halo:#C87FA0;
+        --spark:#F8ECF1; --sparkGlow:#E5A3C0; --ink:#ECDFE2; --title:#E5A3C0; --sub:#AE99A0; --rule:#4A3C42;
+        --fire:#EE9478; --fireGlow:#F4B09A;
       }
       @media (prefers-color-scheme: light){
         :root{
-          --bg1:#EAF4FC; --bg2:#D6E6F5; --glass:#F7FCFF;
-          --fiber:#B4D0E8; --dend:#8FB6DA; --soma:#2E7DB8; --somaCore:#0E4F86; --halo:#9CC7EA;
-          --spark:#0E5AA0; --sparkGlow:#2E86D0; --ink:#1E3A52; --title:#155F9E; --sub:#5B738A; --rule:#CBDCEC;
-          --fire:#E23B1E; --fireGlow:#F0613F;
+          --bg1:#F5EBE8; --bg2:#EBD9D4; --glass:#FBF4F2;
+          --fiber:#D6B9BC; --dend:#C39CA8; --soma:#C25E8D; --somaCore:#7C2E56; --halo:#DFA9C2;
+          --spark:#A34677; --sparkGlow:#C97BA2; --ink:#453A3E; --title:#A34677; --sub:#715B60; --rule:#DECAC6;
+          --fire:#D95F3B; --fireGlow:#E2794F;
         }
       }
       #bg1{stop-color:var(--bg1)} #bg2{stop-color:var(--bg2)} #glA{stop-color:var(--glass)}
@@ -38,8 +38,8 @@
     <filter id="bloom" x="-160%" y="-160%" width="420%" height="420%"><feGaussianBlur stdDeviation="6"/></filter>
   </defs>
 
-  <rect width="1000" height="320" fill="url(#bg)"/>
-  <rect width="1000" height="320" fill="url(#glass)"/>
+  <clipPath id="card"><rect width="1000" height="320" rx="28"/></clipPath><g clip-path="url(#card)"><rect width="1000" height="320" fill="url(#bg)"/>
+  <rect width="1000" height="320" fill="url(#glass)"/></g>
   <line x1="470" y1="46" x2="470" y2="288" class="rule" stroke-width="1" opacity="0.4" stroke-dasharray="2 8"/>
 
   <text x="46" y="42" font-size="14" letter-spacing="4" class="title" font-weight="700">THE METHOD</text>

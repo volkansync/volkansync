@@ -1,0 +1,22 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quote: when you have eliminated the impossible, whatever remains must be the truth — and then you measure it.">
+<defs><style>
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .ink{fill:var(--ink)} .sub{fill:var(--sub)}
+      .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
+      .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
+      .coral{fill:var(--coral)} .coralink{fill:var(--coralink)}
+      .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style></defs>
+<rect width="1000" height="150" rx="28" class="surf"/>
+  <path transform="translate(120,52) rotate(-30) scale(1.6)" class="rose" opacity="0.8" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <path transform="translate(150,84) rotate(80) scale(1.2)" class="rose" opacity="0.55" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <path transform="translate(872,60) rotate(30) scale(1.5)" class="rose" opacity="0.8" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <path transform="translate(902,96) rotate(140) scale(1.1)" class="rose" opacity="0.5" d="M0 0 C3.2 -1.6 4.8 -5.4 2.8 -8.6 C-0.4 -7.6 -2.2 -3.6 0 0 Z"/>
+  <text x="500.0" y="58" font-size="14.5" class="ink" text-anchor="middle" font-style="italic">&#8220;When you have eliminated the impossible, whatever remains, however improbable, must be the truth.&#8221;</text>
+  <text x="500.0" y="84" font-size="13" font-weight="700" class="roseink" text-anchor="middle">— and then you measure it.</text>
+  <text x="500.0" y="118" font-size="10.5" class="sub" text-anchor="middle">this page changes when something underneath it does — not on a schedule</text>
+</svg>

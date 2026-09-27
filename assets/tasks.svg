@@ -1,0 +1,40 @@
+<svg width="444" height="324" viewBox="0 0 444 324" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="In training: German to B1, Python as primary language, ML fundamentals, RHCSA/LFCS queued, Rust secondary.">
+<defs><style>
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)}
+      .ink{fill:var(--ink)} .sub{fill:var(--sub)}
+      .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
+      .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
+      .coral{fill:var(--coral)} .coralink{fill:var(--coralink)}
+      .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style></defs>
+<rect width="444" height="324" rx="30" class="surf"/>
+  <text x="34" y="44" font-size="15" font-weight="800" class="ink">in training</text>
+  <text x="34" y="64" font-size="10.5" class="sub">carried until earned — queued means queued, not modest</text>
+  <circle cx="44" cy="105" r="7" fill="none" stroke="var(--line)" stroke-width="2.6"/>
+  <path d="M44 98 A7 7 0 0 1 51 105" fill="none" stroke="var(--roseink)" stroke-width="2.6" stroke-linecap="round"/>
+  <text x="64" y="106" font-size="12.5" font-weight="700" class="ink">German → B1</text>
+  <text x="64" y="121" font-size="9.5" class="sub">daily, no exceptions</text>
+  <rect x="340.6" y="95" width="69.4" height="19" rx="9.5" class="surf3"/><text x="375.3" y="107.6" font-size="8.5" class="sub mono" text-anchor="middle" letter-spacing="0.5">in progress</text>
+  <circle cx="44" cy="147" r="7" fill="none" stroke="var(--line)" stroke-width="2.6"/>
+  <path d="M44 140 A7 7 0 0 1 51 147" fill="none" stroke="var(--roseink)" stroke-width="2.6" stroke-linecap="round"/>
+  <text x="64" y="148" font-size="12.5" font-weight="700" class="ink">Python, properly</text>
+  <text x="64" y="163" font-size="9.5" class="sub">now the primary language</text>
+  <rect x="340.6" y="137" width="69.4" height="19" rx="9.5" class="surf3"/><text x="375.3" y="149.6" font-size="8.5" class="sub mono" text-anchor="middle" letter-spacing="0.5">in progress</text>
+  <circle cx="44" cy="189" r="7" fill="none" stroke="var(--line)" stroke-width="2.6"/>
+  <path d="M44 182 A7 7 0 0 1 51 189" fill="none" stroke="var(--roseink)" stroke-width="2.6" stroke-linecap="round"/>
+  <text x="64" y="190" font-size="12.5" font-weight="700" class="ink">ML fundamentals</text>
+  <text x="64" y="205" font-size="9.5" class="sub">enough to break it, then to build it</text>
+  <rect x="340.6" y="179" width="69.4" height="19" rx="9.5" class="surf3"/><text x="375.3" y="191.6" font-size="8.5" class="sub mono" text-anchor="middle" letter-spacing="0.5">in progress</text>
+  <circle cx="44" cy="231" r="7" fill="none" stroke="var(--sub)" stroke-width="2.2" stroke-dasharray="2.5 3.5"/>
+  <text x="64" y="232" font-size="12.5" font-weight="700" class="ink">RHCSA / LFCS</text>
+  <text x="64" y="247" font-size="9.5" class="sub">first certification up</text>
+  <rect x="367.6" y="221" width="42.400000000000006" height="19" rx="9.5" class="surf3"/><text x="388.8" y="233.6" font-size="8.5" class="sub mono" text-anchor="middle" letter-spacing="0.5">queued</text>
+  <circle cx="44" cy="273" r="4" class="surf3"/>
+  <text x="64" y="274" font-size="12.5" font-weight="700" class="ink">Rust</text>
+  <text x="64" y="289" font-size="9.5" class="sub">systems &amp; tooling, not the main track</text>
+  <rect x="351.4" y="263" width="58.6" height="19" rx="9.5" class="surf3"/><text x="380.7" y="275.6" font-size="8.5" class="sub mono" text-anchor="middle" letter-spacing="0.5">secondary</text>
+</svg>
