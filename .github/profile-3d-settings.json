@@ -1,11 +1,19 @@
 {
   "type": "normal",
   "fileName": "profile-navy-gold.svg",
-  "backgroundColor": "#0E1628",
-  "foregroundColor": "#EDE8DA",
-  "strongColor": "#E6CC55",
-  "weakColor": "#8795AB",
-  "radarColor": "#E6CC55",
+  "backgroundColor": "#FBF7EC",
+  "foregroundColor": "#1C2B4A",
+  "strongColor": "#A9801A",
+  "weakColor": "#6B7280",
+  "radarColor": "#A9801A",
   "growingAnimation": true,
-  "contribColors": ["#1C2B4A", "#3A4F7A", "#8A7A3A", "#C4A93F", "#E6CC55"]
+  "contribColors": ["#E5DEC9", "#D3B978", "#C79A2E", "#A9801A", "#7A5A0C"],
+  "darkMode": {
+    "backgroundColor": "#0E1628",
+    "foregroundColor": "#EDE8DA",
+    "strongColor": "#E6CC55",
+    "weakColor": "#8795AB",
+    "radarColor": "#E6CC55",
+    "contribColors": ["#1C2B4A", "#3A4F7A", "#8A7A3A", "#C4A93F", "#E6CC55"]
+  }
 }
