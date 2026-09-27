@@ -18,7 +18,7 @@ finish review, the verdict, DESIGN.md, and every shipping raster carrying its
 provenance.
 -->
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.svg?v=3" width="100%" alt="volkansync — systems that break, and why"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.svg?v=4" width="100%" alt="volkansync — systems that break, and why"/>
 
 <table>
 <tr>
