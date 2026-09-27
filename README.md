@@ -2,18 +2,19 @@
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.gif?v=3" width="100%"/>
 
-<h1>volkansync</h1>
-
 <a href="https://readme-typing-svg.demolab.com">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=E6CC55&center=true&vCenter=true&width=680&lines=You+see%2C+but+you+do+not+observe.;Eliminate+the+impossible.+Measure+what+remains.;No+talent.+Preparation%2C+and+the+right+instrument.;Linux+%E2%86%92+networks+%E2%86%92+security+%E2%86%92+AI+security." alt="" />
 </a>
 
+</div>
+
 <br/>
 
-<img src="https://img.shields.io/badge/systems%20%26%20infrastructure-0E1628?style=for-the-badge&labelColor=E6CC55&color=0E1628" />
-<img src="https://img.shields.io/badge/Eskişehir,%20TR-0E1628?style=for-the-badge&labelColor=1C2B4A&color=0E1628" />
+<table>
+<tr>
+<td width="43%" valign="top">
 
-<br/><br/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/identity.svg?v=1" width="100%"/>
 
 <a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a">
   <img src="https://img.shields.io/badge/LinkedIn-1C2B4A?style=flat-square&logo=linkedin&logoColor=E6CC55" />
@@ -26,9 +27,8 @@
 </a>
 <img src="https://komarev.com/ghpvc/?username=volkansync&style=flat-square&color=1C2B4A&labelColor=0E1628&label=observed" />
 
-</div>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
+</td>
+<td width="57%" valign="top">
 
 I fix systems by finding out why they broke, not by reinstalling them.
 
@@ -39,15 +39,15 @@ mechanism, a test that could have proved me wrong, and what the numbers actually
 
 Sometimes the numbers said I was wrong. Those are in here too — they're the useful part.
 
+</td>
+</tr>
+</table>
+
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method-orrery.svg?v=1" width="100%"/>
 
-<div align="center">
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-casefiles.svg?v=1" width="100%"/>
 
-## `[ CASEFILES ]`
-
-<sub>real failures on real machines — <a href="https://github.com/volkansync/field-notes">full writeups</a></sub>
-
-</div>
+<div align="center"><sub><a href="https://github.com/volkansync/field-notes">full writeups →</a></sub></div>
 
 <table>
 <tr>
@@ -63,13 +63,7 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 </tr>
 </table>
 
-<div align="center">
-
-### `[ INSTRUMENTS ]`
-
-<sub>the tools behind the casefiles — the hard part is rarely the fault, it's building a measurement that doesn't lie</sub>
-
-</div>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-instruments.svg?v=1" width="100%"/>
 
 **`bt-dropout-test.sh`**
 
@@ -88,14 +82,10 @@ the repo on purpose.
 Per-day, per-network, with usage detected from events that fire **independently of
 errors**. Only then could "no failures" be told apart from "not used."
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-field.svg?v=1" width="100%"/>
 
 <div align="center">
-
-## `[ THE FIELD ]`
-
 <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=8" />
-
 </div>
 
 **`▸ where I work now`**
@@ -118,11 +108,9 @@ tool-call abuse, retrieval poisoning, model leakage.
 <sub>Stated as a direction, not a claim — the evidence isn't here yet. When it is, it
 will be in `field-notes` like everything else.</sub>
 
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-training.svg?v=1" width="100%"/>
+
 <div align="center">
-
-### `[ IN TRAINING ]`
-
-<sub>carried until earned — <code>queued</code> means queued, not modest</sub>
 
 | | |
 |---|---|
@@ -134,15 +122,7 @@ will be in `field-notes` like everything else.</sub>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
-
-<div align="center">
-
-## `[ CASE LOG ]`
-
-<sub>decisions that were expensive to make, kept even when they read badly later</sub>
-
-</div>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-caselog.svg?v=1" width="100%"/>
 
 | | decision | why |
 |---|---|---|
@@ -153,11 +133,9 @@ will be in `field-notes` like everything else.</sub>
 | `2026-07` | Wayfire over Hyprland · Quickshell over Astal | Plugin architecture over polish; animation ceiling over easy onboarding |
 | `2026-07` | C# scoped to coursework only | Deliberately outside the real track — passing is the entire goal |
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-signal.svg?v=1" width="100%"/>
 
 <div align="center">
-
-## `[ SIGNAL ]`
 
 <a href="https://github.com/volkansync">
   <picture>
@@ -185,7 +163,7 @@ will be in `field-notes` like everything else.</sub>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/divider.svg?v=2" width="100%"/>
+<br/>
 
 <div align="center">
 
