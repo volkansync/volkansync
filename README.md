@@ -24,7 +24,7 @@ provenance.
 <tr>
 <td width="26" valign="top">
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=2" width="26" alt=""/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=3" width="26" alt=""/>
 
 </td>
 <td valign="top">
@@ -99,16 +99,50 @@ else.</sub>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-theatre.svg?v=1" width="100%" alt="intermission"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-theatre.svg?v=2" width="100%" alt="intermission"/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-night.gif?v=1"/>
-  <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-day.gif?v=1" width="100%" alt="a caped silhouette before a huge sakura moon — the old hero, recolored for this desktop"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-night.gif?v=2"/>
+  <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-day.gif?v=2" width="100%" alt="a caped silhouette before a huge moon — the old hero, kept in its own colors"/>
 </picture>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-signal.svg?v=2" width="100%" alt="signal"/>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=262024&color=AE99A0&line=E5A3C0&point=ECDFE2&area=true&area_color=322A2F&hide_border=false&border_color=443A40&title_color=E5A3C0"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=F5EBE8&color=715B60&line=A34677&point=453A3E&area=true&area_color=EADAD6&hide_border=false&border_color=DCC8C4&title_color=A34677" width="100%" alt="contribution activity"/>
+</picture>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-sakura.svg" width="100%" alt="3D contribution city — commit towers, growth line top-right, language pie bottom-left"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake.svg" width="100%" alt=""/>
+</picture>
+
+</td>
+<td width="240" valign="top">
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/panel-head.svg?v=2" width="100%" alt="uptime: still failing forward"/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/identity.svg?v=2" width="100%" alt="Volkan Çevik — Eskişehir, TR"/>
+
+<a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a"><img src="https://img.shields.io/badge/LinkedIn-6B585C?style=flat-square&logo=linkedin&logoColor=F1D9E2" alt="LinkedIn"/></a>
+<a href="https://github.com/volkansync/field-notes"><img src="https://img.shields.io/badge/casefiles-6B585C?style=flat-square&logo=github&logoColor=F1D9E2" alt="field-notes"/></a>
+<a href="https://www.youtube.com/@volkansync"><img src="https://img.shields.io/badge/YouTube-6B585C?style=flat-square&logo=youtube&logoColor=F1D9E2" alt="YouTube"/></a>
+<img src="https://komarev.com/ghpvc/?username=volkansync&style=flat-square&color=6B585C&labelColor=56464C&label=observed" alt="profile views"/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/tiles.svg?v=2" width="100%" alt="networks · AI security · arch linux · measurement"/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/incidents.svg?v=2" width="100%" alt="0 open incidents"/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/tasks.svg?v=2" width="100%" alt="in training"/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/notifs.svg?v=2" width="100%" alt="case log — nine dated decisions"/>
+
+<a href="https://github.com/volkansync/field-notes"><img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/repo-field-notes.svg?v=1" width="100%" alt="repo: field-notes"/></a>
+<a href="https://github.com/volkansync/rust-portscanner"><img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/repo-rust-portscanner.svg?v=1" width="100%" alt="repo: rust-portscanner"/></a>
+<a href="https://github.com/volkansync/badusb-offense-defense"><img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/repo-badusb-offense-defense.svg?v=1" width="100%" alt="repo: badusb-offense-defense"/></a>
 
 </td>
 </tr>

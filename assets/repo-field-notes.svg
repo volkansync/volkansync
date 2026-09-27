@@ -1,4 +1,4 @@
-<svg width="1000" height="74" viewBox="0 0 1000 74" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Window: intermission — the machine rests — kept in its own colors">
+<svg width="222" height="74" viewBox="0 0 222 74" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Repository field-notes: real-failure writeups: symptom, falsifiable test, evidence">
 <defs><style>
       :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--onprim2:#D8BFC8;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
       @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--onprim2:#DCC6CE;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
@@ -11,10 +11,11 @@
       .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
       text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
     </style></defs>
-<rect x="0" y="2" width="1000" height="70" rx="26" class="surf"/>
-  <rect x="30" y="31" width="32" height="12" rx="6" class="rose"/>
-  <circle cx="80" cy="37" r="6" class="prim"/>
-  <circle cx="100" cy="37" r="6" class="surf3"/>
-  <text x="128" y="45" font-size="23" font-weight="800" class="ink">intermission</text>
-  <text x="966" y="43" font-size="16" class="sub" text-anchor="end">the machine rests — kept in its own colors</text>
+<rect width="222" height="74" rx="18" class="surf"/>
+  <rect x="14" y="16" width="26" height="30" rx="7" class="surf3"/>
+  <circle cx="22" cy="26" r="2.6" class="rose"/><circle cx="32" cy="26" r="2.6" class="rose"/><circle cx="27" cy="37" r="2.6" class="rose"/><path d="M22 28 L22 31 Q22 34 25 34 L27 34 M32 28 L32 31 Q32 34 29 34 L27 34 M27 34 L27 35" class="st" stroke="var(--sub)" stroke-width="1.6"/>
+  <text x="52" y="26" font-size="11" font-weight="700" class="ink">field-notes</text>
+  <text x="52" y="41" font-size="8.5" class="sub">real-failure writeups: symptom,</text>
+  <text x="52" y="54" font-size="8.5" class="sub">falsifiable test, evidence</text>
+  <path d="M196 32 l7 5 -7 5" class="st" stroke="var(--roseink)" stroke-width="2"/>
 </svg>
