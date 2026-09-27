@@ -24,7 +24,7 @@ provenance.
 <tr>
 <td width="26" valign="top">
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=3" width="26" alt=""/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=4" width="26" alt=""/>
 
 </td>
 <td valign="top">
@@ -99,13 +99,6 @@ else.</sub>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-theatre.svg?v=2" width="100%" alt="intermission"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-night.gif?v=2"/>
-  <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-day.gif?v=2" width="100%" alt="a caped silhouette before a huge moon — the old hero, kept in its own colors"/>
-</picture>
-
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-signal.svg?v=2" width="100%" alt="signal"/>
 
 <picture>
@@ -149,3 +142,11 @@ else.</sub>
 </table>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/footer.svg?v=2" width="100%" alt="when you have eliminated the impossible, whatever remains must be the truth — and then you measure it"/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-theatre.svg?v=2" width="100%" alt="intermission"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-night.gif?v=2"/>
+  <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/theatre-day.gif?v=2" width="100%" alt="a caped silhouette before a huge moon — the old hero, kept in its own colors"/>
+</picture>
+
