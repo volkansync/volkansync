@@ -39,7 +39,7 @@ mechanism, a test that could have proved me wrong, and what the numbers actually
 
 Sometimes the numbers said I was wrong. Those are in here too — they're the useful part.
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method.svg?v=3" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method-orrery.svg?v=1" width="100%"/>
 
 <div align="center">
 
