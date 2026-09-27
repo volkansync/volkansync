@@ -43,7 +43,7 @@ Sometimes the numbers said I was wrong. Those are in here too — they're the us
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method-neuro.svg?v=2" width="100%"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method-neuro.svg?v=3" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/sec-casefiles.svg?v=1" width="100%"/>
 
