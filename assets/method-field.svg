@@ -1,0 +1,186 @@
+<svg width="1000" height="540" viewBox="0 0 1000 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The method as a mind: the six steps on the left, and a dense field of firing neurons on the right where the same six steps are the bright numbered neurons, with a red feedback loop.">
+  <defs>
+    <style>
+      :root{
+        --bg1:#0C1E36; --bg2:#060E1C; --glass:#12294A;
+        --syn:#345C86; --synHi:#6FB4E8; --sig:#DCEEFF;
+        --neuron:#BFE3FF; --halo:#5AA6E6; --ink:#DCE8F2; --title:#8FD0FF; --sub:#7F95AC;
+        --fire:#FF5A3C; --fireGlow:#FF7A4A; --rule:#26466E; --dot:#8FB8DC;
+      }
+      @media (prefers-color-scheme: light){
+        :root{
+          --bg1:#EAF4FC; --bg2:#DAEAF7; --glass:#F5FBFF;
+          --syn:#A7C9E6; --synHi:#4E93C8; --sig:#1E6FB0;
+          --neuron:#2E7DB8; --halo:#8CC0E6; --ink:#1E3A52; --title:#155F9E; --sub:#5B738A;
+          --fire:#E23B1E; --fireGlow:#F0613F; --rule:#CBDCEC; --dot:#6E9AC0;
+        }
+      }
+      #bg1{stop-color:var(--bg1)} #bg2{stop-color:var(--bg2)}
+      #glA{stop-color:var(--glass)} #haA{stop-color:var(--halo)} #haB{stop-color:var(--halo)}
+      #fiA{stop-color:var(--fireGlow)} #fiB{stop-color:var(--fireGlow)}
+      .syn{stroke:var(--syn);fill:none} .synHi{stroke:var(--synHi);fill:none}
+      .sig{fill:var(--sig)} .neuron{fill:var(--neuron)} .ink{fill:var(--ink)}
+      .title{fill:var(--title)} .sub{fill:var(--sub)} .dot{fill:var(--dot)}
+      .fire{fill:var(--fire)} .fireStroke{stroke:var(--fire);fill:none} .rule{stroke:var(--rule)}
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+    <radialGradient id="bg" cx="66%" cy="40%" r="80%"><stop id="bg1" offset="0%"/><stop id="bg2" offset="100%"/></radialGradient>
+    <radialGradient id="glass" cx="66%" cy="8%" r="66%"><stop id="glA" offset="0%" stop-opacity="0.4"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop id="haA" offset="0%" stop-opacity="0.85"/><stop id="haB" offset="100%" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fireHalo" cx="50%" cy="50%" r="50%"><stop id="fiA" offset="0%" stop-opacity="0.9"/><stop id="fiB" offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <filter id="bloom" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+
+  <rect width="1000" height="540" fill="url(#bg)"/>
+  <rect width="1000" height="540" fill="url(#glass)"/>
+  <line x1="470" y1="70" x2="470" y2="480" class="rule" stroke-width="1" opacity="0.4" stroke-dasharray="2 8"/>
+
+  <text x="46" y="60" font-size="14" letter-spacing="4" class="title" font-weight="700">THE METHOD</text>
+  <text x="46" y="82" font-size="11" class="sub">a mind, not a line — it fires, and it feeds back</text>
+  <line x1="58" y1="124" x2="58" y2="434" class="rule" stroke-width="1.4" opacity="0.55"/>
+  <circle cx="58" cy="134" r="4" class="neuron"/>
+  <text x="80" y="130" font-size="10" letter-spacing="2" class="sub">01</text>
+  <text x="80" y="147" font-size="15" font-weight="700" class="ink">SYMPTOM</text>
+  <text x="80" y="164" font-size="10.5" class="sub">what can be observed</text>
+  <circle cx="58" cy="192" r="4" class="neuron"/>
+  <text x="80" y="188" font-size="10" letter-spacing="2" class="sub">02</text>
+  <text x="80" y="205" font-size="15" font-weight="700" class="ink">ELIMINATE</text>
+  <text x="80" y="222" font-size="10.5" class="sub">what it is not</text>
+  <circle cx="58" cy="250" r="4" class="neuron"/>
+  <text x="80" y="246" font-size="10" letter-spacing="2" class="sub">03</text>
+  <text x="80" y="263" font-size="15" font-weight="700" class="ink">MECHANISM</text>
+  <text x="80" y="280" font-size="10.5" class="sub">not a guess — a cause</text>
+  <circle cx="58" cy="308" r="5" class="fire"/>
+  <text x="80" y="304" font-size="10" letter-spacing="2" class="fire">04</text>
+  <text x="80" y="321" font-size="15" font-weight="700" class="fire">FALSIFIABLE TEST</text>
+  <text x="80" y="338" font-size="10.5" class="sub">could prove me wrong</text>
+  <circle cx="58" cy="366" r="4" class="neuron"/>
+  <text x="80" y="362" font-size="10" letter-spacing="2" class="sub">05</text>
+  <text x="80" y="379" font-size="15" font-weight="700" class="ink">EVIDENCE</text>
+  <text x="80" y="396" font-size="10.5" class="sub">numbers, not impressions</text>
+  <circle cx="58" cy="424" r="4" class="neuron"/>
+  <text x="80" y="420" font-size="10" letter-spacing="2" class="sub">06</text>
+  <text x="80" y="437" font-size="15" font-weight="700" class="ink">FIX</text>
+  <text x="80" y="454" font-size="10.5" class="sub">with its cost named</text>
+  <path d="M 58 366 C 26 366, 26 308, 58 308" class="fireStroke" stroke-width="1.5" fill="none" stroke-dasharray="3 4"><animate attributeName="stroke-dashoffset" values="28;0" dur="2.4s" repeatCount="indefinite"/></path>
+  <text x="18" y="337" font-size="8.5" class="fire" text-anchor="middle" transform="rotate(-90 18 337)">feedback</text>
+  <path d="M 605.9 392.4 Q 610.9 358.2 608.7 323.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 776.2 368.9 Q 805.3 420.0 840.3 467.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 720.0 404.0 Q 752.3 393.2 776.2 368.9" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 902.0 340.0 Q 932.5 364.4 970.9 372.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 902.0 340.0 Q 931.3 384.2 957.4 430.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 562.2 274.1 Q 578.3 305.6 608.7 323.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 720.0 404.0 Q 688.3 415.9 667.6 442.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 740.9 184.3 Q 761.2 154.0 778.4 121.9" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 560.0 330.0 Q 568.8 302.4 562.2 274.1" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 702.0 140.0 Q 721.6 162.0 740.9 184.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 702.0 140.0 Q 657.1 128.3 613.7 111.8" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 740.9 184.3 Q 722.3 211.9 696.3 232.6" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 801.5 275.2 Q 840.8 288.9 882.3 287.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 862.0 196.0 Q 871.6 215.1 867.9 236.2" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 605.9 392.4 Q 571.7 404.9 535.7 400.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 857.5 381.3 Q 842.9 423.1 840.3 467.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 801.5 275.2 Q 837.5 260.4 867.9 236.2" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 949.6 233.8 Q 929.2 209.0 909.4 183.8" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 613.7 111.8 Q 564.3 114.7 517.5 130.9" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 665.1 277.3 Q 673.4 249.8 696.3 232.6" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 560.0 180.0 Q 536.7 210.8 506.5 234.8" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 702.0 140.0 Q 739.2 126.9 778.4 121.9" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 882.3 287.7 Q 873.5 262.4 867.9 236.2" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 970.9 372.3 Q 970.6 402.8 957.4 430.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 605.9 392.4 Q 591.2 423.3 563.3 443.1" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 563.3 443.1 Q 546.8 423.4 535.7 400.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 857.5 381.3 Q 818.1 367.2 776.2 368.9" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 605.9 392.4 Q 630.6 425.1 667.6 442.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 902.0 340.0 Q 896.7 312.1 882.3 287.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 902.0 340.0 Q 880.0 361.0 857.5 381.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 560.0 180.0 Q 582.9 142.9 613.7 111.8" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 560.0 330.0 Q 585.5 336.0 608.7 323.7" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 949.6 233.8 Q 908.7 234.5 867.9 236.2" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 862.0 196.0 Q 886.8 194.3 909.4 183.8" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 560.0 180.0 Q 531.6 161.6 517.5 130.9" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 506.5 234.8 Q 537.7 249.8 562.2 274.1" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 716.6 302.4 Q 693.8 283.8 665.1 277.3" class="syn" stroke-width="1" opacity="0.30"/>
+  <path d="M 716.6 302.4 Q 712.1 265.9 696.3 232.6" class="syn" stroke-width="1" opacity="0.30"/>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="3.5s" begin="3.0s" repeatCount="indefinite" path="M 970.9 372.3 Q 970.6 402.8 957.4 430.3"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="3.5s" begin="3.0s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="5.1s" begin="4.3s" repeatCount="indefinite" path="M 605.9 392.4 Q 630.6 425.1 667.6 442.7"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="5.1s" begin="4.3s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="4.9s" begin="1.3s" repeatCount="indefinite" path="M 560.0 330.0 Q 585.5 336.0 608.7 323.7"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.9s" begin="1.3s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="4.5s" begin="4.8s" repeatCount="indefinite" path="M 560.0 180.0 Q 582.9 142.9 613.7 111.8"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.5s" begin="4.8s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="5.8s" begin="0.7s" repeatCount="indefinite" path="M 665.1 277.3 Q 673.4 249.8 696.3 232.6"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="5.8s" begin="0.7s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="3.6s" begin="0.5s" repeatCount="indefinite" path="M 560.0 330.0 Q 568.8 302.4 562.2 274.1"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="3.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="3.5s" begin="2.2s" repeatCount="indefinite" path="M 949.6 233.8 Q 929.2 209.0 909.4 183.8"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="3.5s" begin="2.2s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="3.8s" begin="4.3s" repeatCount="indefinite" path="M 902.0 340.0 Q 931.3 384.2 957.4 430.3"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="3.8s" begin="4.3s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="5.1s" begin="0.6s" repeatCount="indefinite" path="M 605.9 392.4 Q 591.2 423.3 563.3 443.1"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="5.1s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="4.8s" begin="1.6s" repeatCount="indefinite" path="M 716.6 302.4 Q 712.1 265.9 696.3 232.6"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.8s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="4.7s" begin="1.1s" repeatCount="indefinite" path="M 605.9 392.4 Q 610.9 358.2 608.7 323.7"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.7s" begin="1.1s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="3.8s" begin="0.9s" repeatCount="indefinite" path="M 801.5 275.2 Q 840.8 288.9 882.3 287.7"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="3.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="4.4s" begin="3.5s" repeatCount="indefinite" path="M 702.0 140.0 Q 739.2 126.9 778.4 121.9"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.4s" begin="3.5s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="4.8s" begin="0.2s" repeatCount="indefinite" path="M 560.0 180.0 Q 531.6 161.6 517.5 130.9"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.8s" begin="0.2s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="2.2" opacity="0"><animateMotion dur="5.2s" begin="4.4s" repeatCount="indefinite" path="M 882.3 287.7 Q 873.5 262.4 867.9 236.2"/><animate attributeName="opacity" values="0;0.9;0.9;0" dur="5.2s" begin="4.4s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="802" cy="275" r="3.0" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="2.6s" begin="1.9s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="606" cy="392" r="1.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.1s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="882" cy="288" r="2.2" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.4s" begin="0.2s" repeatCount="indefinite"/></circle>
+  <circle cx="741" cy="184" r="8" fill="url(#halo)" opacity="0.25" filter="url(#bloom)"/>
+  <circle class="dot" cx="741" cy="184" r="2.4" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.9s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="506" cy="235" r="2.6" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="5.1s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="778" cy="122" r="2.8" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.5s" begin="3.9s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="614" cy="112" r="2.3" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.0s" begin="2.2s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="971" cy="372" r="1.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="5.1s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="950" cy="234" r="2.3" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="2.9s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="563" cy="443" r="1.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.6s" begin="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="717" cy="302" r="9" fill="url(#halo)" opacity="0.25" filter="url(#bloom)"/>
+  <circle class="dot" cx="717" cy="302" r="2.8" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.3s" begin="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="665" cy="277" r="9" fill="url(#halo)" opacity="0.25" filter="url(#bloom)"/>
+  <circle class="dot" cx="665" cy="277" r="2.6" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="909" cy="184" r="1.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.2s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="957" cy="430" r="3.1" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="857" cy="381" r="2.4" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.2s" begin="3.9s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="776" cy="369" r="1.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.9s" begin="2.9s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="562" cy="274" r="3.2" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.2s" begin="3.0s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="696" cy="233" r="2.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.4s" begin="2.7s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="518" cy="131" r="2.2" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.6s" begin="2.5s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="840" cy="467" r="3.1" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="5.2s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <circle cx="609" cy="324" r="8" fill="url(#halo)" opacity="0.25" filter="url(#bloom)"/>
+  <circle class="dot" cx="609" cy="324" r="2.3" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <circle cx="668" cy="443" r="9" fill="url(#halo)" opacity="0.25" filter="url(#bloom)"/>
+  <circle class="dot" cx="668" cy="443" r="2.7" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.4s" begin="3.8s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="536" cy="400" r="3.0" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="2.9s" begin="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="868" cy="236" r="9" fill="url(#halo)" opacity="0.25" filter="url(#bloom)"/>
+  <circle class="dot" cx="868" cy="236" r="2.9" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.5s" begin="2.6s" repeatCount="indefinite"/></circle>
+  <path d="M 560.0 180.0 Q 637.0 181.2 702.0 140.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 560.0 180.0 Q 637.0 181.2 702.0 140.0" class="synHi" stroke-width="1.7" opacity="0.85"/>
+  <path d="M 702.0 140.0 Q 788.6 149.1 862.0 196.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 702.0 140.0 Q 788.6 149.1 862.0 196.0" class="synHi" stroke-width="1.7" opacity="0.85"/>
+  <path d="M 862.0 196.0 Q 860.8 273.9 902.0 340.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 862.0 196.0 Q 860.8 273.9 902.0 340.0" class="synHi" stroke-width="1.7" opacity="0.85"/>
+  <path d="M 902.0 340.0 Q 817.6 390.9 720.0 404.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 902.0 340.0 Q 817.6 390.9 720.0 404.0" class="synHi" stroke-width="1.7" opacity="0.85"/>
+  <path d="M 720.0 404.0 Q 649.2 347.0 560.0 330.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 720.0 404.0 Q 649.2 347.0 560.0 330.0" class="synHi" stroke-width="1.7" opacity="0.85"/>
+  <path d="M 720.0 404.0 Q 796.4 330.5 902.0 340.0" class="fireStroke" stroke-width="1.6" stroke-dasharray="4 5" opacity="0.9"><animate attributeName="stroke-dashoffset" values="36;0" dur="2.6s" repeatCount="indefinite"/></path>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="0.0s" repeatCount="indefinite" path="M 560.0 180.0 Q 637.0 181.2 702.0 140.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="0.8s" repeatCount="indefinite" path="M 702.0 140.0 Q 788.6 149.1 862.0 196.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="1.6s" repeatCount="indefinite" path="M 862.0 196.0 Q 860.8 273.9 902.0 340.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="2.4s" repeatCount="indefinite" path="M 902.0 340.0 Q 817.6 390.9 720.0 404.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="2.4s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="3.2s" repeatCount="indefinite" path="M 720.0 404.0 Q 649.2 347.0 560.0 330.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="3.2s" repeatCount="indefinite"/></circle>
+  <circle class="fire" r="2.9" filter="url(#soft)" opacity="0"><animateMotion dur="3.2s" repeatCount="indefinite" path="M 720.0 404.0 Q 796.4 330.5 902.0 340.0"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="560" cy="180" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="560" cy="180" r="5.4" class="neuron"><animate attributeName="opacity" values="1;0.55;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  <text x="560" y="167" font-size="9" letter-spacing="1" class="sub" text-anchor="middle">01</text>
+  <circle cx="702" cy="140" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="702" cy="140" r="5.4" class="neuron"><animate attributeName="opacity" values="1;0.55;1" dur="3.1s" repeatCount="indefinite"/></circle>
+  <text x="702" y="127" font-size="9" letter-spacing="1" class="sub" text-anchor="middle">02</text>
+  <circle cx="862" cy="196" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="862" cy="196" r="5.4" class="neuron"><animate attributeName="opacity" values="1;0.55;1" dur="3.6s" repeatCount="indefinite"/></circle>
+  <text x="862" y="183" font-size="9" letter-spacing="1" class="sub" text-anchor="middle">03</text>
+  <circle cx="902" cy="340" r="26" fill="url(#fireHalo)" opacity="0.6" filter="url(#bloom)"/>
+  <circle cx="902" cy="340" r="7" class="fire"><animate attributeName="r" values="7;9.5;7" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="902" y="327" font-size="9" letter-spacing="1" class="fire" text-anchor="middle">04</text>
+  <circle cx="720" cy="404" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="720" cy="404" r="5.4" class="neuron"><animate attributeName="opacity" values="1;0.55;1" dur="4.6s" repeatCount="indefinite"/></circle>
+  <text x="720" y="391" font-size="9" letter-spacing="1" class="sub" text-anchor="middle">05</text>
+  <circle cx="560" cy="330" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="560" cy="330" r="5.4" class="neuron"><animate attributeName="opacity" values="1;0.55;1" dur="5.1s" repeatCount="indefinite"/></circle>
+  <text x="560" y="317" font-size="9" letter-spacing="1" class="sub" text-anchor="middle">06</text>
+</svg>
