@@ -163,10 +163,14 @@ will be in `field-notes` like everything else.</sub>
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=volkansync&show_icons=true&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&icon_color=E6CC55&text_color=EDE8DA&hide_border=false&count_private=true&include_all_commits=true" />
 </a>
 <a href="https://github.com/volkansync">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=compact&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&text_color=EDE8DA&hide_border=false" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansync&layout=donut&bg_color=0E1628&border_color=1C2B4A&title_color=E6CC55&text_color=EDE8DA&hide_border=false" />
 </a>
 
 <br/><br/>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-navy-gold.svg" width="100%" alt="3D contribution skyline" />
+
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg" />
