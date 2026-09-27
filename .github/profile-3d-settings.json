@@ -1,19 +1,31 @@
 {
   "type": "normal",
-  "fileName": "profile-navy-gold.svg",
-  "backgroundColor": "#FBF7EC",
-  "foregroundColor": "#1C2B4A",
-  "strongColor": "#A9801A",
-  "weakColor": "#6B7280",
-  "radarColor": "#A9801A",
+  "fileName": "profile-sakura.svg",
+  "backgroundColor": "#F5EBE8",
+  "foregroundColor": "#453A3E",
+  "strongColor": "#A34677",
+  "weakColor": "#715B60",
+  "radarColor": "#2E7F84",
   "growingAnimation": true,
-  "contribColors": ["#E5DEC9", "#D3B978", "#C79A2E", "#A9801A", "#7A5A0C"],
+  "contribColors": [
+    "#EADAD6",
+    "#E2C0CF",
+    "#D89DBB",
+    "#C46F9C",
+    "#A34677"
+  ],
   "darkMode": {
-    "backgroundColor": "#0E1628",
-    "foregroundColor": "#EDE8DA",
-    "strongColor": "#E6CC55",
-    "weakColor": "#8795AB",
-    "radarColor": "#E6CC55",
-    "contribColors": ["#1C2B4A", "#3A4F7A", "#8A7A3A", "#C4A93F", "#E6CC55"]
+    "backgroundColor": "#262024",
+    "foregroundColor": "#ECDFE2",
+    "strongColor": "#E5A3C0",
+    "weakColor": "#AE99A0",
+    "radarColor": "#7FCBD0",
+    "contribColors": [
+      "#322A2F",
+      "#4A3542",
+      "#6E4258",
+      "#A8577E",
+      "#E5A3C0"
+    ]
   }
 }
