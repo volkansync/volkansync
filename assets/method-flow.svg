@@ -1,0 +1,80 @@
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The method as a flowing current: symptom, eliminate, mechanism, falsifiable test, evidence, fix — with a loop back when the instrument lies">
+  <defs>
+    <style>
+      :root{
+        --bg1:#131E33; --bg2:#0C1424; --edge:#243356;
+        --ink:#ECE6D8; --gold:#E6CC55; --goldSoft:#C9A94A;
+        --water:#5E7099; --muted:#8795AB; --faint:#5C6B85; --node:#131E33;
+      }
+      @media (prefers-color-scheme: light){
+        :root{
+          --bg1:#FCF8EE; --bg2:#F3ECDA; --edge:#E4DAC0;
+          --ink:#1C2B4A; --gold:#A9801A; --goldSoft:#B98E25;
+          --water:#AEBAD2; --muted:#5C6B85; --faint:#9AA2B4; --node:#FCF8EE;
+        }
+      }
+      #bg1{stop-color:var(--bg1)} #bg2{stop-color:var(--bg2)}
+      #haloA{stop-color:var(--gold)} #haloB{stop-color:var(--gold)}
+      .card{stroke:var(--edge)}
+      .waterWide{stroke:var(--water)} .waterCore{stroke:var(--goldSoft)}
+      .ink{fill:var(--ink)} .gold{fill:var(--gold)} .goldSoft{fill:var(--goldSoft)}
+      .muted{fill:var(--muted)} .faint{fill:var(--faint)}
+      .ring{fill:var(--node); stroke:var(--gold)}
+      .pivot{fill:var(--gold)}
+      .loop{stroke:var(--goldSoft)} .tip{fill:var(--goldSoft)}
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop id="bg1" offset="0%"/><stop id="bg2" offset="100%"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop id="haloA" offset="0%" stop-opacity="0.22"/>
+      <stop id="haloB" offset="100%" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="tip" d="M0,1 L9,5 L0,9 z"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="618" rx="28" fill="url(#panel)" class="card" stroke-width="1.5"/>
+
+  <text x="42" y="52" font-size="13" letter-spacing="4" class="gold" font-weight="700">THE METHOD</text>
+  <text x="42" y="74" font-size="12" class="muted">it does not run in a straight line — it flows, and it loops</text>
+
+  <path d="M 255.0 95.0 C 317.8 110.0 627.0 150.8 632.0 185.0 C 637.0 219.2 282.3 264.2 285.0 300.0 C 287.7 335.8 645.5 366.7 648.0 400.0 C 650.5 433.3 299.7 473.3 300.0 500.0 C 300.3 526.7 591.7 550.0 650.0 560.0" fill="none" class="waterWide" stroke-width="11" stroke-linecap="round" opacity="0.30"/>
+  <path d="M 255.0 95.0 C 317.8 110.0 627.0 150.8 632.0 185.0 C 637.0 219.2 282.3 264.2 285.0 300.0 C 287.7 335.8 645.5 366.7 648.0 400.0 C 650.5 433.3 299.7 473.3 300.0 500.0 C 300.3 526.7 591.7 550.0 650.0 560.0" fill="none" class="waterCore" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M 300 486 C 180 410, 498 520, 632 414" fill="none" class="loop" stroke-width="1.7" stroke-dasharray="5 5" marker-end="url(#tip)" opacity="0.9"/>
+  <circle cx="255" cy="95" r="24" fill="url(#halo)"/>
+  <circle cx="255" cy="95" r="7.5" class="ring" stroke-width="2.5"/>
+  <text x="285" y="89" font-size="10" letter-spacing="2" class="goldSoft" text-anchor="start">01</text>
+  <text x="285" y="106" font-size="14" class="ink" font-weight="700" text-anchor="start">SYMPTOM</text>
+  <text x="285" y="124" font-size="10.5" class="muted" text-anchor="start">what can be observed</text>
+  <circle cx="632" cy="185" r="24" fill="url(#halo)"/>
+  <circle cx="632" cy="185" r="7.5" class="ring" stroke-width="2.5"/>
+  <text x="602" y="179" font-size="10" letter-spacing="2" class="goldSoft" text-anchor="end">02</text>
+  <text x="602" y="196" font-size="14" class="ink" font-weight="700" text-anchor="end">ELIMINATE</text>
+  <text x="602" y="214" font-size="10.5" class="muted" text-anchor="end">what it is not</text>
+  <circle cx="285" cy="300" r="24" fill="url(#halo)"/>
+  <circle cx="285" cy="300" r="7.5" class="ring" stroke-width="2.5"/>
+  <text x="315" y="294" font-size="10" letter-spacing="2" class="goldSoft" text-anchor="start">03</text>
+  <text x="315" y="311" font-size="14" class="ink" font-weight="700" text-anchor="start">MECHANISM</text>
+  <text x="315" y="329" font-size="10.5" class="muted" text-anchor="start">not a guess — a cause</text>
+  <circle cx="648" cy="400" r="24" fill="url(#halo)"/>
+  <circle cx="648" cy="400" r="10" class="pivot"/>
+  <text x="618" y="394" font-size="10" letter-spacing="2" class="gold" text-anchor="end">04</text>
+  <text x="618" y="411" font-size="14" class="gold" font-weight="700" text-anchor="end">FALSIFIABLE TEST</text>
+  <text x="618" y="429" font-size="10.5" class="muted" text-anchor="end">could prove me wrong</text>
+  <circle cx="300" cy="500" r="24" fill="url(#halo)"/>
+  <circle cx="300" cy="500" r="7.5" class="ring" stroke-width="2.5"/>
+  <text x="330" y="494" font-size="10" letter-spacing="2" class="goldSoft" text-anchor="start">05</text>
+  <text x="330" y="511" font-size="14" class="ink" font-weight="700" text-anchor="start">EVIDENCE</text>
+  <text x="330" y="529" font-size="10.5" class="muted" text-anchor="start">numbers, not impressions</text>
+  <circle cx="650" cy="560" r="24" fill="url(#halo)"/>
+  <circle cx="650" cy="560" r="7.5" class="ring" stroke-width="2.5"/>
+  <text x="620" y="554" font-size="10" letter-spacing="2" class="goldSoft" text-anchor="end">06</text>
+  <text x="620" y="571" font-size="14" class="ink" font-weight="700" text-anchor="end">FIX</text>
+  <text x="620" y="589" font-size="10.5" class="muted" text-anchor="end">with its cost named</text>
+  <text x="150" y="455" font-size="11" class="goldSoft">when the instrument lies,</text>
+  <text x="150" y="471" font-size="11" class="goldSoft">rebuild the instrument</text>
+  <text x="42" y="592" font-size="11" class="faint">// the loop is not failure. it is the work.</text>
+</svg>
