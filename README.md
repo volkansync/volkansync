@@ -22,11 +22,6 @@ provenance.
 
 <table>
 <tr>
-<td width="54" valign="top">
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=4" width="26" alt=""/>
-
-</td>
 <td valign="top">
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-overview.svg?v=2" width="100%" alt="overview"/>
