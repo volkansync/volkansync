@@ -1,0 +1,28 @@
+<svg width="1000" height="178" viewBox="0 0 1000 178" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Casefile: TLS certificate errors — wrong explanations struck out; actual cause: ISP-level DNS blocking. The certificate was never involved — the resolution path was.">
+<defs><style>
+      :root{--surf:#262024;--surf2:#322A2F;--surf3:#3E343A;--prim:#56464C;--onprim:#F1E3E7;--onprim2:#D8BFC8;--ink:#ECDFE2;--sub:#AE99A0;--rose:#E5A3C0;--roseink:#E5A3C0;--teal:#7FCBD0;--tealink:#7FCBD0;--coral:#EE9478;--coralink:#EE9478;--line:#443A40;}
+      @media (prefers-color-scheme: light){:root{--surf:#F5EBE8;--surf2:#EADAD6;--surf3:#E0CCC8;--prim:#6B585C;--onprim:#F7ECEF;--onprim2:#DCC6CE;--ink:#453A3E;--sub:#715B60;--rose:#D77BA8;--roseink:#A34677;--teal:#4FAEB3;--tealink:#2E7F84;--coral:#DD6A48;--coralink:#B54A2C;--line:#DCC8C4;}}
+      .surf{fill:var(--surf)} .surf2{fill:var(--surf2)} .surf3{fill:var(--surf3)}
+      .prim{fill:var(--prim)} .onprim{fill:var(--onprim)} .onprim2{fill:var(--onprim2)}
+      .ink{fill:var(--ink)} .sub{fill:var(--sub)}
+      .rose{fill:var(--rose)} .roseink{fill:var(--roseink)}
+      .teal{fill:var(--teal)} .tealink{fill:var(--tealink)}
+      .coral{fill:var(--coral)} .coralink{fill:var(--coralink)}
+      .st{fill:none;stroke-linecap:round;stroke-linejoin:round}
+      text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style></defs>
+<rect width="1000" height="178" rx="24" class="surf"/>
+  <circle cx="40" cy="40" r="5" class="rose"/>
+  <text x="58" y="47" font-size="21" font-weight="800" class="ink">TLS certificate errors</text>
+  <text x="966" y="45" font-size="14" class="sub" text-anchor="end">one specific service, certificate chain intact</text>
+  <rect x="58" y="66" width="188" height="30" rx="15" class="surf3"/>
+  <path d="M74 77 l8 8 M82 77 l-8 8" class="st" stroke="var(--coralink)" stroke-width="2"/>
+  <text x="90" y="86" font-size="15" class="sub" text-decoration="line-through">your clock is wrong</text>
+  <rect x="258" y="66" width="218" height="30" rx="15" class="surf3"/>
+  <path d="M274 77 l8 8 M282 77 l-8 8" class="st" stroke="var(--coralink)" stroke-width="2"/>
+  <text x="290" y="86" font-size="15" class="sub" text-decoration="line-through">reinstall the CA bundle</text>
+  <path d="M40 122 l10 6 -10 6" class="st" stroke="var(--roseink)" stroke-width="2.6"/>
+  <text x="58" y="133" font-size="17"><tspan font-weight="800" class="roseink">ISP-level DNS blocking.</tspan><tspan class="ink"> The certificate was never involved — the resolution path was</tspan></text>
+  <rect x="58" y="146" width="335" height="26" rx="13" class="prim"/>
+  <text x="225.5" y="163" font-size="13.5" class="onprim mono" text-anchor="middle">fixed per-connection, not system-wide</text>
+</svg>

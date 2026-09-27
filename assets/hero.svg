@@ -23,16 +23,25 @@
     <rect width="1000" height="250" fill="url(#sky)"/>
     <circle cx="704" cy="66" r="30" fill="var(--disc)" opacity="0.9"/>
     <g fill="var(--cloud)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;16 2;0 0" dur="34s" repeatCount="indefinite"/>
       <ellipse cx="640" cy="94" rx="66" ry="13"/><ellipse cx="700" cy="82" rx="46" ry="11"/>
-      <ellipse cx="836" cy="60" rx="54" ry="11"/><ellipse cx="884" cy="72" rx="38" ry="9"/>
     </g>
+    <g fill="var(--cloud)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-20 0;0 0" dur="42s" repeatCount="indefinite"/>
+      <ellipse cx="836" cy="60" rx="54" ry="11"/><ellipse cx="884" cy="72" rx="38" ry="9"/>
+      <ellipse cx="420" cy="52" rx="44" ry="9" opacity="0.7"/>
+    </g>
+    <path d="M330 190 L470 118 Q478 112 486 118 L620 190 Z" fill="var(--fujid)" opacity="0.32"/>
     <path d="M580 190 L724 74 Q736 64 748 74 L892 190 Z" fill="var(--fuji)"/>
     <path d="M736 190 L748 74 Q736 64 724 74 L700 122 Q736 148 736 190 Z" fill="var(--fujid)" opacity="0.55"/>
     <path d="M700 94 L724 74 Q736 64 748 74 L772 94 Q760 106 748 98 Q736 110 724 98 Q712 108 700 94 Z" fill="var(--snow)"/>
     <rect x="0" y="176" width="1000" height="74" fill="url(#sea)"/>
-    <g stroke="var(--snow)" stroke-width="1.6" opacity="0.35" stroke-linecap="round">
-      <line x1="560" y1="196" x2="660" y2="196"/><line x1="700" y1="210" x2="820" y2="210"/>
-      <line x1="380" y1="220" x2="470" y2="220"/><line x1="120" y1="206" x2="200" y2="206"/>
+    <g stroke="var(--snow)" stroke-linecap="round">
+      <line x1="560" y1="196" x2="660" y2="196" stroke-width="1.6"><animate attributeName="opacity" values="0.2;0.5;0.2" dur="7s" repeatCount="indefinite"/></line>
+      <line x1="700" y1="210" x2="820" y2="210" stroke-width="1.6"><animate attributeName="opacity" values="0.45;0.15;0.45" dur="9s" begin="-3s" repeatCount="indefinite"/></line>
+      <line x1="380" y1="220" x2="470" y2="220" stroke-width="1.6"><animate attributeName="opacity" values="0.18;0.42;0.18" dur="11s" begin="-5s" repeatCount="indefinite"/></line>
+      <line x1="120" y1="206" x2="200" y2="206" stroke-width="1.6"><animate attributeName="opacity" values="0.4;0.14;0.4" dur="8s" begin="-2s" repeatCount="indefinite"/></line>
+      <line x1="250" y1="232" x2="330" y2="232" stroke-width="1.4"><animate attributeName="opacity" values="0.15;0.38;0.15" dur="10s" begin="-6s" repeatCount="indefinite"/></line>
     </g>
     <path d="M-10 250 Q120 196 300 236 Q220 250 200 250 Z M-10 250 L-10 224 Q80 210 190 240 Q60 252 -10 250 Z" fill="var(--moss1)"/>
     <path d="M-10 250 L-10 236 Q90 224 210 248 L120 250 Z" fill="var(--moss2)"/>
