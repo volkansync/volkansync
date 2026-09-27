@@ -1,0 +1,105 @@
+<svg width="1000" height="560" viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The method as a firing neural network: six neurons — symptom, eliminate, mechanism, falsifiable test, evidence, fix — with signals along the synapses and a red feedback loop.">
+  <defs>
+    <style>
+      :root{
+        --bg1:#0C1E36; --bg2:#060E1C; --glass:#0C1E36;
+        --syn:#3B6690; --synHi:#6FB4E8; --sig:#D6EEFF;
+        --neuron:#BFE3FF; --halo:#5AA6E6; --ink:#DCE8F2; --title:#8FD0FF; --sub:#7F95AC;
+        --fire:#FF5A3C; --fireGlow:#FF7A4A; --dend:#7FA6C8;
+      }
+      @media (prefers-color-scheme: light){
+        :root{
+          --bg1:#EAF4FC; --bg2:#D6E8F6; --glass:#F4FAFF;
+          --syn:#9FC3E0; --synHi:#4E93C8; --sig:#1E6FB0;
+          --neuron:#2E7DB8; --halo:#8CC0E6; --ink:#1E3A52; --title:#1667A8; --sub:#5B738A;
+          --fire:#E23B1E; --fireGlow:#F0613F; --dend:#9BBAD6;
+        }
+      }
+      #bg1{stop-color:var(--bg1)} #bg2{stop-color:var(--bg2)}
+      #glA{stop-color:var(--glass)} #haA{stop-color:var(--halo)} #haB{stop-color:var(--halo)}
+      #fiA{stop-color:var(--fireGlow)} #fiB{stop-color:var(--fireGlow)}
+      .syn{stroke:var(--syn);fill:none} .synHi{stroke:var(--synHi);fill:none}
+      .sig{fill:var(--sig)} .neuron{fill:var(--neuron)} .ink{fill:var(--ink)}
+      .title{fill:var(--title)} .sub{fill:var(--sub)} .dend{fill:var(--dend)}
+      .fire{fill:var(--fire)} .fireStroke{stroke:var(--fire);fill:none}
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop id="bg1" offset="0%"/><stop id="bg2" offset="100%"/></radialGradient>
+    <radialGradient id="glass" cx="40%" cy="8%" r="60%"><stop id="glA" offset="0%" stop-opacity="0.5"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop id="haA" offset="0%" stop-opacity="0.85"/><stop id="haB" offset="100%" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fireHalo" cx="50%" cy="50%" r="50%"><stop id="fiA" offset="0%" stop-opacity="0.9"/><stop id="fiB" offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.6"/></filter>
+    <filter id="bloom" x="-140%" y="-140%" width="380%" height="380%"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#bg)"/>
+  <rect width="1000" height="560" fill="url(#glass)"/>
+
+  <circle class="dend" cx="458" cy="301" r="2.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="3.8s" begin="2.0s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="577" cy="139" r="1.9" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.2s" begin="3.2s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="143" cy="190" r="1.3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.7s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="97" cy="482" r="2.6" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.3s" begin="2.5s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="199" cy="66" r="1.9" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="273" cy="73" r="1.8" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="3.7s" begin="3.4s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="517" cy="335" r="1.9" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.3s" begin="1.8s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="305" cy="489" r="2.6" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.8s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="337" cy="159" r="1.6" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="2.8s" begin="3.1s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="412" cy="424" r="1.7" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="5.1s" begin="3.4s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="60" cy="150" r="2.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="3.8s" begin="3.9s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="410" cy="91" r="2.1" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.6s" begin="1.1s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="137" cy="203" r="2.5" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle class="dend" cx="277" cy="103" r="1.3" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.7s" begin="0.7s" repeatCount="indefinite"/></circle>
+  <path d="M 150.0 210.0 Q 345.2 154.1 545.0 190.0" class="syn" stroke-width="1" opacity="0.28"/>
+  <path d="M 545.0 190.0 Q 492.7 298.1 520.0 415.0" class="syn" stroke-width="1" opacity="0.28"/>
+  <path d="M 345.0 120.0 Q 254.3 235.4 280.0 380.0" class="syn" stroke-width="1" opacity="0.28"/>
+  <path d="M 150.0 210.0 Q 261.7 195.9 345.0 120.0" class="synHi" stroke-width="5" opacity="0.28" filter="url(#soft)"/>
+  <path id="syn0" d="M 150.0 210.0 Q 261.7 195.9 345.0 120.0" class="synHi" stroke-width="1.6" opacity="0.85"/>
+  <path d="M 345.0 120.0 Q 454.9 126.7 545.0 190.0" class="synHi" stroke-width="5" opacity="0.28" filter="url(#soft)"/>
+  <path id="syn1" d="M 345.0 120.0 Q 454.9 126.7 545.0 190.0" class="synHi" stroke-width="1.6" opacity="0.85"/>
+  <path d="M 545.0 190.0 Q 617.3 274.0 725.0 300.0" class="synHi" stroke-width="5" opacity="0.28" filter="url(#soft)"/>
+  <path id="syn2" d="M 545.0 190.0 Q 617.3 274.0 725.0 300.0" class="synHi" stroke-width="1.6" opacity="0.85"/>
+  <path d="M 725.0 300.0 Q 637.2 383.7 520.0 415.0" class="synHi" stroke-width="5" opacity="0.28" filter="url(#soft)"/>
+  <path id="syn3" d="M 725.0 300.0 Q 637.2 383.7 520.0 415.0" class="synHi" stroke-width="1.6" opacity="0.85"/>
+  <path d="M 520.0 415.0 Q 404.9 363.9 280.0 380.0" class="synHi" stroke-width="5" opacity="0.28" filter="url(#soft)"/>
+  <path id="syn4" d="M 520.0 415.0 Q 404.9 363.9 280.0 380.0" class="synHi" stroke-width="1.6" opacity="0.85"/>
+  <circle class="sig" r="3.4" filter="url(#soft)" opacity="0"><animateMotion dur="4.5s" begin="0.0s" repeatCount="indefinite" path="M 150.0 210.0 Q 261.7 195.9 345.0 120.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.4" filter="url(#soft)" opacity="0"><animateMotion dur="4.5s" begin="0.9s" repeatCount="indefinite" path="M 345.0 120.0 Q 454.9 126.7 545.0 190.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.4" filter="url(#soft)" opacity="0"><animateMotion dur="4.5s" begin="1.8s" repeatCount="indefinite" path="M 545.0 190.0 Q 617.3 274.0 725.0 300.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="1.8s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.4" filter="url(#soft)" opacity="0"><animateMotion dur="4.5s" begin="2.7s" repeatCount="indefinite" path="M 725.0 300.0 Q 637.2 383.7 520.0 415.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="2.7s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.4" filter="url(#soft)" opacity="0"><animateMotion dur="4.5s" begin="3.6s" repeatCount="indefinite" path="M 520.0 415.0 Q 404.9 363.9 280.0 380.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="3.6s" repeatCount="indefinite"/></circle>
+  <path d="M 520.0 415.0 Q 578.5 279.0 725.0 300.0" class="fireStroke" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.85"><animate attributeName="stroke-dashoffset" values="40;0" dur="2.8s" repeatCount="indefinite"/></path>
+  <circle class="fire" r="3" filter="url(#soft)" opacity="0"><animateMotion dur="3.4s" repeatCount="indefinite" path="M 520.0 415.0 Q 578.5 279.0 725.0 300.0"/><animate attributeName="opacity" values="0;1;1;0" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="150" cy="210" r="22" fill="url(#halo)" opacity="0.45" filter="url(#bloom)"/>
+  <circle cx="150" cy="210" r="5.6" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <text x="124" y="189" font-size="9.5" letter-spacing="2" class="sub" text-anchor="end">01</text>
+  <text x="124" y="204" font-size="13" font-weight="700" class="ink" text-anchor="end">SYMPTOM</text>
+  <text x="124" y="220" font-size="10" class="sub" text-anchor="end">what can be observed</text>
+  <circle cx="345" cy="120" r="22" fill="url(#halo)" opacity="0.45" filter="url(#bloom)"/>
+  <circle cx="345" cy="120" r="5.6" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="3.3s" repeatCount="indefinite"/></circle>
+  <text x="345" y="88" font-size="9.5" letter-spacing="2" class="sub" text-anchor="middle">02</text>
+  <text x="345" y="105" font-size="13" font-weight="700" class="ink" text-anchor="middle">ELIMINATE</text>
+  <text x="345" y="120" font-size="10" class="sub" text-anchor="middle">what it is not</text>
+  <circle cx="545" cy="190" r="22" fill="url(#halo)" opacity="0.45" filter="url(#bloom)"/>
+  <circle cx="545" cy="190" r="5.6" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="3.8s" repeatCount="indefinite"/></circle>
+  <text x="545" y="158" font-size="9.5" letter-spacing="2" class="sub" text-anchor="middle">03</text>
+  <text x="545" y="175" font-size="13" font-weight="700" class="ink" text-anchor="middle">MECHANISM</text>
+  <text x="545" y="190" font-size="10" class="sub" text-anchor="middle">not a guess — a cause</text>
+  <circle cx="725" cy="300" r="30" fill="url(#fireHalo)" opacity="0.6" filter="url(#bloom)"/>
+  <circle cx="725" cy="300" r="8" class="fire"><animate attributeName="r" values="8;10.5;8" dur="2.6s" repeatCount="indefinite"/></circle>
+  <text x="751" y="286" font-size="9.5" letter-spacing="2" class="fire" text-anchor="start">04</text>
+  <text x="751" y="301" font-size="13" font-weight="700" class="fire" text-anchor="start">FALSIFIABLE TEST</text>
+  <text x="751" y="317" font-size="10" class="sub" text-anchor="start">could prove me wrong</text>
+  <circle cx="520" cy="415" r="22" fill="url(#halo)" opacity="0.45" filter="url(#bloom)"/>
+  <circle cx="520" cy="415" r="5.6" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="4.8s" repeatCount="indefinite"/></circle>
+  <text x="520" y="447" font-size="9.5" letter-spacing="2" class="sub" text-anchor="middle">05</text>
+  <text x="520" y="464" font-size="13" font-weight="700" class="ink" text-anchor="middle">EVIDENCE</text>
+  <text x="520" y="479" font-size="10" class="sub" text-anchor="middle">numbers, not impressions</text>
+  <circle cx="280" cy="380" r="22" fill="url(#halo)" opacity="0.45" filter="url(#bloom)"/>
+  <circle cx="280" cy="380" r="5.6" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="5.3s" repeatCount="indefinite"/></circle>
+  <text x="254" y="378" font-size="9.5" letter-spacing="2" class="sub" text-anchor="end">06</text>
+  <text x="254" y="393" font-size="13" font-weight="700" class="ink" text-anchor="end">FIX</text>
+  <text x="254" y="409" font-size="10" class="sub" text-anchor="end">with its cost named</text>
+  <text x="40" y="50" font-size="13" letter-spacing="4" class="title" font-weight="700">THE METHOD</text>
+  <text x="40" y="72" font-size="11.5" class="sub">not a line — a network. it fires, and it feeds back</text>
+  <text x="40" y="534" font-size="10.5" class="sub">the red path is the loop: when the instrument lies, the signal returns and you rebuild it</text>
+</svg>
