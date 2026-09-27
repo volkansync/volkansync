@@ -24,14 +24,7 @@ provenance.
 <tr>
 <td width="54" valign="top">
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar-top.svg?v=1" width="26" alt=""/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=1"/>
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=light&perline=1" width="26" alt="dock: linux, bash, python, docker, nginx, postgres, git, rust"/>
-</picture>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar-tail.svg?v=1" width="26" alt=""/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/bar.svg?v=4" width="26" alt=""/>
 
 </td>
 <td valign="top">
@@ -122,6 +115,11 @@ else.</sub>
 <a href="https://github.com/volkansync/field-notes"><img src="https://img.shields.io/badge/casefiles-6B585C?style=flat-square&logo=github&logoColor=F1D9E2" alt="field-notes"/></a>
 <a href="https://www.youtube.com/@volkansync"><img src="https://img.shields.io/badge/YouTube-6B585C?style=flat-square&logo=youtube&logoColor=F1D9E2" alt="YouTube"/></a>
 <img src="https://komarev.com/ghpvc/?username=volkansync&style=flat-square&color=6B585C&labelColor=56464C&label=observed" alt="profile views"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=4"/>
+  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=light&perline=4" width="100%" alt="linux, bash, python, docker, nginx, postgres, git, rust"/>
+</picture>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/tiles.svg?v=2" width="100%" alt="networks · AI security · arch linux · measurement"/>
 
