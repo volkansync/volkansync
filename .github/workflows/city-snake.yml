@@ -1,0 +1,27 @@
+name: Generate City Snake
+
+on:
+  schedule:
+    - cron: "15 0 * * *"   # snake 00:00, 3d 00:30, this 00:15
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate city-snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/city_snake.py --user ${{ github.repository_owner }} --out dist/city-snake.svg
+      - name: Push to output-city-snake
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output-city-snake
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

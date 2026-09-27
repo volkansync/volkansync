@@ -94,10 +94,7 @@ else.</sub>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-sakura.svg" width="100%" alt="3D contribution city — commit towers, growth line top-right, language pie bottom-left"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake.svg" width="100%" alt=""/>
-</picture>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-city-snake/city-snake.svg" width="100%" alt="the snake audits the year: contribution towers sink as it passes, then the city grows back"/>
 
 </td>
 <td width="240" valign="top">
