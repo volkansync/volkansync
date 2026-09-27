@@ -1,0 +1,119 @@
+<svg width="1000" height="540" viewBox="0 0 1000 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The method as a mind: on the left the six steps — symptom, eliminate, mechanism, falsifiable test, evidence, fix — and on the right a brain whose neurons fire the same sequence, with a red feedback loop.">
+  <defs>
+    <style>
+      :root{
+        --bg1:#0C1E36; --bg2:#060E1C; --glass:#12294A;
+        --syn:#3B6690; --synHi:#6FB4E8; --sig:#DCEEFF;
+        --neuron:#BFE3FF; --halo:#5AA6E6; --ink:#DCE8F2; --title:#8FD0FF; --sub:#7F95AC;
+        --fire:#FF5A3C; --fireGlow:#FF7A4A; --stroke:#4F7EA8; --brainFill:#123A63; --rule:#26466E;
+      }
+      @media (prefers-color-scheme: light){
+        :root{
+          --bg1:#EAF4FC; --bg2:#DAEAF7; --glass:#F5FBFF;
+          --syn:#A7C9E6; --synHi:#4E93C8; --sig:#1E6FB0;
+          --neuron:#2E7DB8; --halo:#8CC0E6; --ink:#1E3A52; --title:#155F9E; --sub:#5B738A;
+          --fire:#E23B1E; --fireGlow:#F0613F; --stroke:#7FAAD0; --brainFill:#CFE6F7; --rule:#CBDCEC;
+        }
+      }
+      #bg1{stop-color:var(--bg1)} #bg2{stop-color:var(--bg2)}
+      #glA{stop-color:var(--glass)} #haA{stop-color:var(--halo)} #haB{stop-color:var(--halo)}
+      #fiA{stop-color:var(--fireGlow)} #fiB{stop-color:var(--fireGlow)}
+      .syn{stroke:var(--syn);fill:none} .synHi{stroke:var(--synHi);fill:none}
+      .sig{fill:var(--sig)} .neuron{fill:var(--neuron)} .ink{fill:var(--ink)}
+      .title{fill:var(--title)} .sub{fill:var(--sub)} .rule{stroke:var(--rule)}
+      .fire{fill:var(--fire)} .fireStroke{stroke:var(--fire);fill:none}
+      .brain{fill:var(--brainFill);stroke:var(--stroke)} .fold{stroke:var(--stroke);fill:none}
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+    <radialGradient id="bg" cx="50%" cy="36%" r="80%"><stop id="bg1" offset="0%"/><stop id="bg2" offset="100%"/></radialGradient>
+    <radialGradient id="glass" cx="40%" cy="6%" r="60%"><stop id="glA" offset="0%" stop-opacity="0.45"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop id="haA" offset="0%" stop-opacity="0.85"/><stop id="haB" offset="100%" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fireHalo" cx="50%" cy="50%" r="50%"><stop id="fiA" offset="0%" stop-opacity="0.9"/><stop id="fiB" offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <filter id="bloom" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="7"/></filter>
+    <clipPath id="skull"><path d="M 920.8 235.0 C 919.1 242.5 925.4 249.6 924.8 256.7 C 924.1 263.8 921.1 271.1 916.8 277.5 C 912.5 283.9 905.5 289.7 899.1 295.0 C 892.7 300.3 884.9 304.6 878.5 309.4 C 872.2 314.1 866.2 318.4 860.9 323.6 C 855.6 328.8 851.6 334.6 846.8 340.5 C 841.9 346.5 837.8 353.5 832.0 359.4 C 826.2 365.3 819.7 371.6 811.9 375.8 C 804.2 380.0 794.9 383.2 785.7 384.7 C 776.4 386.2 766.0 385.6 756.5 384.8 C 746.9 384.0 737.3 381.3 728.2 379.7 C 719.2 378.1 710.8 376.1 702.2 375.2 C 693.5 374.4 685.2 374.5 676.2 374.6 C 667.2 374.8 657.7 376.2 648.1 376.2 C 638.5 376.2 628.1 376.3 618.9 374.5 C 609.7 372.7 600.3 369.7 592.8 365.3 C 585.3 361.0 579.1 354.7 574.0 348.5 C 568.9 342.2 565.9 334.7 562.4 328.0 C 559.0 321.3 556.9 314.5 553.4 308.4 C 550.0 302.3 546.2 296.9 541.6 291.3 C 536.9 285.7 530.8 280.6 525.6 274.8 C 520.4 268.9 514.1 262.8 510.3 256.1 C 506.6 249.5 505.1 242.3 503.1 235.0 C 501.1 227.7 496.5 219.4 498.1 212.2 C 499.8 205.1 507.6 198.2 513.0 191.9 C 518.5 185.6 525.4 180.1 530.9 174.2 C 536.3 168.4 541.3 163.0 545.7 156.8 C 550.0 150.6 553.0 144.0 556.9 137.1 C 560.8 130.3 564.0 122.5 569.1 115.8 C 574.2 109.2 580.1 102.1 587.5 97.0 C 594.9 91.9 604.1 87.8 613.5 85.3 C 622.8 82.9 633.7 82.4 643.7 82.1 C 653.8 81.9 664.1 83.4 673.7 83.8 C 683.3 84.3 692.3 85.2 701.5 84.9 C 710.7 84.6 719.3 83.4 728.7 82.2 C 738.1 81.0 747.9 78.6 757.9 77.8 C 767.8 76.9 778.7 75.9 788.5 77.0 C 798.4 78.2 808.5 80.7 817.0 84.6 C 825.5 88.5 833.0 94.6 839.4 100.5 C 845.8 106.5 850.5 114.0 855.4 120.6 C 860.4 127.1 864.1 133.8 869.1 139.7 C 874.2 145.7 879.4 150.8 885.5 156.2 C 891.6 161.6 899.0 166.3 905.5 172.0 C 911.9 177.7 919.4 183.6 924.3 190.2 C 929.2 196.9 935.5 204.4 934.9 211.9 C 934.3 219.4 922.4 227.5 920.8 235.0 Z"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="540" fill="url(#bg)"/>
+  <rect width="1000" height="540" fill="url(#glass)"/>
+
+  <line x1="470" y1="70" x2="470" y2="480" class="rule" stroke-width="1" opacity="0.4" stroke-dasharray="2 8"/>
+
+  <text x="46" y="60" font-size="14" letter-spacing="4" class="title" font-weight="700">THE METHOD</text>
+  <text x="46" y="82" font-size="11" class="sub">a mind, not a line — it fires, and it feeds back</text>
+  <line x1="58" y1="124" x2="58" y2="434" class="rule" stroke-width="1.4" opacity="0.5"/>
+  <circle cx="58" cy="134" r="4" class="neuron"/>
+  <text x="80" y="130" font-size="10" letter-spacing="2" class="sub">01</text>
+  <text x="80" y="147" font-size="15" font-weight="700" class="ink">SYMPTOM</text>
+  <text x="80" y="164" font-size="10.5" class="sub">what can be observed</text>
+  <circle cx="58" cy="192" r="4" class="neuron"/>
+  <text x="80" y="188" font-size="10" letter-spacing="2" class="sub">02</text>
+  <text x="80" y="205" font-size="15" font-weight="700" class="ink">ELIMINATE</text>
+  <text x="80" y="222" font-size="10.5" class="sub">what it is not</text>
+  <circle cx="58" cy="250" r="4" class="neuron"/>
+  <text x="80" y="246" font-size="10" letter-spacing="2" class="sub">03</text>
+  <text x="80" y="263" font-size="15" font-weight="700" class="ink">MECHANISM</text>
+  <text x="80" y="280" font-size="10.5" class="sub">not a guess — a cause</text>
+  <circle cx="58" cy="308" r="5" class="fire"/>
+  <text x="80" y="304" font-size="10" letter-spacing="2" class="fire">04</text>
+  <text x="80" y="321" font-size="15" font-weight="700" class="fire">FALSIFIABLE TEST</text>
+  <text x="80" y="338" font-size="10.5" class="sub">could prove me wrong</text>
+  <circle cx="58" cy="366" r="4" class="neuron"/>
+  <text x="80" y="362" font-size="10" letter-spacing="2" class="sub">05</text>
+  <text x="80" y="379" font-size="15" font-weight="700" class="ink">EVIDENCE</text>
+  <text x="80" y="396" font-size="10.5" class="sub">numbers, not impressions</text>
+  <circle cx="58" cy="424" r="4" class="neuron"/>
+  <text x="80" y="420" font-size="10" letter-spacing="2" class="sub">06</text>
+  <text x="80" y="437" font-size="15" font-weight="700" class="ink">FIX</text>
+  <text x="80" y="454" font-size="10.5" class="sub">with its cost named</text>
+  <path d="M 58 366 C 26 366, 26 308, 58 308" class="fireStroke" stroke-width="1.5" fill="none" stroke-dasharray="3 4"><animate attributeName="stroke-dashoffset" values="28;0" dur="2.4s" repeatCount="indefinite"/></path>
+  <text x="18" y="340" font-size="8.5" class="fire" text-anchor="middle" transform="rotate(-90 18 337)">feedback</text>
+  <path d="M 920.8 235.0 C 919.1 242.5 925.4 249.6 924.8 256.7 C 924.1 263.8 921.1 271.1 916.8 277.5 C 912.5 283.9 905.5 289.7 899.1 295.0 C 892.7 300.3 884.9 304.6 878.5 309.4 C 872.2 314.1 866.2 318.4 860.9 323.6 C 855.6 328.8 851.6 334.6 846.8 340.5 C 841.9 346.5 837.8 353.5 832.0 359.4 C 826.2 365.3 819.7 371.6 811.9 375.8 C 804.2 380.0 794.9 383.2 785.7 384.7 C 776.4 386.2 766.0 385.6 756.5 384.8 C 746.9 384.0 737.3 381.3 728.2 379.7 C 719.2 378.1 710.8 376.1 702.2 375.2 C 693.5 374.4 685.2 374.5 676.2 374.6 C 667.2 374.8 657.7 376.2 648.1 376.2 C 638.5 376.2 628.1 376.3 618.9 374.5 C 609.7 372.7 600.3 369.7 592.8 365.3 C 585.3 361.0 579.1 354.7 574.0 348.5 C 568.9 342.2 565.9 334.7 562.4 328.0 C 559.0 321.3 556.9 314.5 553.4 308.4 C 550.0 302.3 546.2 296.9 541.6 291.3 C 536.9 285.7 530.8 280.6 525.6 274.8 C 520.4 268.9 514.1 262.8 510.3 256.1 C 506.6 249.5 505.1 242.3 503.1 235.0 C 501.1 227.7 496.5 219.4 498.1 212.2 C 499.8 205.1 507.6 198.2 513.0 191.9 C 518.5 185.6 525.4 180.1 530.9 174.2 C 536.3 168.4 541.3 163.0 545.7 156.8 C 550.0 150.6 553.0 144.0 556.9 137.1 C 560.8 130.3 564.0 122.5 569.1 115.8 C 574.2 109.2 580.1 102.1 587.5 97.0 C 594.9 91.9 604.1 87.8 613.5 85.3 C 622.8 82.9 633.7 82.4 643.7 82.1 C 653.8 81.9 664.1 83.4 673.7 83.8 C 683.3 84.3 692.3 85.2 701.5 84.9 C 710.7 84.6 719.3 83.4 728.7 82.2 C 738.1 81.0 747.9 78.6 757.9 77.8 C 767.8 76.9 778.7 75.9 788.5 77.0 C 798.4 78.2 808.5 80.7 817.0 84.6 C 825.5 88.5 833.0 94.6 839.4 100.5 C 845.8 106.5 850.5 114.0 855.4 120.6 C 860.4 127.1 864.1 133.8 869.1 139.7 C 874.2 145.7 879.4 150.8 885.5 156.2 C 891.6 161.6 899.0 166.3 905.5 172.0 C 911.9 177.7 919.4 183.6 924.3 190.2 C 929.2 196.9 935.5 204.4 934.9 211.9 C 934.3 219.4 922.4 227.5 920.8 235.0 Z" class="brain" stroke-width="1.6" opacity="0.9" filter="url(#bloom)" fill-opacity="0.30"/>
+  <path d="M 812 300 q 70 6 74 56 q 3 44 -54 54 q -46 6 -60 -30 q -12 -40 40 -80 Z" class="brain" stroke-width="1.4" fill-opacity="0.30"/>
+  <path d="M 792 402 q 8 30 -2 52 q 20 6 34 -2 q -6 -26 4 -50 Z" class="brain" stroke-width="1.4" fill-opacity="0.30"/>
+  <path d="M 920.8 235.0 C 919.1 242.5 925.4 249.6 924.8 256.7 C 924.1 263.8 921.1 271.1 916.8 277.5 C 912.5 283.9 905.5 289.7 899.1 295.0 C 892.7 300.3 884.9 304.6 878.5 309.4 C 872.2 314.1 866.2 318.4 860.9 323.6 C 855.6 328.8 851.6 334.6 846.8 340.5 C 841.9 346.5 837.8 353.5 832.0 359.4 C 826.2 365.3 819.7 371.6 811.9 375.8 C 804.2 380.0 794.9 383.2 785.7 384.7 C 776.4 386.2 766.0 385.6 756.5 384.8 C 746.9 384.0 737.3 381.3 728.2 379.7 C 719.2 378.1 710.8 376.1 702.2 375.2 C 693.5 374.4 685.2 374.5 676.2 374.6 C 667.2 374.8 657.7 376.2 648.1 376.2 C 638.5 376.2 628.1 376.3 618.9 374.5 C 609.7 372.7 600.3 369.7 592.8 365.3 C 585.3 361.0 579.1 354.7 574.0 348.5 C 568.9 342.2 565.9 334.7 562.4 328.0 C 559.0 321.3 556.9 314.5 553.4 308.4 C 550.0 302.3 546.2 296.9 541.6 291.3 C 536.9 285.7 530.8 280.6 525.6 274.8 C 520.4 268.9 514.1 262.8 510.3 256.1 C 506.6 249.5 505.1 242.3 503.1 235.0 C 501.1 227.7 496.5 219.4 498.1 212.2 C 499.8 205.1 507.6 198.2 513.0 191.9 C 518.5 185.6 525.4 180.1 530.9 174.2 C 536.3 168.4 541.3 163.0 545.7 156.8 C 550.0 150.6 553.0 144.0 556.9 137.1 C 560.8 130.3 564.0 122.5 569.1 115.8 C 574.2 109.2 580.1 102.1 587.5 97.0 C 594.9 91.9 604.1 87.8 613.5 85.3 C 622.8 82.9 633.7 82.4 643.7 82.1 C 653.8 81.9 664.1 83.4 673.7 83.8 C 683.3 84.3 692.3 85.2 701.5 84.9 C 710.7 84.6 719.3 83.4 728.7 82.2 C 738.1 81.0 747.9 78.6 757.9 77.8 C 767.8 76.9 778.7 75.9 788.5 77.0 C 798.4 78.2 808.5 80.7 817.0 84.6 C 825.5 88.5 833.0 94.6 839.4 100.5 C 845.8 106.5 850.5 114.0 855.4 120.6 C 860.4 127.1 864.1 133.8 869.1 139.7 C 874.2 145.7 879.4 150.8 885.5 156.2 C 891.6 161.6 899.0 166.3 905.5 172.0 C 911.9 177.7 919.4 183.6 924.3 190.2 C 929.2 196.9 935.5 204.4 934.9 211.9 C 934.3 219.4 922.4 227.5 920.8 235.0 Z" class="brain" stroke-width="1.8" fill="none"/>
+  <path d="M 812 322 q 40 8 66 0" class="fold" stroke-width="1" opacity="0.5" fill="none"/>
+  <path d="M 812 338 q 40 8 66 0" class="fold" stroke-width="1" opacity="0.5" fill="none"/>
+  <path d="M 812 354 q 40 8 66 0" class="fold" stroke-width="1" opacity="0.5" fill="none"/>
+  <g clip-path="url(#skull)" opacity="0.45">
+    <path d="M 565 175 Q 584 161 603 175 Q 622 189 641 175 Q 660 161 679 175 Q 698 189 717 175 Q 736 161 755 175 Q 774 189 793 175 Q 812 161 831 175 Q 850 189 869 175 Q 888 161 907 175 " class="fold" stroke-width="1" fill="none"/>
+    <path d="M 565 215 Q 584 201 603 215 Q 622 229 641 215 Q 660 201 679 215 Q 698 229 717 215 Q 736 201 755 215 Q 774 229 793 215 Q 812 201 831 215 Q 850 229 869 215 Q 888 201 907 215 " class="fold" stroke-width="1" fill="none"/>
+    <path d="M 565 258 Q 584 244 603 258 Q 622 272 641 258 Q 660 244 679 258 Q 698 272 717 258 Q 736 244 755 258 Q 774 272 793 258 Q 812 244 831 258 Q 850 272 869 258 Q 888 244 907 258 " class="fold" stroke-width="1" fill="none"/>
+    <path d="M 565 300 Q 584 286 603 300 Q 622 314 641 300 Q 660 286 679 300 Q 698 314 717 300 Q 736 286 755 300 Q 774 314 793 300 Q 812 286 831 300 Q 850 314 869 300 Q 888 286 907 300 " class="fold" stroke-width="1" fill="none"/>
+  </g>
+  <path d="M 600.0 200.0 Q 642.5 202.1 668.0 168.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 600.0 200.0 Q 642.5 202.1 668.0 168.0" class="synHi" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 668.0 168.0 Q 719.1 161.5 762.0 190.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 668.0 168.0 Q 719.1 161.5 762.0 190.0" class="synHi" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 762.0 190.0 Q 764.8 234.1 802.0 258.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 762.0 190.0 Q 764.8 234.1 802.0 258.0" class="synHi" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 802.0 258.0 Q 763.4 291.8 712.0 292.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 802.0 258.0 Q 763.4 291.8 712.0 292.0" class="synHi" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 712.0 292.0 Q 672.9 256.2 620.0 258.0" class="synHi" stroke-width="4" opacity="0.25" filter="url(#soft)"/>
+  <path d="M 712.0 292.0 Q 672.9 256.2 620.0 258.0" class="synHi" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 712.0 292.0 Q 740.7 232.0 802.0 258.0" class="fireStroke" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.85"><animate attributeName="stroke-dashoffset" values="36;0" dur="2.6s" repeatCount="indefinite"/></path>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="0.0s" repeatCount="indefinite" path="M 600.0 200.0 Q 642.5 202.1 668.0 168.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="0.8s" repeatCount="indefinite" path="M 668.0 168.0 Q 719.1 161.5 762.0 190.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="1.6s" repeatCount="indefinite" path="M 762.0 190.0 Q 764.8 234.1 802.0 258.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="2.4s" repeatCount="indefinite" path="M 802.0 258.0 Q 763.4 291.8 712.0 292.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="2.4s" repeatCount="indefinite"/></circle>
+  <circle class="sig" r="3.2" filter="url(#soft)" opacity="0"><animateMotion dur="4.2s" begin="3.2s" repeatCount="indefinite" path="M 712.0 292.0 Q 672.9 256.2 620.0 258.0"/><animate attributeName="opacity" values="0;1;1;0" dur="4.2s" begin="3.2s" repeatCount="indefinite"/></circle>
+  <circle class="fire" r="2.8" filter="url(#soft)" opacity="0"><animateMotion dur="3.2s" repeatCount="indefinite" path="M 712.0 292.0 Q 740.7 232.0 802.0 258.0"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="600" cy="200" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="600" cy="200" r="5" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  <text x="600" y="187" font-size="8.5" letter-spacing="1" class="sub" text-anchor="middle">01</text>
+  <circle cx="668" cy="168" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="668" cy="168" r="5" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="3.1s" repeatCount="indefinite"/></circle>
+  <text x="668" y="155" font-size="8.5" letter-spacing="1" class="sub" text-anchor="middle">02</text>
+  <circle cx="762" cy="190" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="762" cy="190" r="5" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="3.6s" repeatCount="indefinite"/></circle>
+  <text x="762" y="177" font-size="8.5" letter-spacing="1" class="sub" text-anchor="middle">03</text>
+  <circle cx="802" cy="258" r="26" fill="url(#fireHalo)" opacity="0.6" filter="url(#bloom)"/>
+  <circle cx="802" cy="258" r="7" class="fire"><animate attributeName="r" values="7;9.5;7" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="802" y="245" font-size="8.5" letter-spacing="1" class="fire" text-anchor="middle">04</text>
+  <circle cx="712" cy="292" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="712" cy="292" r="5" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="4.6s" repeatCount="indefinite"/></circle>
+  <text x="712" y="279" font-size="8.5" letter-spacing="1" class="sub" text-anchor="middle">05</text>
+  <circle cx="620" cy="258" r="18" fill="url(#halo)" opacity="0.5" filter="url(#bloom)"/>
+  <circle cx="620" cy="258" r="5" class="neuron"><animate attributeName="opacity" values="1;0.5;1" dur="5.1s" repeatCount="indefinite"/></circle>
+  <text x="620" y="245" font-size="8.5" letter-spacing="1" class="sub" text-anchor="middle">06</text>
+</svg>
