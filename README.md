@@ -104,6 +104,8 @@ else.</sub>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/panel-head.svg?v=2" width="100%" alt="uptime: still failing forward"/>
 
+<br/>
+
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/identity.svg?v=2" width="100%" alt="Volkan Çevik — Eskişehir, TR"/>
 
 <a href="https://www.linkedin.com/in/volkan-%C3%A7evik-90b1a937a"><img src="https://img.shields.io/badge/LinkedIn-6B585C?style=flat-square&logo=linkedin&logoColor=F1D9E2" alt="LinkedIn"/></a>
@@ -111,18 +113,28 @@ else.</sub>
 <a href="https://www.youtube.com/@volkansync"><img src="https://img.shields.io/badge/YouTube-6B585C?style=flat-square&logo=youtube&logoColor=F1D9E2" alt="YouTube"/></a>
 <img src="https://komarev.com/ghpvc/?username=volkansync&style=flat-square&color=6B585C&labelColor=56464C&label=observed" alt="profile views"/>
 
+<br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=4"/>
   <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=light&perline=4" width="100%" alt="linux, bash, python, docker, nginx, postgres, git, rust"/>
 </picture>
 
+<br/>
+
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/tiles.svg?v=2" width="100%" alt="networks · AI security · arch linux · measurement"/>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/incidents.svg?v=2" width="100%" alt="0 open incidents"/>
 
+<br/>
+
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/tasks.svg?v=2" width="100%" alt="in training"/>
 
+<br/>
+
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/notifs.svg?v=2" width="100%" alt="case log — nine dated decisions"/>
+
+<br/>
 
 <a href="https://github.com/volkansync/field-notes"><img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/repo-field-notes.svg?v=1" width="100%" alt="repo: field-notes"/></a>
 <a href="https://github.com/volkansync/rust-portscanner"><img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/repo-rust-portscanner.svg?v=1" width="100%" alt="repo: rust-portscanner"/></a>
