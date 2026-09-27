@@ -13,7 +13,7 @@
     </style></defs>
 <rect width="222" height="54" rx="18" class="surf2"/>
   <circle cx="27" cy="27" r="15" class="surf"/>
-  <g transform="translate(19,19) scale(0.8)"><path d="M10 3a5 5 0 0 1 5 5v3.2l1.8 2.8H3.2L5 11.2V8a5 5 0 0 1 5-5z" class="st" stroke="var(--roseink)" stroke-width="1.8"/><path d="M8.4 16.8a1.8 1.8 0 0 0 3.2 0" class="st" stroke="var(--roseink)" stroke-width="1.8"/></g>
+  <g><animateTransform attributeName="transform" type="rotate" values="0 27 21;7 27 21;-5 27 21;2.5 27 21;0 27 21;0 27 21" keyTimes="0;0.05;0.1;0.15;0.2;1" dur="9s" repeatCount="indefinite"/><g transform="translate(19,19) scale(0.8)"><path d="M10 3a5 5 0 0 1 5 5v3.2l1.8 2.8H3.2L5 11.2V8a5 5 0 0 1 5-5z" class="st" stroke="var(--roseink)" stroke-width="1.8"/><path d="M8.4 16.8a1.8 1.8 0 0 0 3.2 0" class="st" stroke="var(--roseink)" stroke-width="1.8"/></g></g>
   <text x="50" y="24" font-size="11.5" font-weight="700" class="ink">0 open incidents</text>
   <text x="50" y="39" font-size="9" class="sub">nothing is currently on fire</text>
 </svg>

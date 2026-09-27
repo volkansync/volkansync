@@ -12,7 +12,7 @@
       text{font-family:-apple-system,'Segoe UI Variable Text','Segoe UI',Roboto,'Noto Sans',Ubuntu,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
     </style></defs>
 <rect x="0" y="2" width="1000" height="70" rx="26" class="surf"/>
-  <rect x="30" y="31" width="32" height="12" rx="6" class="coral"/>
+  <rect x="30" y="31" width="32" height="12" rx="6" class="coral"><animate attributeName="opacity" values="1;0.55;1" dur="5.4s" repeatCount="indefinite"/></rect>
   <circle cx="80" cy="37" r="6" class="prim"/>
   <circle cx="100" cy="37" r="6" class="surf3"/>
   <text x="128" y="45" font-size="23" font-weight="800" class="ink">signal</text>

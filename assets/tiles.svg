@@ -16,7 +16,7 @@
   <text x="46" y="20" font-size="11.5" font-weight="700" class="ink">networks</text>
   <text x="46" y="34" font-size="9.5" class="sub">the stack, the edges</text>
   <rect x="0" y="54" width="222" height="46" rx="17" class="prim"/>
-  <g transform="translate(14,67) scale(1.0)"><path d="M10 2.2 16.5 4.8 V9.6 C16.5 14.2 13.6 16.6 10 18 C6.4 16.6 3.5 14.2 3.5 9.6 V4.8 Z" class="st" stroke="var(--onprim)" stroke-width="2"/><path d="M7.2 9.8l2 2 3.6-3.8" class="st" stroke="var(--onprim)" stroke-width="1.8"/></g>
+  <g><animate attributeName="opacity" values="1;0.55;1" dur="3.6s" repeatCount="indefinite"/><g transform="translate(14,67) scale(1.0)"><path d="M10 2.2 16.5 4.8 V9.6 C16.5 14.2 13.6 16.6 10 18 C6.4 16.6 3.5 14.2 3.5 9.6 V4.8 Z" class="st" stroke="var(--onprim)" stroke-width="2"/><path d="M7.2 9.8l2 2 3.6-3.8" class="st" stroke="var(--onprim)" stroke-width="1.8"/></g></g>
   <text x="46" y="74" font-size="11.5" font-weight="700" class="onprim">AI security</text>
   <text x="46" y="88" font-size="9.5" class="onprim2">current heading</text>
   <rect x="0" y="108" width="222" height="46" rx="17" class="surf2"/>
