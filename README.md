@@ -43,10 +43,6 @@ useful part.
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/case-bt.svg?v=1" width="100%" alt="casefile: bluetooth audio dropping out"/>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/case-tls.svg?v=1" width="100%" alt="casefile: TLS certificate errors"/>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/case-eac.svg?v=1" width="100%" alt="casefile: anti-cheat error 60099"/>
-
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/case-qt.svg?v=1" width="100%" alt="casefile: desktop shell dying"/>
 
 <div align="center"><sub><a href="https://github.com/volkansync/field-notes">full writeups →</a></sub></div>
