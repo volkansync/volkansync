@@ -20,6 +20,8 @@ provenance.
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/hero.svg?v=4" width="100%" alt="volkansync — systems that break, and why"/>
 
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method-neuro.svg?v=5" width="100%" alt="the method: symptom, eliminate, mechanism, falsifiable test, evidence, fix"/>
+
 <table>
 <tr>
 <td valign="top">
@@ -36,8 +38,6 @@ the numbers actually said.
 
 Sometimes the numbers said I was wrong. Those are in here too — they're the
 useful part.
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/method-neuro.svg?v=5" width="100%" alt="the method: symptom, eliminate, mechanism, falsifiable test, evidence, fix"/>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-casefiles.svg?v=3" width="100%" alt="casefiles"/>
 
@@ -85,19 +85,6 @@ model leakage. <sub>Stated as a direction, not a claim — the evidence isn't
 here yet. When it is, it will be in <code>field-notes</code> like everything
 else.</sub>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-signal.svg?v=3" width="100%" alt="signal"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=262024&color=AE99A0&line=E5A3C0&point=ECDFE2&area=true&area_color=322A2F&hide_border=false&border_color=443A40&title_color=E5A3C0"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=F5EBE8&color=715B60&line=A34677&point=453A3E&area=true&area_color=EADAD6&hide_border=false&border_color=DCC8C4&title_color=A34677" width="100%" alt="contribution activity"/>
-</picture>
-
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-sakura.svg" width="100%" alt="3D contribution city — commit towers, growth line top-right, language pie bottom-left"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake.svg" width="100%" alt=""/>
-</picture>
 
 </td>
 <td width="240" valign="top">
@@ -116,8 +103,8 @@ else.</sub>
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/spacer.svg?v=1" width="1" height="26" alt=""/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=dark&perline=4"/>
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,nginx,postgres,git,rust&theme=light&perline=4" width="100%" alt="linux, bash, python, docker, nginx, postgres, git, rust"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cbash%2Cpython%2Cdocker%2Cnginx%2Cpostgres%2Cgit%2Crust&theme=dark&perline=4"/>
+  <img src="https://skillicons.dev/icons?i=linux%2Cbash%2Cpython%2Cdocker%2Cnginx%2Cpostgres%2Cgit%2Crust&theme=light&perline=4" width="100%" alt="linux, bash, python, docker, nginx, postgres, git, rust"/>
 </picture>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/spacer.svg?v=1" width="1" height="26" alt=""/>
@@ -132,7 +119,7 @@ else.</sub>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/spacer.svg?v=1" width="1" height="26" alt=""/>
 
-<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/notifs.svg?v=2" width="100%" alt="case log — nine dated decisions"/>
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/notifs.svg?v=3" width="100%" alt="case log — nine dated decisions"/>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/spacer.svg?v=1" width="1" height="26" alt=""/>
 
@@ -143,6 +130,20 @@ else.</sub>
 </td>
 </tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/win-signal.svg?v=3" width="100%" alt="signal"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=262024&color=AE99A0&line=E5A3C0&point=ECDFE2&area=true&area_color=322A2F&hide_border=false&border_color=443A40&title_color=E5A3C0"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=volkansync&bg_color=F5EBE8&color=715B60&line=A34677&point=453A3E&area=true&area_color=EADAD6&hide_border=false&border_color=DCC8C4&title_color=A34677" width="100%" alt="contribution activity"/>
+</picture>
+
+<img src="https://raw.githubusercontent.com/volkansync/volkansync/output-3d-contrib/profile-sakura.svg" width="100%" alt="3D contribution city — commit towers, growth line top-right, language pie bottom-left"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/volkansync/volkansync/output/github-contribution-grid-snake.svg" width="100%" alt=""/>
+</picture>
 
 <img src="https://raw.githubusercontent.com/volkansync/volkansync/main/assets/footer.svg?v=2" width="100%" alt="when you have eliminated the impossible, whatever remains must be the truth — and then you measure it"/>
 
